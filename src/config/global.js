@@ -87,10 +87,10 @@ export default {
     ],
     subMenu: [
       {
-        nombreRuta: 'actividad',
+        /*nombreRuta: 'actividad',
         icono: 'far fa-question-circle',
         titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
+        desarrolloContenidos: true,*/
       },
       {
         nombreRuta: 'glosario',
@@ -192,7 +192,7 @@ export default {
         cargo: 'Diseño web y Producción Audiovisual',
       },
       {
-        nombre: 'Edward Leonardo Pico Cabra',
+        nombre: 'Gustavo Adolfo Marún Suárez',
         cargo: 'Desarrollo Front-End',
       },
       {
@@ -212,124 +212,229 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA: ',
+        'Aguilar, H. (2017). Prácticas de contabilidad. Grupo Editorial Patria.',
+    },
+    {
+      referencia:
+        'Angulo, U. (2018). Contabilidad financiera, correlacionado con NIIF. Ediciones de la U.',
+    },
+    {
+      referencia:
+        'Archivo General de la Nación Colombia (2020, 16 de noviembre). Ley 594 de 2000 – Ley general de archivos',
+      link: 'https://normativa.archivogeneral.gov.co/ley-594-de-2000/',
+    },
+    {
+      referencia:
+        'Archivo General de la Nación Colombia (2020, 16 de noviembre). Tabla de retención documental TRD',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/3_Transparencia/10.6%20tablas%20de%20retencion/Trdjunio_2016.pdf',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA: ',
+        'Bancolombia (2020, 16 de noviembre). Aprende a leer tu extracto.',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.grupobancolombia.com/personas/aprender-es-facil/como-manejar-dinero/endeudamiento-responsable/que-es-una-tarjeta-credito/como-leer-extracto',
+    },
+    {
+      referencia: 'BBVA (2020, 16 de noviembre). Ejemplo de cheque.',
+      link: 'https://www.bbva.com.py/public/formato-cheques-2017.jsp',
     },
     {
       referencia:
-        'Harpersbazaar. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Cámara de Comercio de Barranquilla (2020, 15 de noviembre). Solicitud de inscripción de libros – páginas web o sitios de internet',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'http://www.camarabaq.org.co/wp-content/uploads/2019/02/3-Formato-Inscripcio%CC%81n-de-libros-pa%CC%81ginas-web.pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA. ',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Cámara de Comercio de Santa Marta (2020, 15 de noviembre). Circular 002 de 2016',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.ccsm.org.co/normativas-del-registro-nacional-de-turismo/circular-002-de-2016.html',
     },
     {
       referencia:
-        'Sociedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Consejo Técnico de la Contaduría (2020, 10 de noviembre). Concepto 650 del 14 de agosto de 2018',
+      link: 'https://www.ctcp.gov.co/conceptos/2018',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Consejo Técnico de la Contaduría Pública (2020, 16 de noviembre). Conceptos 2018: respuestas emitidas por el CTCP a las consultas interpuestas por la ciudadanía',
+      link: 'https://www.ctcp.gov.co/conceptos/2018',
+    },
+    {
+      referencia:
+        'Del Carmen, L., y Gudiño, E. (2014). Contabilidad universitaria. McGraw-Hill',
+    },
+    {
+      referencia:
+        'Diéguez, J. (2017). Contabilidad financiera: el plan general de contabilidad. Pirámide.',
+    },
+    {
+      referencia:
+        'El Contador (2020, 15 de noviembre). Libro de diario general.',
+      link: 'http://elcontador.net/libro-diario-general/',
+    },
+    {
+      referencia:
+        'Gerencie. (2020, 16 de noviembre). Formato en Excel para liquidar nómina',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://www.gerencie.com/formato-en-excel-para-liquidar-la-nomina.html',
+    },
+    {
+      referencia:
+        'Itaú (2020, 16 de noviembre). Prospecto de información: tercera emisión de bonos subordinados hasta por $140,000,000,000 Banco Santander Colombia S.A.',
+      link:
+        'https://www.itau.co/documents/10282/1317643/78ProspectoBancoSantanderColombia.pdf',
+    },
+    {
+      referencia:
+        'Jiménez, G. (2003). Ordenación documental: division de clasificación y descripción. Archivo General de la Nación Colombia.',
+    },
+    {
+      referencia:
+        'Legis. (2020, 16 de noviembre). Minerva: siempre legal, siempre confiable. https://www.formasminerva.com/inicio',
+    },
+    {
+      referencia:
+        'Luna, G. (2013). Asistencia administrativa: documentos o soportes contables en Colombia.',
+    },
+    {
+      referencia: 'Mil Formatos. (2020, 16 de noviembre). Ejemplo de factura.',
+      link:
+        'https://milformatos.com/wp-content/uploads/2018/02/Ejemplo-de-Factura.jpg',
+    },
+    {
+      referencia:
+        'Pérez, J. y  Fol, R. (2019). Manual de casos prácticos de ISR. Tax Editores.',
+    },
+    {
+      referencia:
+        'Secretaría del Senado (2020, 10 de noviembre). Ley 1111 de 2006',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1111_2006.html',
+    },
+    {
+      referencia:
+        'Secretaría del Senado (2020, 10 de noviembre). Ley 1755 de 2015.',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/ley_1755_2015.html',
+    },
+    {
+      referencia:
+        'Secretaria del Senado (2020, 15 de octubre). Código del Comercio: Decreto-Ley 410 de 1971.',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio.html',
+    },
+    {
+      referencia:
+        'Secretaría del Senado (2020, 5 de noviembre). Estatuto tributario',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/estatuto_tributario.html',
+    },
+    {
+      referencia:
+        'Secretaría del Senado (2020, 6 de noviembre). Decreto-Ley 12 de 2012',
+      link:
+        'http://www.secretariasenado.gov.co/senado/basedoc/decreto_0019_2012.html',
+    },
+    {
+      referencia:
+        'Sinisterra V., Polanco L., y Henao H. (2011). Contabilidad: sistema de información para las organizaciones. Mc. Graw Hill.',
+    },
+    {
+      referencia:
+        'Sistema Único de Información Normativa (2020, 10 de noviembre). Decreto 2242 de 2015',
+      link: 'http://www.suin.gov.co/viewDocument.asp?id=30033048',
+    },
+    {
+      referencia:
+        'Super Intendencia de Industria y Comercio (2020, 15 de noviembre). Resolución 8934',
+      link:
+        'https://www.sic.gov.co/sites/default/files/normatividad/Resolucion_8934_2014.pdf ',
+    },
+    {
+      referencia:
+        'Tapia, C. y Jiménez, J. (2018) Cómo entender finanzas sin ser financiero. Instituto Mexicano de Contadores Públicos.',
+    },
+    {
+      referencia:
+        'Tejeda, A. (2017). Manual práctico de contabilidad. Pirámide.',
+    },
+    {
+      referencia:
+        'Tiendas Jumbo. (2020, 16 de noviembre). Formato transferencia de fondos.',
+      link:
+        'https://proveedores.tiendasjumbo.co/gateweb/base/documentos/Formato_transferencia_de_fondos.pdf',
+    },
+    {
+      referencia:
+        'Universidad del Cauca. (2020, 15 de noviembre). Libro mayor y balances',
+      link: 'http://fccea.unicauca.edu.co/old/fcf/fcfse41.html',
+    },
+    {
+      referencia:
+        'Vilches, R. (2019). Apuntes de contabilidad básica. Editorial El Cid.',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Comprobante de ingreso o recibo de caja.',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'El recibo de caja es un soporte de contabilidad en el que constan los ingresos en efectivo, cheques y otras formas de recaudo. El original se entrega al cliente y las copias generalmente se archivan así: una para el archivo consecutivo y otra para anexar al comprobante diario.',
     },
     {
-      termino: 'Suftware',
+      termino: 'Consignación bancaria',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es un comprobante que elaboran los bancos y suministran a sus cuentahabientes, para que lo diligencien al consignar.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Cheque',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Titulo valor por medio del cual una persona llamada girador, quien posee una cuenta bancaria, ordena a un banco, llamado girado, que pague una determinada suma de dinero a la orden de un tercero.',
     },
     {
-      termino: 'Vectores',
+      termino: 'Factura de venta',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Es un título valor que el vendedor o prestador del servicio podrá librar y entregar o remitir al comprador o beneficiario del servicio.',
     },
     {
-      termino: 'Moda',
+      termino: 'Letra de cambio',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Documento negociable o título valor es una orden incondicional de pago de una persona llamada girador a otra persona llamada girado, para que pague a la orden o al portador cierta suma de dinero a la vista o en una fecha determinada.',
     },
     {
-      termino: 'Diseño',
+      termino: 'Nota débito',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Software',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Es un comprobante que emiten las empresas, para cargar a  la cuenta de los clientes valores como intereses, por financiación, por sobregiros, el gravamen a movimientos financieros (GMF), venta de chequeras, comisiones, y otros cobros',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Apuntes de contabilidad básica Vilches, R. (2019). Apuntes de contabilidad básica. Editorial El Cid.',
+      tipo: 'Capitulo 1',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Prácticas de contabilidad Aguilar, H. (2017). Prácticas de contabilidad. Grupo Editorial Patria.',
+      tipo: 'Capítulo 1',
     },
     {
-      texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+      texto: 'Anexo 6 de 2019 al Decreto Único Reglamentario DUR 2420.',
+      tipo: 'Titulo Tercero artículos 5,6,7,8,9 y 10.',
+      link:
+        'https://www.mincit.gov.co/normatividad/proyectos-de-normatividad/proyectos-de-decretos-2019/16-09-2019-anexo-no-6-2019-estados-financieros-ext.aspx',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+      texto: 'Ley 594 de 2000',
+      tipo: 'Ley general de archivos.',
+      descarga: 'https://normativa.archivogeneral.gov.co/ley-594-de-2000/',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+      texto: 'Resolución 8934 de 2014',
+      tipo:
+        'Resolución, aplicable a gestión documental para entidades privadas.',
+      link: 'http://www.suin-juriscol.gov.co/viewDocument.asp?id=4041484',
     },
   ],
 }
