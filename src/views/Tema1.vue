@@ -148,13 +148,13 @@
 
     .row.mt-5
       .col-lg-6
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(:href="obtenerLink('/downloads/capitulo_ii_titulos_valores.pdf')" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p Anexo. Sistema general de títulos valores en la República de Colombia
 
-        a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+        a.anexo.mb-4.mb-lg-0(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr020.html" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-link.svg")
           .anexo__texto
@@ -257,7 +257,7 @@
     br
     p Para profundizar en las definiciones, características y diligenciamiento de los diferentes documentos, por favor revise el libro contabilidad financiera correlacionado con Normas Internacionales de Información Financiera NIIF, capítulo número 12, en el siguiente enlace: 
     .col-lg-6
-      a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+      a.anexo.mt-4.mb-lg-0(href="https://login.bdigital.sena.edu.co/login?url=http://www.ebooks7-24.com/?il=8047" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
@@ -335,7 +335,7 @@
       
         .col-lg-6
 
-          a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+          a.anexo.mt-4.mb-lg-0(href="https://www.icbf.gov.co/el-instituto/sistema-integrado-de-gestion/formato-documento-equivalente-factura-v3" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
@@ -511,7 +511,7 @@
             img.img-a.my-3(src="@/assets/curso/images/tema1/img_10.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
           .row.mt-2
               .col-lg-6
-                a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                a.anexo.mt-4.mb-lg-0(href="https://www.minsalud.gov.co/sites/rid/paginas/freesearchresults.aspx?k=&k=ugpp" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
@@ -549,13 +549,13 @@
       
       .row.mt-2
           .col-lg-6
-            a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mt-4.mb-lg-0(href="https://www.dian.gov.co/atencionciudadano/formulariosinstructivos/Paginas/default.aspx" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
                   p Enlace web. Dirección de Impuestos y Aduanas Nacionales (DIAN).
           .col-lg-6
-            a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+            a.anexo.mt-4.mb-lg-0(href="https://shd.gov.co/shd/industria-y-comercio" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-link.svg")
                 .anexo__texto
@@ -1266,13 +1266,13 @@
 
           p.mt-3 Para profundizar el tema de bonos, por favor ingrese al siguiente enlace:
 
-          .row.mt-2
+          .row.mt-5
               .col-lg-6
-                a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-link.svg")
-                    .anexo__texto
-                      p Enlace web. Bonos
+                a.anexo.mb-4(:href="obtenerLink('/downloads/Cartilla Todo lo que debe saber sobre Bonos.pdf')" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-pdf.svg")
+                  .anexo__texto
+                    p Anexo. Bonos
       hr
 
       h6 Documentos no contables.

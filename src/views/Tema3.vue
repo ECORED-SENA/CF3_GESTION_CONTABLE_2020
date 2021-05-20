@@ -60,7 +60,7 @@
             p.mt-3 Para observar la totalidad del capítulo de libros de comercio, revisar el link en:
           .row.mt-5
               .col-lg-6
-                a.anexo.mb-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                a.anexo.mb-4.mb-lg-0(href="http://www.secretariasenado.gov.co/senado/basedoc/codigo_comercio_pr001.html" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
@@ -428,7 +428,7 @@
             p.mt-3 Para revisar el diligenciamiento de comprobantes de contabilidad, se invita a revisar el siguiente enlace:
             .row.mt-5
               .col-lg-12
-                a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                a.anexo.mt-4.mb-lg-0(href="http://www.ebooks7-24.com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed=" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
@@ -465,12 +465,12 @@
             p.mt-3 Amplíe sus conocimientos, revisando la Resolución 8934 de 2014, #[br]los requisitos aplicables a entidades privadas en el tema de#[br] gestión documental, a través del siguiente enlace:
 
             .row.mt-5
-                .col-lg-12
-                  a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
-                      .anexo__icono
-                        img(src="@/assets/template/icono-link.svg")
-                      .anexo__texto
-                        p Enlace web. Resolución 8934 de 2014
+              .col-lg-12
+                a.anexo.mb-4(:href="obtenerLink('/downloads/Resolucion_8934_2014.pdf')" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-pdf.svg")
+                  .anexo__texto
+                    p Anexo. Resolución 8934 de 2014
                            
           .col-auto 
             img.img-a.my-3(src="@/assets/curso/images/tema3/img_38.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid                   

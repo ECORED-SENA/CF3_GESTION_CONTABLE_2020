@@ -29,13 +29,13 @@
             
             .row.mt-2
               .col-lg-6
-                a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                a.anexo.mt-4.mb-lg-0(href="https://www.archivogeneral.gov.co/consulte/recursos" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
                       p Enlace web. Archivo general
                 .col-lg-12
-                  a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
+                  a.anexo.mt-4.mb-lg-0(href="https://atsgestion.net/ley-gestion-documental/" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-link.svg")
                       .anexo__texto
@@ -76,14 +76,13 @@
                     .lista-ul__vineta
 
                     p.p Órdenes de pago
-
-            .row.mt-2
+            .row.mt-5
               .col-lg-6
-                a.anexo.mt-4.mb-lg-0(href="https://en.wikipedia.org/wiki/Main_Page" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-link.svg")
-                    .anexo__texto
-                      p Enlace web. Archivo general
+                a.anexo.mb-4(:href="obtenerLink('/downloads/CARTILLA DE ORDENACION DOCUMENTAL.pdf')" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-pdf.svg")
+                  .anexo__texto
+                    p Anexo. Archivo general
     #t_2_3.titulo-segundo
     .h4 Tabla de retención documental
 
