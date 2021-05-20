@@ -1423,8 +1423,7 @@
 
         
 
-    Muestras             
-  
+    
 </template>
 
 <script>
