@@ -607,7 +607,7 @@
               li
                 .lista-ul__vineta
 
-                p.p Datos de la cuenta bancaria, banco, cuenta, número de cuenta, tipo de cuenta, 
+                p.p Datos de la cuenta bancaria, banco, cuenta, número de cuenta, tipo de cuenta. 
               li
                 .lista-ul__vineta
 
