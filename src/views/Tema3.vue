@@ -119,7 +119,7 @@
 
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema3/img_31.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
-
+          hr
           h6.mt-3 Libro diario
 
           p.mt-3 Es un medio de prueba para las autoridades, registra el día a día las operaciones comerciales, registrando devengos contables, presenta como características sumas iguales.
@@ -409,7 +409,7 @@
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p Anexo. Ejemplo:
-
+    hr
     h6.mt-3 Diligenciamiento y registro.
 
     .jumbotron-6
@@ -474,7 +474,7 @@
                            
           .col-auto 
             img.img-a.my-3(src="@/assets/curso/images/tema3/img_38.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid                   
-          
+    hr     
 
   Muestras
 

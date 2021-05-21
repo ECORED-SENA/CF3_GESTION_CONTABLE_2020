@@ -783,6 +783,7 @@
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p Anexo.  Nota debito:
+    hr
     .jumbotron-6
       .row.justify-content-center.align-items-center.mt-3
         .col-auto 
@@ -1040,8 +1041,9 @@
             .tarjeta.color-color-sistema-h.p-4
               .h4.text-center Al portador
               p (Secretaría del Senado, 2020. Art. 668): Son títulos al portador los que no se expidan a favor de persona determinada, aunque no incluyan la cláusula "al portador", y los que contengan dicha cláusula. La simple exhibición del título legitimará al portador y su tradición se producirá por la sola entrega.
+      hr
+      p.mt-2 Clases de títulos valores más utilizados:
       
-      p.mt-3 Clases de títulos valores más utilizados:
 
       AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
         .row(titulo="Letra de cambio")

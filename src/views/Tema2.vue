@@ -83,8 +83,9 @@
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
                     p Anexo. Archivo general
-    #t_2_3.titulo-segundo
+    #t_2_3.titulo-segundo 
     .h4 Tabla de retención documental
+    
 
       p.mt-3 Las tablas de retención documental son listados con tipos de documentos en donde se establece el tiempo que debe permanecer un documento archivado en las diferentes etapas del ciclo vital de un documento, reconocidos desde tres tipos de archivos: 
 
