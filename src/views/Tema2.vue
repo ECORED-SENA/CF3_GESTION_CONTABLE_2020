@@ -6,7 +6,6 @@
       .titulo-principal__numero
         .h3 2
       .h3 Archivo y conservación de documentos.
-
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
           .col-lg-4.mb-4.mb-lg-0
@@ -17,132 +16,133 @@
               br
               p Con el cierre de año y transcurrido varios periodos de tiempo, esta información permanece como inactiva, pero es imperativa su conservación, teniendo en cuenta que es utilizada como testimonio sobre registros de hechos pasados. En tal sentido, las empresas desarrollan medidas de conservación para asegurar la integridad de los documentos que reposan en el archivo. 
     
-    #t_2_1.titulo-segundo
+    #t_2_1.titulo-segundo.mt-5
       .h4 2.1 Ley general de archivos
 
-    .jumbotron-6
-        .row.justify-content-center.align-items-center.mt-3
-          .col
-            p.mt-3 En Colombia, la gestión documental se rige bajo varias leyes, normas que orientan a las empresas sobre cómo desarrollar la organización de los archivos. En este sentido, se aprobó la Ley 594 del 2000, conocida como Ley General de Archivos, estableciendo todos los criterios para conservar documentos (Archivo General de la Nación Colombia, 2020).
-            br
-            p Con el fin de conocer las directrices establecidas en dicha norma, se sugiere profundizar ingresando al siguiente enlace:
-            
-            .row.mt-2
-              .col-lg-6
-                a.anexo.mt-4.mb-lg-0(href="https://www.archivogeneral.gov.co/consulte/recursos" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-link.svg")
-                    .anexo__texto
-                      p Enlace web. Archivo general
-                .col-lg-12
-                  a.anexo.mt-4.mb-lg-0(href="https://atsgestion.net/ley-gestion-documental/" target="_blank")
-                      .anexo__icono
-                        img(src="@/assets/template/icono-link.svg")
-                      .anexo__texto
-                        p Enlace web. Archivo general
-
-          .col-auto 
-              img.img-a.my-3(src="@/assets/curso/images/tema2/img_28.svg" alt="", style="width:300px; display:inline-block; margin:auto 0;").img-fluid
-
-    #t_2_2.titulo-segundo
-      .h4 Consecutivo, cronológico por asuntos.
-          
-    .jumbotron-6.mt-3
-      .row.justify-content-center.align-items-center.mt-3
-        .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema2/img_29.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
-        .col
-            
-            p.mt-3 La forma en que se ordena uno o varios documentos es un proceso de disposición física. En un sentido estricto, es ordenar la documentación eligiendo qué documentos van primero y qué documentos van después. De esta forma, se organiza la gestión administrativa y la documental. Genera, en consecuencia, poder identificar una tarea de organización de documentos adecuadamente (Jiménez, 2003)
-            br
-            p La organización documental de forma cronológica hace referencia a una distribución acorde con fechas, considerando año, mes y día. Esta forma de clasificación es importante en la categorización de expedientes (Jiménez, 2003).
-            br
-            p Un ejemplo de ordenamiento es la utilizada en expedientes que, por su naturaleza, deben seguir abiertos para consultas. Por ejemplo, historias laborales o expedientes de alumnos. Su forma de clasificación sería: primer apellido, segundo apellido, segundo nombre y primer nombre (Jiménez, 2003).
-            br
-            p Otra forma de organización es la temática, la cual consiste en establecer series y subseries documentales por temas (Jiménez, 2003). Por ejemplo:
-      .row
-            ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Estadísticas.
-                    .lista-ul__vineta
-                      
-                    p.p Informes.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Informes de gestión.
-                  li
-                    .lista-ul__vineta
-
-                    p.p Órdenes de pago
-            .row.mt-5
-              .col-lg-6
-                a.anexo.mb-4(:href="obtenerLink('/downloads/CARTILLA DE ORDENACION DOCUMENTAL.pdf')" target="_blank")
+  
+    .row.justify-content-center.align-items-center.mt-3
+      .col
+        p.mt-3 En Colombia, la gestión documental se rige bajo varias leyes, normas que orientan a las empresas sobre cómo desarrollar la organización de los archivos. En este sentido, se aprobó la Ley 594 del 2000, conocida como Ley General de Archivos, estableciendo todos los criterios para conservar documentos (Archivo General de la Nación Colombia, 2020).
+        br
+        p Con el fin de conocer las directrices establecidas en dicha norma, se sugiere profundizar ingresando al siguiente enlace:
+        
+        .row.mt-2
+          .col-lg-6
+            a.anexo.mt-4.mb-lg-0(href="https://www.archivogeneral.gov.co/consulte/recursos" target="_blank")
+                .anexo__icono
+                  img(src="@/assets/template/icono-link.svg")
+                .anexo__texto
+                  p Enlace web. Archivo general
+            .col-lg-12
+              a.anexo.mt-4.mb-lg-0(href="https://atsgestion.net/ley-gestion-documental/" target="_blank")
                   .anexo__icono
-                    img(src="@/assets/template/icono-pdf.svg")
+                    img(src="@/assets/template/icono-link.svg")
                   .anexo__texto
-                    p Anexo. Archivo general
-    #t_2_3.titulo-segundo 
-    .h4 Tabla de retención documental
+                    p Enlace web. Archivo general
+
+      .col-auto 
+          img.img-a.my-3(src="@/assets/curso/images/tema2/img_28.svg" alt="", style="width:300px; display:inline-block; margin:auto 0;").img-fluid
+
+    #t_2_2.titulo-segundo.mt-5
+      .h4 2.2 Consecutivo, cronológico por asuntos.
+        
+  
+    .row.justify-content-center.align-items-center.mt-3
+      .col-auto 
+          img.img-a.my-3(src="@/assets/curso/images/tema2/img_29.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
+      .col
+          
+          p.mt-3 La forma en que se ordena uno o varios documentos es un proceso de disposición física. En un sentido estricto, es ordenar la documentación eligiendo qué documentos van primero y qué documentos van después. De esta forma, se organiza la gestión administrativa y la documental. Genera, en consecuencia, poder identificar una tarea de organización de documentos adecuadamente (Jiménez, 2003)
+          br
+          p La organización documental de forma cronológica hace referencia a una distribución acorde con fechas, considerando año, mes y día. Esta forma de clasificación es importante en la categorización de expedientes (Jiménez, 2003).
+          br
+          p Un ejemplo de ordenamiento es la utilizada en expedientes que, por su naturaleza, deben seguir abiertos para consultas. Por ejemplo, historias laborales o expedientes de alumnos. Su forma de clasificación sería: primer apellido, segundo apellido, segundo nombre y primer nombre (Jiménez, 2003).
+          br
+          p Otra forma de organización es la temática, la cual consiste en establecer series y subseries documentales por temas (Jiménez, 2003). Por ejemplo:
+    .row
+          ol.lista-ol--cuadro.mt-3
+                li 
+                  .lista-ul__vineta
+                  p.p Estadísticas.
+                  .lista-ul__vineta
+                    
+                  p.p Informes.
+                li 
+                  .lista-ul__vineta
+                  
+                  p.p Informes de gestión.
+                li
+                  .lista-ul__vineta
+
+                  p.p Órdenes de pago
+                .row.mt-5
+                  .col-lg-6
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/CARTILLA DE ORDENACION DOCUMENTAL.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg")
+                      .anexo__texto
+                        p Anexo. Archivo general
     
+    #t_2_3.titulo-segundo.mt-5
+      .h4 2.3 Tabla de retención documental
 
-      p.mt-3 Las tablas de retención documental son listados con tipos de documentos en donde se establece el tiempo que debe permanecer un documento archivado en las diferentes etapas del ciclo vital de un documento, reconocidos desde tres tipos de archivos: 
 
-      .row
-            ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Archivo de gestión
-                  li 
-                    .lista-ul__vineta
-                    p.p Archivo central
-                  li 
-                    .lista-ul__vineta      
-                    p.p Archivo histórico.
+    p.mt-3 Las tablas de retención documental son listados con tipos de documentos en donde se establece el tiempo que debe permanecer un documento archivado en las diferentes etapas del ciclo vital de un documento, reconocidos desde tres tipos de archivos: 
 
-            p.mt-3 Las ventajas de aplicar las Tablas de Retención Documental son:
+    .row
+          ol.lista-ol--cuadro.mt-3
+                li 
+                  .lista-ul__vineta
+                  p.p Archivo de gestión
+                li 
+                  .lista-ul__vineta
+                  p.p Archivo central
+                li 
+                  .lista-ul__vineta      
+                  p.p Archivo histórico.
 
-            ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Facilitar el manejo de la información, ayuda a organizar y dar una estructura de la información.
-                  li 
-                    .lista-ul__vineta
-                    p.p Contribuye a la racionalización de la producción documental.
-                  li 
-                    .lista-ul__vineta      
-                    p.p Garantiza la conservación de los documentos en las diferentes fases del archivo.
+          p.mt-3 Las ventajas de aplicar las Tablas de Retención Documental son:
 
-      p.mt-3 Las tablas de retención documental se encuentran inmersas en formatos aplicados a las empresas.
+          ol.lista-ol--cuadro.mt-3
+                li 
+                  .lista-ul__vineta
+                  p.p Facilitar el manejo de la información, ayuda a organizar y dar una estructura de la información.
+                li 
+                  .lista-ul__vineta
+                  p.p Contribuye a la racionalización de la producción documental.
+                li 
+                  .lista-ul__vineta      
+                  p.p Garantiza la conservación de los documentos en las diferentes fases del archivo.
 
-      .cajon.color-acento-contenido.p-4.mb-4.mt-5
-        p > Presentan código, representado por la clasificación que presenta la información
-        p > Presenta una columna de series documentales, donde van las diferentes clasificaciones de documentos, 
-        p > Se clasifica comúnmente en archivos de gestión y archivo central, estipulando el tiempo que va a ser custodiado Actualmente, el 
-        p.p procedimiento de conservación es la microfilmación, que presenta una columna de procedimientos, indicando los tiempos de custodia de 
-        p.p los documentos.
+    p.mt-3 Las tablas de retención documental se encuentran inmersas en formatos aplicados a las empresas.
 
-      p.mt-3 En las empresas comúnmente se utilizan códigos con ejemplos en números para establecer el orden jerárquico de la empresa:
+    .cajon.color-acento-contenido.p-4.mb-4.mt-5
+      p > Presentan código, representado por la clasificación que presenta la información
+      p > Presenta una columna de series documentales, donde van las diferentes clasificaciones de documentos, 
+      p > Se clasifica comúnmente en archivos de gestión y archivo central, estipulando el tiempo que va a ser custodiado Actualmente, el 
+      p.p procedimiento de conservación es la microfilmación, que presenta una columna de procedimientos, indicando los tiempos de custodia de 
+      p.p los documentos.
 
-      ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Gerencia.
-                  li 
-                    .lista-ul__vineta
-                    p.p Recursos humanos.
-                  li 
-                    .lista-ul__vineta      
-                    p.p Contabilidad.
-                  li 
-                    .lista-ul__vineta      
-                    p.p Almacén.
-                  li 
-                    .lista-ul__vineta      
-                    p.p Gestión documental.
-      
-    .tarjeta.color-acento-contenido.text-white.p-3.mb-5
+    p.mt-3 En las empresas comúnmente se utilizan códigos con ejemplos en números para establecer el orden jerárquico de la empresa:
+
+    ol.lista-ol--cuadro.mt-3
+                li 
+                  .lista-ul__vineta
+                  p.p Gerencia.
+                li 
+                  .lista-ul__vineta
+                  p.p Recursos humanos.
+                li 
+                  .lista-ul__vineta      
+                  p.p Contabilidad.
+                li 
+                  .lista-ul__vineta      
+                  p.p Almacén.
+                li 
+                  .lista-ul__vineta      
+                  p.p Gestión documental.
+    
+    .tarjeta.color-acento-contenido.text-white.p-3.mb-5.mt-5
       .row.justify-content-around.align-items-center
         .col-3.col-sm-2.col-lg-1
           img(src="@/assets/curso/images/tema2/ico_4.svg" alt="", style="width:350px; display:inline-block; margin:auto 1rem;")

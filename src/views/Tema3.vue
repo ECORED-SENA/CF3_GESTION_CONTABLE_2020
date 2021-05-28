@@ -17,20 +17,20 @@
     p.mt-3 Según el Código Comercio (Secretaría del Senado, 2020. Art. 48 al 56):
 
     AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-        .row(titulo="Artículo 48:")
+        .row.px-5(titulo="Artículo 48:")
           .col-md-6.mb-4.mb-md-0
           p Todo comerciante conformará su contabilidad, libros, registros contables, inventarios y estados financieros en general, a las disposiciones de este Código y demás normas sobre la materia. Dichas normas podrán autorizar el uso de sistemas que, como la microfilmación, faciliten la guarda de su archivo y correspondencia. Asimismo, será permitida la utilización de otros procedimientos de reconocido valor técnico-contable, con el fin de asentar sus operaciones, siempre que facilite el conocimiento y prueba de la historia clara, completa y fidedigna de los asientos individuales y el estado general de los negocios.
         
-        .row(titulo="Artículo 49:")
+        .row.px-5(titulo="Artículo 49:")
           .col-md-6.mb-4.mb-md-0
           p Libros de comercio para los efectos legales, cuando se haga referencia a los libros de comercio, se entenderán por tales los que determine la ley como obligatorios y los auxiliares necesarios para el completo entendimiento de aquellos.
-        .row(titulo="Artículo 53:")
+        .row.px-5(titulo="Artículo 53:")
           .col-md-6.mb-4.mb-md-0
           p De las operaciones mercantiles. En los libros se asentarán en orden cronológico las operaciones mercantiles y todas aquellas que puedan influir en el patrimonio del comerciante, haciendo referencia a los comprobantes de contabilidad que las respalden.
 
           p.mt-3 El comprobante de contabilidad es el documento que debe elaborarse previamente al registro de cualquier operación y en el cual se indicará el número, fecha, origen, descripción y cuantía de la operación, así como las cuentas afectadas con el asiento. A cada comprobante se anexarán los documentos que lo justifiquen.
 
-        .row(titulo="Artículo 57: En los libros de comercio se prohíbe:")
+        .row.px-5(titulo="Artículo 57: En los libros de comercio se prohíbe:")
           .col-md-6.mb-4.mb-md-0
             .row
               ol.lista-ol--cuadro.mt-5
@@ -71,8 +71,8 @@
        
         
               
-    #t_3_1.titulo-segundo
-    .h4 Conceptos, clasificación, formatos y comprobantes
+    #t_3_1.titulo-segundo.mt-5
+      .h4 3.1 Conceptos, clasificación, formatos y comprobantes
     
     p.mt-3 Los libros de contabilidad deben respetar los principios básicos de contabilidad. Ser diligenciados y presentados en el momento que las autoridades de inspección los soliciten, so pena de sanciones por no llevar libros de contabilidad. Una vez solicitados dichos libros de contabilidad por parte de la administración de impuestos y aduanas nacionales DIAN, después de cinco días sin realizar la entrega efectiva, se generará una sanción (Angulo, 2018).
     br
@@ -82,7 +82,7 @@
     br
     p Dentro de los libros que se deben diligenciar y presentar se encuentran (Angulo, 2018):
 
-    .jumbotron-6
+    
         .row.justify-content-center.align-items-center.mt-3
           .col
             .row
@@ -118,16 +118,16 @@
                     | Libros auxiliares.
 
           .col-auto 
-              img.img-a.my-3(src="@/assets/curso/images/tema3/img_31.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
-          hr
+              img(src="@/assets/curso/images/tema3/img_31.svg" alt="", style="width:300px; display:inline-block; margin:auto 6rem;").img-fluid
+          hr.mt-5
           h6.mt-3 Libro diario
 
           p.mt-3 Es un medio de prueba para las autoridades, registra el día a día las operaciones comerciales, registrando devengos contables, presenta como características sumas iguales.
 
           p.mt-5 <b>Características:</b>
 
-    .jumbotron-6
-      .row.justify-content-center.align-items-center
+    
+    .row.justify-content-center.align-items-center
         .col-auto 
             img.img-a.my-3(src="@/assets/curso/images/tema3/img_32.svg" alt="", style="width:350px; display:inline-block; margin:auto 3rem;").img-fluid
         .col.mt-5
@@ -181,12 +181,12 @@
               .anexo__texto
                 p Anexo. Libro diario
 
-    hr
-    h6 Libro mayor y balances
+    hr.mt-5
+    h6.mt-5 Libro mayor y balances
 
     p.mt-3 Cada mes se debe realizar cierre del periodo con el fin de identificar el comportamiento financiero del periodo y, de esta forma, que los administradores puedan tomar decisiones. 
 
-    .jumbotron-6
+    
         .row.justify-content-center.align-items-center.mt-3
           .col
             h6.mb-2 Características:
@@ -227,7 +227,7 @@
                 p.p Restar y sumar acorde al caso y naturaleza de las cuentas para obtener el nuevo saldo de inicio para el nuevo periodo.    
                   
           .col-auto 
-              img.img-a.my-3(src="@/assets/curso/images/tema3/img_33.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
+              img.img-a.my-3(src="@/assets/curso/images/tema3/img_33.svg" alt="", style="width:300px; display:inline-block; margin:auto 5rem;").img-fluid
               
           .row.mt-5
             .col-lg-6
@@ -237,9 +237,9 @@
                 .anexo__texto
                   p Anexo. Libro mayor y balances
           
-    hr
+    hr.mt-5
 
-    h6.mt-3 Libro de actas de asamblea 
+    h6.mt-5 Libro de actas de asamblea 
 
     p.mt-2 Según el Código del Comercio (Secretaría del Senado, 2020. Art. 189 y 431):
 
@@ -247,7 +247,7 @@
     br
     p Artículo 431. Lo ocurrido en las reuniones de la asamblea se hará constar en el libro de actas. Estas se firmarán por el presidente de la asamblea y su secretario o, en su defecto, por el revisor fiscal. Las actas se encabezarán con su número y expresarán cuando menos: lugar, fecha y hora de la reunión; el número de acciones suscritas; la forma y antelación de la convocación; la lista de los asistentes con indicación del número de acciones propias o ajenas que representen; los asuntos tratados; las decisiones adoptadas y el número de votos emitidos en favor, en contra, o en blanco; las constancias escritas presentadas por los asistentes durante la reunión; las designaciones efectuadas, y la fecha y hora de su clausura.
 
-    .jumbotron-6
+  
         .row.justify-content-center.align-items-center
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema3/img_34.svg" alt="", style="width:350px; display:inline-block; margin:auto 4rem;").img-fluid
@@ -285,10 +285,10 @@
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
                     p Anexo. Libro mayor y balances
-    hr
-    h6 Libros de Consejo de administración o Junta directiva.
+    hr.mt-5
+    h6.mt-5 Libros de Consejo de administración o Junta directiva.
 
-    .jumbotron-6
+    
         .row.justify-content-center.align-items-center.mt-3
           .col
             p.mb-2 Para registrar dichos libros se requiere una carta de solicitud de inscripción de libros.
@@ -311,11 +311,11 @@
               
                   
           .col-auto 
-              img.img-a.my-3(src="@/assets/curso/images/tema3/img_35.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
+              img.img-a.my-3(src="@/assets/curso/images/tema3/img_35.svg" alt="", style="width:300px; display:inline-block; margin:auto 4rem;").img-fluid
               
-    hr
+    hr.mt-5
 
-    h6 Características:
+    h6.mt-5 Características:
 
       p.mt-3 Según Circular 002 de 2016 de la Super Intendencia de Industria y Comercio (Cámara de Comercio de Santa Marta, 2020):
     TabsC.color-acento-contenido.mb-5
@@ -371,7 +371,7 @@
 
     p.mt-3 Entre los libros auxiliares se encuentran: libro auxiliar de bancos, caja, IVA, inventarios, ingresos ordinarios, etc.
 
-    .jumbotron-6
+    
         .row.justify-content-center.align-items-center.mt-3
           .col
             h6.mb-2 Características:
@@ -410,10 +410,10 @@
                 .anexo__texto
                   p Anexo. Ejemplo:
     hr
-    h6.mt-3 Diligenciamiento y registro.
+    h6.mt-5 Diligenciamiento y registro.
 
-    .jumbotron-6
-        .row.justify-content-center.align-items-center
+    
+        .row.justify-content-center.align-items-center.mt-5
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema3/img_37.svg" alt="", style="width:350px; display:inline-block; margin:auto 4rem;").img-fluid
           .col.mt-5
@@ -433,13 +433,12 @@
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
                       p Enlace web. Planilla integrada de liquidación de aportes:
-    hr
+    hr.mt-5
 
-    h6 Sistema de gestión documental emitido por el ente regulador.
+    h6.mt-5 Sistema de gestión documental emitido por el ente regulador.
 
     p.mt-3 El Estado colombiano busca, mediante la Resolución 8934 de febrero de 2014, implementar el sistema de gestión documental, con el objetivo de mantener organizados los archivos en el sector privado, enfocada básicamente en la organización de:
 
-    .jumbotron-6
         .row.justify-content-center.align-items-center.mt-3
           .col
             ol.lista-ol--cuadro

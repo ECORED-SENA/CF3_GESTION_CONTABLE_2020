@@ -94,9 +94,7 @@
           p.p documentos no contables los siguientes:
           br
           p.p  1. Cotización.
-          br
           p.p  2. Pedido.
-          br
           p.p  3. Remisión.
 
     p.mt-2 
@@ -106,21 +104,22 @@
       |Son documentos comerciales regidos por el Código de Comercio y el Código Civil Colombiano. En ellos se incorpora la figura del patrimonio de una persona natural o jurídica. En la realidad económica, esta herramienta dinamiza la economía en el comercio formal e informal. Ejemplos de títulos valores son:
       br
       br
-      | 1. Letra de cambio.
-      br
-      | 2. El cheque.
-      br
-      | 3. El pagaré.
+      .col
+
+      p 1. Letra de cambio.
+      p 2. El cheque.
+      p 3. El pagaré.
       br
       br
       p En la clasificación de títulos valores se encuentran:
 
-    
-      hr
+    div.div.justify-content-center.m-auto
+      hr.mt-5
+     
       .row.align-items-center
         .col-auto
           figure
-            img.me-5(src='@/assets/curso/images/tema1/ico_1.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float     
+            img.me-5(src='@/assets/curso/images/tema1/ico_1.svg' alt="", style="width:70px; display:block; margin:auto 1.5rem;").img-float     
         .col
           h6.mb-2 Títulos valores a la orden:
           br
@@ -129,7 +128,7 @@
       .row.align-items-center
         .col-auto
           figure
-            img.me-5(src='@/assets/curso/images/tema1/ico_2.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float      
+            img.me-5(src='@/assets/curso/images/tema1/ico_2.svg' alt="", style="width:70px; display:block; margin:auto 1.5rem;").img-float      
         .col
           h6.mb-2 Títulos al portador:
           br
@@ -138,13 +137,13 @@
       .row.align-items-center
         .col-auto
           figure
-            img.me-5(src='@/assets/curso/images/tema1/ico_3.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float     
+            img.me-5(src='@/assets/curso/images/tema1/ico_3.svg' alt="", style="width:70px; display:block; margin:auto 1.5rem;").img-float     
         .col
           h6.mb-2 Títulos valores nominativos:
           br
           p Estos títulos son expedidos a favor de una determinada persona. En el Código de Comercio se determina que la persona que gira, o transfiere el título debe realizar la inscripción del tenedor en el registro que lleva el creador del título (Secretaría del Senado, 2020. Art. 648).
       hr
-    p.mt-2 Para mayor profundización en el tema se sugiere revisar los siguientes enlaces:
+    p.mt-5 Para mayor profundización en el tema se sugiere revisar los siguientes enlaces:
 
     .row.mt-5
       .col-lg-6
@@ -161,14 +160,14 @@
             p Enlace web. Secretaría del Senado. Código de Comercio. Cap. II.
 
     #t_1_2.titulo-segundo
-      .h4.mt-4 1.2 Definición, clasificación, características y diligenciamiento.
+      .h4.mt-5 1.2 Definición, clasificación, características y diligenciamiento.
 
     p.mt-3 <b>Factura cambiaria de compra y venta:</b>
     br
     p Según lo determina el Estatuto Tributario, los requerimientos exigidos para la factura son (Secretaría del Senado, 2020. Art. 617):
 
-    .jumbotron-6.mt-5
-        .row.justify-content-center.align-items-center.mt-3
+    
+        .row.justify-content-center.align-items-center.mt-5
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_3.svg" alt="", style="width:300px; display:inline-block; margin:auto 5rem;").img-fluid
           .col
@@ -230,21 +229,21 @@
           .anexo__texto
             p Anexo.  Factura cambiaria de compra y venta
 
-    hr 
+    hr.mt-5 
 
-    .jumbotron-6.mt-3
-        .row.justify-content-center.align-items-center.mt-3
-          .col
-            h6.mb-2 Factura electrónica
-            br
-            p Para la figura de facturación electrónica debe considerarse el Estatuto Tributario (Secretaría del Senado, 2020. Art. 617) y el Decreto 2242 (Sistema Único de Información Normativa, 2020):  
-            br
-            p Según el Decreto 2242 (Sistema Único de Información Normativa, 2020. Art. 2) la factura electrónica: es el documento que soporta transacciones de venta de bienes y/o servicios y que operativamente tienen lugar a través de sistemas computacionales y/o soluciones informáticas que permiten el cumplimiento de las características y condiciones que se establecen en el presente Decreto, en relación con la expedición, recibo, rechazo y conservación. La expedición de la factura electrónica comprende la generación por el obligado a facturar y su entrega al adquirente. 
-          .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema1/img_4.svg" alt="", style="width:300px; display:inline-block; margin:auto 5rem;").img-fluid
+    
+    .row.justify-content-center.align-items-center.mt-5
+      .col
+        h6.mb-2 Factura electrónica
+        br
+        p Para la figura de facturación electrónica debe considerarse el Estatuto Tributario (Secretaría del Senado, 2020. Art. 617) y el Decreto 2242 (Sistema Único de Información Normativa, 2020):  
+        br
+        p Según el Decreto 2242 (Sistema Único de Información Normativa, 2020. Art. 2) la factura electrónica: es el documento que soporta transacciones de venta de bienes y/o servicios y que operativamente tienen lugar a través de sistemas computacionales y/o soluciones informáticas que permiten el cumplimiento de las características y condiciones que se establecen en el presente Decreto, en relación con la expedición, recibo, rechazo y conservación. La expedición de la factura electrónica comprende la generación por el obligado a facturar y su entrega al adquirente. 
+      .col-auto 
+        img.img-a.my-3(src="@/assets/curso/images/tema1/img_4.svg" alt="", style="width:300px; display:inline-block; margin:auto 5rem;").img-fluid
 
     p.mt-3 Obligado a facturar electrónicamente: persona natural o jurídica comprendida en el ámbito de este Decreto y que como tal debe facturar electrónicamente en las condiciones que se establecen en los artículos siguientes. 
-    br
+
     p Adquirente: persona natural o jurídica que adquiere bienes y/o servicios y debe exigir factura o documento equivalente y, que, tratándose de la factura electrónica, la recibe, rechaza, cuando sea del caso, y conserva para su posterior exhibición, en las condiciones que se establecen en el presente decreto. 
     br
     p Proveedor tecnológico: es la persona natural o jurídica que podrá prestar a los obligados a facturar electrónicamente y/o a los adquirentes que opten por recibir la factura en formato electrónico de generación, cuando unos u otros así lo autoricen, los servicios inherentes a la expedición de la factura electrónica, incluida la entrega del ejemplar a la DIAN como se indica en el artículo 7° del presente Decreto, así como los servicios relacionados con su recibo, rechazo y conservación. El proveedor tecnológico deberá surtir el proceso de autorización por parte de la DIAN previsto en el artículo 12 de este decreto. 
@@ -252,7 +251,7 @@
     p Catálogo de Participantes de Factura Electrónica: es el registro electrónico administrado por la DIAN, que provee información de los obligados a facturar electrónicamente dentro del ámbito del presente Decreto, de los adquirentes que decidan recibirla electrónicamente y proveedores tecnológicos, con el fin de facilitar su operatividad. 
     br
     p Código Único de Factura Electrónica: El código único de factura electrónica para las facturas electrónicas, corresponde a un valor alfanumérico, obtenido a partir de la aplicación de un procedimiento que utiliza datos de la factura, que adicionalmente incluye la clave de contenido técnico de control generada y entregada por la DIAN. 
-    br  
+    br
     p El Código Único de Factura Electrónica deberá ser incluido como un campo más dentro de la factura electrónica. Este código deberá visualizarse en la representación gráfica de las facturas electrónicas y en los códigos bidimensionales QR definidos para tal fin.
     br
     p Para profundizar en las definiciones, características y diligenciamiento de los diferentes documentos, por favor revise el libro contabilidad financiera correlacionado con Normas Internacionales de Información Financiera NIIF, capítulo número 12, en el siguiente enlace: 
@@ -262,14 +261,14 @@
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
               p Enlace web. Biblioteca Digital del SENA
-    hr
+    hr.mt-5
 
-    p.h6 Documento equivalente
+    h6.mg Documento equivalente
 
-    p.mt-3 Es un documento similar a la factura, no es obligatorio, pero se debe tener como soporte. Algunos ejemplos se encuentran en empresas inscritas al régimen simple que no tienen obligación de facturar:
+    p.mg Es un documento similar a la factura, no es obligatorio, pero se debe tener como soporte. Algunos ejemplos se encuentran en empresas inscritas al régimen simple que no tienen obligación de facturar:
 
-    .jumbotron-6.mt-5
-        .row.justify-content-center.align-items-center.mt-3
+    
+        .row.justify-content-center.align-items-center.mt-5
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_5.svg" alt="", style="width:300px; display:inline-block; margin:auto 5rem;").img-fluid
           .col
@@ -313,9 +312,9 @@
                   li 
                     .lista-ul__vineta
                     
-                    p.p Especificaciones de la transacción como: cantidad, unidad de medida, #[br]identificación de bienes y servicios, indicar la calidad de agente retenedor del impuesto sobre las ventas y demás.
+                    p.p Especificaciones de la transacción como: cantidad, unidad de medida,identificación de bienes y servicios, indicar la calidad de agente retenedor del impuesto sobre las ventas y demás.
                 
-    .cajon.color-acento-contenido.p-4.mb-4
+    .cajon.color-acento-contenido.p-4.mt-5
         .h5 Recordemos que una factura al contado se registra:
         p Con un debito en la caja y un crédito en la cuenta comercio al por mayor y por menor (ingresos ordinarios), cuando es gravada la mercancía se debe reconocer la cuenta impuestos por pagar, acreditando.      
 
@@ -340,14 +339,13 @@
               img(src="@/assets/template/icono-link.svg")
             .anexo__texto
               p Enlace web. Formato Documento Equivalente a Factura
-    hr 
+    hr.mt-5 
 
-    h6 Comprobante de egreso o comprobante de pago
+    h6.mt-5 Comprobante de egreso o comprobante de pago
 
-    p.mt-3 Comúnmente se conoce como orden pago, soporte que respalda los desembolsos de efectivo, por norma de control interno realizados mediante cheques. Los comprobantes de egreso se elaboran por duplicados, para anexar a la cuenta que respalda la entrega del título valor, que es el cheque con que se efectúa el pago.
+    p Comúnmente se conoce como orden pago, soporte que respalda los desembolsos de efectivo, por norma de control interno realizados mediante cheques. Los comprobantes de egreso se elaboran por duplicados, para anexar a la cuenta que respalda la entrega del título valor, que es el cheque con que se efectúa el pago.
 
-    .jumbotron-6
-        .row.justify-content-center.align-items-center.mt-3
+        .row.justify-content-center.align-items-center.mt-5
           .col
             h6.mb-2 Características:
              ol.lista-ol--cuadro.mt-3
@@ -376,7 +374,7 @@
                     p.p Las firmas de elaboración, aprobado por, contabilizado por.
 
           .col-auto 
-              img.img-a.my-3(src="@/assets/curso/images/tema1/img_6.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
+              img.img-a.my-3(src="@/assets/curso/images/tema1/img_6.svg" alt="", style="width:300px; display:inline-block; margin:auto 4rem;").img-fluid
           .row.mt-2
             .col-lg-6
               a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
@@ -384,75 +382,75 @@
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p Anexo.  Comprobante de egreso o comprobante de pago
-          hr
+        hr.mt-5
         
-        h6 Comprobante de ingreso o comprobante de caja
+        h6.mt-5 Comprobante de ingreso o comprobante de caja
 
         p.mt-3 Este soporte de contabilidad representa los dineros recibidos en la empresa para posteriormente ser consignados en los bancos. Se realizan con dos copias, una que es entregada al cliente, respaldando el efectivo recibido y una copia para respaldar el valor del comprobante y generar el respectivo devengo contable, representa abonos a las ventas a plazos.
 
-    .jumbotron-6
-      .row.justify-content-center.align-items-center.mt-3
-        .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
-        .col
-            h6.mb-2 Características:
-            P.mt-3 El soporte de contabilidad recibo de caja debe contener:
-             ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Nombre de la empresa, número de identificación tributaria NIT.
-                  li 
-                    .lista-ul__vineta
+    
+        .row.justify-content-center.align-items-center.mt-5
+          .col-auto 
+              img.img-a.my-3(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
+          .col
+              h6.mb-2 Características:
+              P.mt-3 El soporte de contabilidad recibo de caja debe contener:
+              ol.lista-ol--cuadro.mt-3
+                    li 
+                      .lista-ul__vineta
+                      p.p Nombre de la empresa, número de identificación tributaria NIT.
+                    li 
+                      .lista-ul__vineta
+                        
+                      p.p Número consecutivo.
+                    li 
+                      .lista-ul__vineta
                       
-                    p.p Número consecutivo.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Dirección y datos generales de la empresa.
-                  li
-                    .lista-ul__vineta
+                      p.p Dirección y datos generales de la empresa.
+                    li
+                      .lista-ul__vineta
 
-                    p.p Ciudad y fecha donde se realiza la transacción.
-                  li 
-                    .lista-ul__vineta
+                      p.p Ciudad y fecha donde se realiza la transacción.
+                    li 
+                      .lista-ul__vineta
 
-                    p.p El concepto por el cual se recibe el efectivo.
-                  li 
-                    .lista-ul__vineta
+                      p.p El concepto por el cual se recibe el efectivo.
+                    li 
+                      .lista-ul__vineta
 
-                    p.p El valor en números y letras recibidos.
-                  li 
-                    .lista-ul__vineta
+                      p.p El valor en números y letras recibidos.
+                    li 
+                      .lista-ul__vineta
+                        
+                      p.p El número de cheque y el banco de origen del título valor.
+                    li 
+                      .lista-ul__vineta
                       
-                    p.p El número de cheque y el banco de origen del título valor.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Debe ser entregado al cliente con firma y sello de la empresa
-                  li 
-                    .lista-ul__vineta
+                      p.p Debe ser entregado al cliente con firma y sello de la empresa
+                    li 
+                      .lista-ul__vineta
 
-                    p.p El registro contable con la afectación a las cuentas respectivas.
-                  li 
-                    .lista-ul__vineta
+                      p.p El registro contable con la afectación a las cuentas respectivas.
+                    li 
+                      .lista-ul__vineta
 
-                    p.p Firmas de quien elaboró, aprobó y contabilizó.
+                      p.p Firmas de quien elaboró, aprobó y contabilizó.
 
-            .row.mt-5
-              .col-lg-12
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/template/icono-pdf.svg")
-                  .anexo__texto
-                    p Anexo.  Comprobante de Ingreso o comprobante de caja
-        hr
-    h6.mb-2 Comprobante de venta con tarjeta de crédito
-            p.mt-3 Es un medio de pago convencional, donde se utiliza la figura de tarjeta habiente, utilizando un datafono para recibir pagos. Es una forma segura para no manejar efectivo, el banco o entidad financiera cobra a la empresa una comisión por el uso de este medio electrónico.  Cuando se realiza la transacción se debe guardar copia de la transacción y anexar a la venta, como soporte.  
-    .jumbotron-6
-        .row.justify-content-center.align-items-center.mt-3
+              .row.mt-5
+                .col-lg-12
+                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-pdf.svg")
+                    .anexo__texto
+                      p Anexo.  Comprobante de Ingreso o comprobante de caja
+        hr.mt-5
+        h6.mt-5 Comprobante de venta con tarjeta de crédito
+                p.mt-3 Es un medio de pago convencional, donde se utiliza la figura de tarjeta habiente, utilizando un datafono para recibir pagos. Es una forma segura para no manejar efectivo, el banco o entidad financiera cobra a la empresa una comisión por el uso de este medio electrónico.  Cuando se realiza la transacción se debe guardar copia de la transacción y anexar a la venta, como soporte.  
+    
+        .row.justify-content-center.align-items-center.mt-5
           .col
             
-            h6.mb-2 Características:
+            h6 Características:
             p.mt-3 Debe definir la ciudad y el nombre del establecimiento comercial, fecha y plazos de pagos, es decir el número de cuotas para ser pagadas por él cuenta habiente, si es tarjeta de crédito. Si es cuenta de ahorro, la transacción descuenta de forma automática y por medio de correo electrónico se notifica al cliente, comúnmente el reporte es enviado al dispositivo móvil del cliente por parte de la entidad financiera.
           .col-auto 
             img.img-a.my-3(src="@/assets/curso/images/tema1/img_8.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
@@ -464,43 +462,43 @@
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
                 p Anexo.  Comprobante de Ingreso o comprobante de caja
-        hr
-    h6.mb-2 Nómina
+        hr.mt-5
+        h6.mt-5 Nómina
             P.mt-3 Es un soporte contable en el cual la empresa respalda el pago de empleados por concepto de sueldos a los colaboradores de la empresa de forma mensual, quincenal, cada diez días o, como se haya pactado el pago de sueldos.
-    .jumbotron-6.mt-
-      .row.justify-content-center.align-items-center.mt-3
-        .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema1/img_9.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
-        .col
-            
-            h6 Características:
-             ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Presenta columnas que representan nombres, apellidos y documento de identidad.
-                  li 
-                    .lista-ul__vineta
+    
+        .row.justify-content-center.align-items-center.mt-5
+          .col-auto 
+              img.img-a.my-3(src="@/assets/curso/images/tema1/img_9.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
+          .col
+              
+              h6 Características:
+              ol.lista-ol--cuadro.mt-3
+                    li 
+                      .lista-ul__vineta
+                      p.p Presenta columnas que representan nombres, apellidos y documento de identidad.
+                    li 
+                      .lista-ul__vineta
+                        
+                      p.p En las columnas se encuentra el devengado y los descuentos que por ley tienen los empleados.
+                    li 
+                      .lista-ul__vineta
                       
-                    p.p En las columnas se encuentra el devengado y los descuentos que por ley tienen los empleados.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Columna de horas extra y comisiones.
-                  li
-                    .lista-ul__vineta
+                      p.p Columna de horas extra y comisiones.
+                    li
+                      .lista-ul__vineta
 
-                    p.p Presenta nombre de la empresa, NIT de la empresa, dirección y periodo de pago.
-            .row.mt-5
-                .col-lg-12
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg")
-                    .anexo__texto
-                      p Anexo.  Comprobante de Nómina
-        hr
-    h6.mb-2 Planilla integrada de liquidación de aportes
-    .jumbotron-6
-        .row.justify-content-center.align-items-center.mt-3
+                      p.p Presenta nombre de la empresa, NIT de la empresa, dirección y periodo de pago.
+              .row.mt-5
+                  .col-lg-12
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg")
+                      .anexo__texto
+                        p Anexo.  Comprobante de Nómina
+        hr.mt-5
+        h6.mt-5 Planilla integrada de liquidación de aportes
+    
+        .row.justify-content-center.align-items-center.mt-5
           .col
             
             p.mt-3 Es un soporte en el cual las empresas registran las diferentes novedades de los empleados, frente a salud, pensiones, riesgos laborales, cajas de compensación, se realiza por intermedio de un tercero y se trasfiere a las diferentes empresas de seguridad social, es un documento que brinda la información a empleados y entidades que vigilan el pago de seguridad social.
@@ -518,162 +516,162 @@
                       p Enlace web. Planilla integrada de liquidación de aportes:
           hr.mt-5
 
-    h6.mb-2 Declaración de impuestos
+        h6.mt-5 Declaración de impuestos
             P.mt-3 Cada vez que se efectúan compras y ventas de productos o bienes gravados, es obligación de las empresas descontar valores cuantificables, acorde con la base gravable y tarifas aplicadas, descontadas y trasferidas a la administración de impuestos y aduanas nacionales DIAN, en las fechas establecidas en el calendario tributario actualizado de cada año fiscal.
-    .jumbotron-6.mt-
-      .row.justify-content-center.align-items-center.mt-3
-        .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema1/img_11.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
-        .col
-            
-            h6 Características:
-            p.mt-3 Es un medio de confrontación de los pagos efectuados al gobierno nacional, distrital o municipal por concepto de tributos. Son ejemplos de soportes los pagos por concepto de las declaraciones de:
-            ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Impuesto al Valor Agregado (IVA).
-                  li 
-                    .lista-ul__vineta
+    
+        .row.justify-content-center.align-items-center.mt-5
+          .col-auto 
+              img.img-a.my-3(src="@/assets/curso/images/tema1/img_11.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
+          .col
+              
+              h6 Características:
+              p.mt-3 Es un medio de confrontación de los pagos efectuados al gobierno nacional, distrital o municipal por concepto de tributos. Son ejemplos de soportes los pagos por concepto de las declaraciones de:
+              ol.lista-ol--cuadro.mt-3
+                    li 
+                      .lista-ul__vineta
+                      p.p Impuesto al Valor Agregado (IVA).
+                    li 
+                      .lista-ul__vineta
+                        
+                      p.p Retención en la Fuente.
+                    li 
+                      .lista-ul__vineta
                       
-                    p.p Retención en la Fuente.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Impuesto de Renta y Complementario.
-                  li
-                    .lista-ul__vineta
+                      p.p Impuesto de Renta y Complementario.
+                    li
+                      .lista-ul__vineta
 
-                    p.p Impuesto de Industria y Comercio.
+                      p.p Impuesto de Industria y Comercio.
 
-            p.mt-3 Para revisar los diferentes formularios, por favor ingrese a los siguientes enlaces:
-      
-      .row.mt-2
-          .col-lg-6
-            a.anexo.mt-4.mb-lg-0(href="https://www.dian.gov.co/atencionciudadano/formulariosinstructivos/Paginas/default.aspx" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p Enlace web. Dirección de Impuestos y Aduanas Nacionales (DIAN).
-          .col-lg-6
-            a.anexo.mt-4.mb-lg-0(href="https://shd.gov.co/shd/industria-y-comercio" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-link.svg")
-                .anexo__texto
-                  p Enlace web. Secretaría de Hacienda de Bogotá.
-    hr
-    h6 Recibo de transferencia de fondos y pago interbancario
+              p.mt-3 Para revisar los diferentes formularios, por favor ingrese a los siguientes enlaces:
+        
+        .row.mt-2
+            .col-lg-6
+              a.anexo.mt-4.mb-lg-0(href="https://www.dian.gov.co/atencionciudadano/formulariosinstructivos/Paginas/default.aspx" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.svg")
+                  .anexo__texto
+                    p Enlace web. Dirección de Impuestos y Aduanas Nacionales (DIAN).
+            .col-lg-6
+              a.anexo.mt-4.mb-lg-0(href="https://shd.gov.co/shd/industria-y-comercio" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.svg")
+                  .anexo__texto
+                    p Enlace web. Secretaría de Hacienda de Bogotá.
+    hr.mt-5
+    h6.mt-5 Recibo de transferencia de fondos y pago interbancario
 
     p.mt-3 Es una forma de agilizar negocios entre las entidades financieras y/o clientes. Actualmente se utilizan con mayor frecuencia, teniendo en cuenta que se realiza desde un dispositivo móvil con acceso a internet, que genera garantía y seguridad en el momento de realizar la transacción.
 
-    .jumbotron-6
-        .row.justify-content-center.align-items-center.mt-3
-          .col
-            h6.mb-2 Características:
-            p.mt-3 Es un medio de confrontación de los pagos efectuados al gobierno nacional, distrital o municipal por concepto de tributos. Son ejemplos de soportes los pagos por concepto de las declaraciones de:
-            ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Presenta una cuenta de origen del banco que gira o recibe transferencias.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Una cuenta de destino, al banco que transfiriere recursos. 
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Valor a transferir.
-                li 
-                  .lista-ul__vineta
-
-                  p.p Fecha, que se genera automáticamente.
-                li 
-                  .lista-ul__vineta
-
-                  p.p Por el monto de la transacción se genera un documento soporte para registrar en contabilidad, este documento se genera de forma automática.
-            p.mt-3 Para diligenciar se tiene en cuenta:
-
-            ol.lista-ol--cuadro.mt-3
+   
+      .row.justify-content-center.align-items-center.mt-5
+        .col
+          h6.mb-2 Características:
+          p.mt-3 Es un medio de confrontación de los pagos efectuados al gobierno nacional, distrital o municipal por concepto de tributos. Son ejemplos de soportes los pagos por concepto de las declaraciones de:
+          ol.lista-ol--cuadro.mt-3
               li 
                 .lista-ul__vineta
-                p.p Nombre o razón social.
+                p.p Presenta una cuenta de origen del banco que gira o recibe transferencias.
               li 
                 .lista-ul__vineta
                   
-                p.p Dirección.
+                p.p Una cuenta de destino, al banco que transfiriere recursos. 
               li 
                 .lista-ul__vineta
                 
-                p.p Ciudad y teléfono.
-              li
+                p.p Valor a transferir.
+              li 
                 .lista-ul__vineta
 
-                p.p Datos de la cuenta bancaria, banco, cuenta, número de cuenta, tipo de cuenta. 
-              li
+                p.p Fecha, que se genera automáticamente.
+              li 
                 .lista-ul__vineta
 
-                p.p Titular de la cuenta.    
-              li
-                .lista-ul__vineta
+                p.p Por el monto de la transacción se genera un documento soporte para registrar en contabilidad, este documento se genera de forma automática.
+          p.mt-3 Para diligenciar se tiene en cuenta:
 
-                p.p Autorizaciones y firmas.
-                  
-          .col-auto 
-              img.img-a.my-3(src="@/assets/curso/images/tema1/img_12.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
-          .row.mt-2
-            .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-pdf.svg")
-                .anexo__texto
-                  p Anexo.  Comprobante de Nómina
-          
-    hr
+          ol.lista-ol--cuadro.mt-3
+            li 
+              .lista-ul__vineta
+              p.p Nombre o razón social.
+            li 
+              .lista-ul__vineta
+                
+              p.p Dirección.
+            li 
+              .lista-ul__vineta
+              
+              p.p Ciudad y teléfono.
+            li
+              .lista-ul__vineta
 
-    h6.mb-2 Extractos bancarios
-            P.mt-3 Documento donde se registran, por parte de la entidad financiera, todos los movimientos efectuados durante el mes. Se registran pagos de cheques, transferencias, notas bancarias, gravámenes financieros. Es el documento base para realizar la conciliación bancaria y el control del efectivo.
-    .jumbotron-6.mt-
-      .row.justify-content-center.align-items-center.mt-3
+              p.p Datos de la cuenta bancaria, banco, cuenta, número de cuenta, tipo de cuenta. 
+            li
+              .lista-ul__vineta
+
+              p.p Titular de la cuenta.    
+            li
+              .lista-ul__vineta
+
+              p.p Autorizaciones y firmas.
+                
         .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema1/img_13.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
-        .col
-            
-            h6 Características:
-            p.mt-3 Documento donde se registran, por parte de la entidad financiera, todos los movimientos efectuados durante el mes. Se registran pagos de cheques, transferencias, notas bancarias, gravámenes financieros. Es el documento base para realizar la conciliación bancaria y el control del efectivo.
+            img.img-a.my-3(src="@/assets/curso/images/tema1/img_12.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
+        .row.mt-2
+          .col-lg-6
+            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              .anexo__icono
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p Anexo.  Comprobante de Nómina
+          
+        hr.mt-5
 
-             ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Saldos iniciales.
-                  li 
-                    .lista-ul__vineta
-                      
-                    p.p Intereses.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Avances.
-                  li
-                    .lista-ul__vineta
-
-                    p.p Saldo final.
-                  li
-                    .lista-ul__vineta
-
-                    p.p Cargos y abonos.
-            .row.mt-5
-                .col-lg-12
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg")
-                    .anexo__texto
-                      p Anexo.  Extractos bancarios           
-    hr
-    h6 Consignaciones bancarias
-
-    p.mt-3 Cada vez que se consigna efectivo en las entidades financieras de la empresa, el banco expide un soporte denominado comprobante de consignación, el cual sirve para registrar el hecho económico en la contabilidad. La contabilización se realiza debitando la cuenta de ahorro o cuenta corriente y acreditando la cuenta Efectivo (caja), para disminuir el valor del saldo de esta.
-
-    .jumbotron-6
+        h6.mt-5 Extractos bancarios
+                P.mt-3 Documento donde se registran, por parte de la entidad financiera, todos los movimientos efectuados durante el mes. Se registran pagos de cheques, transferencias, notas bancarias, gravámenes financieros. Es el documento base para realizar la conciliación bancaria y el control del efectivo.
+    
         .row.justify-content-center.align-items-center.mt-3
+          .col-auto 
+              img.img-a.my-3(src="@/assets/curso/images/tema1/img_13.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
+          .col
+              
+              h6 Características:
+              p.mt-3 Documento donde se registran, por parte de la entidad financiera, todos los movimientos efectuados durante el mes. Se registran pagos de cheques, transferencias, notas bancarias, gravámenes financieros. Es el documento base para realizar la conciliación bancaria y el control del efectivo.
+
+              ol.lista-ol--cuadro.mt-3
+                    li 
+                      .lista-ul__vineta
+                      p.p Saldos iniciales.
+                    li 
+                      .lista-ul__vineta
+                        
+                      p.p Intereses.
+                    li 
+                      .lista-ul__vineta
+                      
+                      p.p Avances.
+                    li
+                      .lista-ul__vineta
+
+                      p.p Saldo final.
+                    li
+                      .lista-ul__vineta
+
+                      p.p Cargos y abonos.
+              .row.mt-5
+                  .col-lg-12
+                    a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                      .anexo__icono
+                        img(src="@/assets/template/icono-pdf.svg")
+                      .anexo__texto
+                        p Anexo.  Extractos bancarios           
+    hr.mt-5
+    h6.mt-5 Consignaciones bancarias
+
+    p.mt3 Cada vez que se consigna efectivo en las entidades financieras de la empresa, el banco expide un soporte denominado comprobante de consignación, el cual sirve para registrar el hecho económico en la contabilidad. La contabilización se realiza debitando la cuenta de ahorro o cuenta corriente y acreditando la cuenta Efectivo (caja), para disminuir el valor del saldo de esta.
+
+    
+        .row.justify-content-center.align-items-center.mt-5
           .col
             h6.mb-2 Características:
             p.mt-3 El soporte debe contener el registro emitido por la máquina registradora del banco, el sello y la firma de la persona autorizada en el banco. El documento contiene los siguientes elementos:
@@ -704,50 +702,51 @@
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p Anexo.  Consignaciones bancarias
-    hr
-    h6.mb-2 Recibos de caja menor
+    hr.mt-5
+    h6.mt-5 Recibos de caja menor
             P.mt-3 Las empresas necesitan realizar pagos mínimos, acorde con los montos establecidos y registrados en las políticas contables y en la resolución interna, llamada gastos de caja menor. Allí se establecen los numerales de pago, los montos y la persona responsable del manejo de dicho fondo
-    .jumbotron-6.mt-
-      .row.justify-content-center.align-items-center.mt-3
-        .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema1/img_15.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
-        .col
-            
-            h6 Características:
-            p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
+    
+    .row.justify-content-center.align-items-center.mt-5
+      .col-auto 
+          img.img-a.my-3(src="@/assets/curso/images/tema1/img_15.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
+      .col
+          
+          h6 Características:
+          p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
 
-             ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Registrar ciudad y fecha.
-                  li 
-                    .lista-ul__vineta
-                      
-                    p.p Pagado al beneficiario.
-                    .lista-ul__vineta
+          ol.lista-ol--cuadro.mt-3
+                li 
+                  .lista-ul__vineta
+                  p.p Registrar ciudad y fecha.
+                li 
+                  .lista-ul__vineta
                     
-                    p.p Valor y concepto.
-                  li
-                    .lista-ul__vineta
+                  p.p Pagado al beneficiario.
+                li
+                  .lista-ul__vineta
+                  
+                  p.p Valor y concepto.
+                li
+                  .lista-ul__vineta
 
-                    p.p Soporte de pago anexo.
-                  li
-                    .lista-ul__vineta
+                  p.p Soporte de pago anexo.
+                li
+                  .lista-ul__vineta
 
-                    p.p Consecutivo.
-            .row.mt-5
-                .col-lg-12
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg")
-                    .anexo__texto
+                  p.p Consecutivo.
+          .row.mt-5
+              .col-lg-12
+                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-pdf.svg")
+                  .anexo__texto
                       p Anexo.  Recibos de caja menor
-    hr
-    h6 Notas débito y crédito
-    p <b>Nota debito:</b>
+    hr.mt-5
+    h6.mt-5 Notas débito y crédito
+    p.mt-3 <b>Nota debito:</b>
     p.mt-3 Es un documento contable que reconoce valores de la empresa a favor de sus clientes, debido a errores u omisiones. Por ejemplo: intereses cobrados de forma adicional sobre facturas de compra y venta o notas débito que disminuyen el saldo de la cuenta bancaria de la empresa.
 
-    .jumbotron-6
+    
         .row.justify-content-center.align-items-center.mt-3
           .col
             h6.mb-2 Características:
@@ -783,64 +782,65 @@
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p Anexo.  Nota debito:
-    hr
-    .jumbotron-6
-      .row.justify-content-center.align-items-center.mt-3
-        .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema1/img_17.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
-        .col
-            
-            h6 Nota crédito:
-            p.mt-3 Soporte contable para reconocer disminuciones por concepto de descuentos no incluidos en las facturas, es utilizado cuando se presentan las devoluciones de mercancías, se elabora con original y copia, para ser conservado en contabilidad y la copia entregada al cliente.
-            h6.mt-3 Características:
-            p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
+    hr.mt-5
+    
+    .row.justify-content-center.align-items-center.mt-5
+      .col-auto 
+          img.img-a.my-3(src="@/assets/curso/images/tema1/img_17.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
+      .col
+          
+          h6 Nota crédito:
+          p.mt-3 Soporte contable para reconocer disminuciones por concepto de descuentos no incluidos en las facturas, es utilizado cuando se presentan las devoluciones de mercancías, se elabora con original y copia, para ser conservado en contabilidad y la copia entregada al cliente.
+          h6.mt-3 Características:
+          p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
 
-            ol.lista-ol--cuadro.mt-3
+          ol.lista-ol--cuadro.mt-3
+              li 
+                .lista-ul__vineta
+                p.p Documento utilizado para reconocer cambios en las facturas, #[br]evidencia dineros 
+              li 
+                .lista-ul__vineta
+                  
+                p.p Devueltos al cliente por inconformidades.
+              li 
+                .lista-ul__vineta
+                
+                p.p Utilizado como soporte cuando se anulan facturas.
+              li
+                .lista-ul__vineta
+
+                p.p Corrige datos, valores iniciales de las facturas.
+          h6.mt-3 Contenido:
+          ol.lista-ol--cuadro.mt-3
                 li 
                   .lista-ul__vineta
-                  p.p Documento utilizado para reconocer cambios en las facturas, #[br]evidencia dineros 
+                  p.p Ciudad y fecha.
                 li 
                   .lista-ul__vineta
                     
-                  p.p Devueltos al cliente por inconformidades.
-                li 
+                  p.p Consecutivo.
+                li
                   .lista-ul__vineta
                   
-                  p.p Utilizado como soporte cuando se anulan facturas.
+                  p.p Descripción o detalle.
                 li
                   .lista-ul__vineta
 
-                  p.p Corrige datos, valores iniciales de las facturas.
-            h6.mt-3 Contenido:
-            ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Ciudad y fecha.
-                  li 
-                    .lista-ul__vineta
-                      
-                    p.p Consecutivo.
-                    .lista-ul__vineta
-                    
-                    p.p Descripción o detalle.
-                  li
-                    .lista-ul__vineta
-
-                    p.p Firmas autorizadas.
-                  
-            .row.mt-5
-                .col-lg-12
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                    .anexo__icono
-                      img(src="@/assets/template/icono-pdf.svg")
-                    .anexo__texto
-                      p Anexo.  Nota crédito:
-    hr
-    h6 Notas de contabilidad
+                  p.p Firmas autorizadas.
+                
+          .row.mt-5
+              .col-lg-12
+                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-pdf.svg")
+                  .anexo__texto
+                    p Anexo.  Nota crédito:
+    hr.mt-5
+    h6.mt-5 Notas de contabilidad
     p.mt-3 También denominada notas internas, utilizadas para enmendar errores o realizar ajustes contables. Se utiliza en aquellas operaciones que carecen de un soporte específico.
 
-    .jumbotron-6
-        .row.justify-content-center.align-items-center.mt-3
+    
+        .row.justify-content-center.align-items-center.mt-5
           .col
             h6.mb-2 Características:
             p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
@@ -890,11 +890,11 @@
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
                   p Anexo. Notas de contabilidad:
-    hr
-    h6.mb-2 Comprobantes de contabilidad
+    hr.mt-5
+    h6.mt-5 Comprobantes de contabilidad
     p.mt-3 Representa la base en la elaboración de estados financieros, como resultado debe presentar sumas iguales en los débitos y créditos de una transacción comercial.
-    .jumbotron-6.mt-3
-      .row.justify-content-center.align-items-center.mt-3
+    
+      .row.justify-content-center.align-items-center.mt-5
         .col-auto 
             img.img-a.my-3(src="@/assets/curso/images/tema1/img_19.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
         .col
@@ -974,21 +974,21 @@
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
                     p Anexo. Comprobantes de contabilidad:
-    hr
-    h6.mb-2 Títulos valores
+    hr.mt-5
+    h6.mt-5 Títulos valores
     p.mt-3 El Código de Comercio define los títulos valores como:
-    .jumbotron-6
-      .row.justify-content-center.align-items-center.mt-3
+    
+      .row.justify-content-center.align-items-center.mt-5
           .col
             .bloque-texto-d.color-primario.p-4
               .bloque-texto-d__texto.mb-1
                 i.fas.fa-quote-left
-                span.h2 Documentos necesarios para legitimar el ejercicio del derecho literal y autónomo que en ellos se incorpora. Pueden ser de contenido crediticio, corporativos o de participación y de tradición o representativos de mercancías.
+                span.h5 Documentos necesarios para legitimar el ejercicio del derecho literal y autónomo que en ellos se incorpora. Pueden ser de contenido crediticio, corporativos o de participación y de tradición o representativos de mercancías.
                 i.fas.fa-quote-right
               .bloque-texto-d__autor 
                 .h6.mb-0  (Secretaría del Senado, 2020. Art. 619)
 
-            p.mt-3 El Código del Comercio establece (Secretaría del Senado, 2020. Art. 621):
+            p.mt-5 El Código del Comercio establece (Secretaría del Senado, 2020. Art. 621):
             br
             p Además de lo dispuesto para cada título-valor en particular, los títulos-valores deberán llenar los requisitos siguientes:
 
@@ -1025,28 +1025,28 @@
           .tarjeta-Avatar
             img(src="@/assets/curso/images/tema1/img_21.svg" alt="", style="width:180px; display:inline-block; margin:auto 4rem;")
             .tarjeta.color-sistema-h.p-4
-              .h4.text-center Nominativos
+              h4 Nominativos
               p (Secretaría del Senado, 2020. Art. 648):El título-valor será nominativo cuando en él o en la norma que rige su creación se exija la inscripción del tenedor en el registro que llevará el creador del título. Solo será reconocido como tenedor legítimo quien figure, a la vez, en el texto del documento y en el registro de este.
 
         .col-md-6.col-lg.mb-5
           .tarjeta-Avatar
             img(src="@/assets/curso/images/tema1/img_22.svg" alt="", style="width:180px; display:inline-block; margin:auto 4rem;")
             .tarjeta.color-sistema-h.p-4
-              .h4.text-center A la orden
+              h4 A la orden
               p (Secretaría del Senado, 2020. Art.651):Los títulos-valores expedidos a favor de determinada persona, en los cuales se agregue la cláusula "a la orden" o se exprese que son transferibles por endoso, o se diga que son negociables, o se indique su denominación específica de título-valor, serán a la orden y se transmitirán por endoso y entrega del título, sin perjuicio de lo dispuesto en el artículo 648.
 
         .col-md-6.col-lg.mb-5
           .tarjeta-Avatar
             img(src="@/assets/curso/images/tema1/img_23.svg" alt="", style="width:180px; display:inline-block; margin:auto 4rem;")
-            .tarjeta.color-color-sistema-h.p-4
-              .h4.text-center Al portador
+            .tarjeta.color-sistema-h.p-4
+              h4 Al portador
               p (Secretaría del Senado, 2020. Art. 668): Son títulos al portador los que no se expidan a favor de persona determinada, aunque no incluyan la cláusula "al portador", y los que contengan dicha cláusula. La simple exhibición del título legitimará al portador y su tradición se producirá por la sola entrega.
-      hr
-      p.mt-2 Clases de títulos valores más utilizados:
+      hr.mt-5
+      p.mt-5 Clases de títulos valores más utilizados:
       
 
       AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
-        .row(titulo="Letra de cambio")
+        .row.px-5(titulo="Letra de cambio")
           .col-md-6.mb-4.mb-md-0
           p Es un documento de carácter crediticio, con la representación de las figuras como son: girador y librador que pactan un valor, para ser entregado en una fecha determinada.
           h6.mt-3 Requisitos
@@ -1076,7 +1076,7 @@
                   .anexo__texto
                     p Anexo. Letra de cambio: 
         
-        .row(titulo="Pagaré a la orden")
+        .row.px-5(titulo="Pagaré a la orden")
           .col-md-6.mb-4.mb-md-0
           p Es una promesa de pago, es un documento crediticio que respalda una unidad económica en una fecha determinada y, con un interés adicional.
           p.mt-3 <b>Requisitos</b>  (Secretaría del Senado, 2020. Art. 709):
@@ -1109,7 +1109,7 @@
                   .anexo__texto
                     p Anexo. Pagaré a la orden:
 
-        .row(titulo="Cheque")
+        .row.px-5(titulo="Cheque")
           .col-md-6.mb-4.mb-md-0
           p Un título valor de carácter crediticio respalda unidades monetarias, mediante el uso de una entidad financiera.
           h6.mt-3 Características  (Secretaría del Senado, 2020. Art.712):
@@ -1144,7 +1144,7 @@
                   .anexo__texto
                     p Anexo. Cheque:
 
-        .row(titulo="Factura cambiaria")
+        .row.px-5(titulo="Factura cambiaria")
           .col-md-6.mb-4.mb-md-0
           p (Secretaría del Senado, 2020): Registra las ventas de mercancías que pueden ser al contado o a plazos.
           .row.mt-3
@@ -1193,33 +1193,34 @@
                       span 4
                     |   Dentro de cuatro meses, si fueren expedidos en algún país latinoamericano para ser pagados fuera de América Latina.
 
-        .row(titulo="Bonos")
+        .row.px-5(titulo="Bonos")
           .col-md-6.mb-4.mb-md-0
           p Títulos valores que representan inversiones en emisiones realizadas por el Estado para financiarse, son inversiones de carácter público.
-          
-          hr.mt-3
-          .row.align-items-center
-            .col-auto
-              figure
-                img.me-5(src='@/assets/curso/images/tema1/ico_1.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float     
-            .col
-              p.mb-2 Copia de la Resolución y otros actos administrativos, por medio de los cuales el Ministerio de Hacienda y Crédito Público y demás organismos competentes autorizaron la respectiva emisión; 
-          hr.mt-3
-          .row.align-items-center
-            .col-auto
-              figure
-                img.me-5(src='@/assets/curso/images/tema1/ico_2.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float      
-            .col
-              p Copia de la justificación técnica, económica y social de la emisión, su plan de financiación por fuentes de recursos y el cronograma de gastos anuales en moneda local y extranjera. 
-          hr.mt-3
-          .row.align-items-center
-            .col-auto
-              figure
-                img.me-5(src='@/assets/curso/images/tema1/ico_3.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float     
-            .col
-              p Las condiciones financieras y las garantías de los valores emitidos por las entidades públicas deberán sujetarse a lo dispuesto en las Resoluciones Externas No. 1 y No. 11 de 1993 de la Junta Directiva del Banco de la República, o a las normas que las modifiquen o sustituyan. 
-          
-          p.mt-3 <b>Características</b>  (Secretaría del Senado, 2020. Art.712):
+        
+          div.div.justify-content-center.m-auto
+            hr.mt-3
+            .row.align-items-center
+              .col-auto
+                figure
+                  img.me-5(src='@/assets/curso/images/tema1/ico_1.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float     
+              .col
+                p.mb-2 Copia de la Resolución y otros actos administrativos, por medio de los cuales el Ministerio de Hacienda y Crédito Público y demás organismos competentes autorizaron la respectiva emisión; 
+            hr.mt-3
+            .row.align-items-center
+              .col-auto
+                figure
+                  img.me-5(src='@/assets/curso/images/tema1/ico_2.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float      
+              .col
+                p Copia de la justificación técnica, económica y social de la emisión, su plan de financiación por fuentes de recursos y el cronograma de gastos anuales en moneda local y extranjera. 
+            hr.mt-3
+            .row.align-items-center
+              .col-auto
+                figure
+                  img.me-5(src='@/assets/curso/images/tema1/ico_3.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float     
+              .col
+                p Las condiciones financieras y las garantías de los valores emitidos por las entidades públicas deberán sujetarse a lo dispuesto en las Resoluciones Externas No. 1 y No. 11 de 1993 de la Junta Directiva del Banco de la República, o a las normas que las modifiquen o sustituyan. 
+            
+          p.mt-5 <b>Características</b>  (Secretaría del Senado, 2020. Art.712):
 
 
           p.mt-3 Art. 1.1.1.10.- Adicionado Res. 470 del 16 de junio de 2005 (Legis, 2020. Art. 1). Inscripción automática de títulos emitidos por Fondos Comunes Especiales, administrados por sociedades fiduciarias, que cumplan con la normatividad aplicable a los fondos de capital privado de que trata esta resolución. Se entenderán inscritos en el Registro Nacional de Valores e Intermediarios para todos los efectos legales y autorizada la oferta pública, los títulos que emitan los fondos comunes especiales administrados por sociedades fiduciarias, cuando medie solicitud expresa del administrador y el reglamento autorizado por la Superintendencia Bancaria cumpla con los requisitos esenciales previstos en la presente resolución para los fondos de capital privado.
@@ -1275,11 +1276,11 @@
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
                     p Anexo. Bonos
-      hr
+      hr.mt-5
 
-      h6 Documentos no contables.
+      h6.mg Documentos no contables.
 
-      p.mt-3 Son documentos informativos, entre los cuales se incluyen:
+      p.mg Son documentos informativos, entre los cuales se incluyen:
     TabsC.color-acento-contenido.mb-5
         .py-3.py-md-4(titulo="Cotización:")
           .row
