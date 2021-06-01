@@ -113,36 +113,37 @@
       br
       p En la clasificación de títulos valores se encuentran:
 
-    div.div.justify-content-center.m-auto
-      hr.mt-5
-     
-      .row.align-items-center
-        .col-auto
-          figure
-            img.me-5(src='@/assets/curso/images/tema1/ico_1.svg' alt="", style="width:70px; display:block; margin:auto 1.5rem;").img-float     
-        .col
-          h6.mb-2 Títulos valores a la orden:
-          br
-          p.mb-2 Mediante la figura del endoso, se transfiere la responsabilidad de pago de una persona a otra sin interesar quién es el que porte el documento, se agrega la expresión “a la orden”. Con la firma del endosante se transfiere responsabilidades al endosatario. Dos ejemplos son: la letra de cambio y el pagaré.
-      hr
-      .row.align-items-center
-        .col-auto
-          figure
-            img.me-5(src='@/assets/curso/images/tema1/ico_2.svg' alt="", style="width:70px; display:block; margin:auto 1.5rem;").img-float      
-        .col
-          h6.mb-2 Títulos al portador:
-          br
-          p Donde el reconocimiento se hace a quien ostente el título, un ejemplo son los cheques al portador, poco usados por tema de seguridad, pero vigentes aún.
-      hr
-      .row.align-items-center
-        .col-auto
-          figure
-            img.me-5(src='@/assets/curso/images/tema1/ico_3.svg' alt="", style="width:70px; display:block; margin:auto 1.5rem;").img-float     
-        .col
-          h6.mb-2 Títulos valores nominativos:
-          br
-          p Estos títulos son expedidos a favor de una determinada persona. En el Código de Comercio se determina que la persona que gira, o transfiere el título debe realizar la inscripción del tenedor en el registro que lleva el creador del título (Secretaría del Senado, 2020. Art. 648).
-      hr
+    .row.justify-content-center
+      .col-8
+        hr.mt-5.mb-4
+      
+        .row.justify-content-center.align-items-center
+          .col-auto
+            figure
+              img.me-5(src='@/assets/curso/images/tema1/ico_1.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float     
+          .col
+            h6.mb-2 Títulos valores a la orden:
+            br
+            p.mb-2 Mediante la figura del endoso, se transfiere la responsabilidad de pago de una persona a otra sin interesar quién es el que porte el documento, se agrega la expresión “a la orden”. Con la firma del endosante se transfiere responsabilidades al endosatario. Dos ejemplos son: la letra de cambio y el pagaré.
+        hr.mt-5.mb-4
+        .row.justify-content-center.align-items-center
+          .col-auto
+            figure
+              img.me-5(src='@/assets/curso/images/tema1/ico_2.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float      
+          .col
+            h6.mb-2 Títulos al portador:
+            br
+            p Donde el reconocimiento se hace a quien ostente el título, un ejemplo son los cheques al portador, poco usados por tema de seguridad, pero vigentes aún.
+        hr.mt-5.mb-4
+        .row.justify-content-center.align-items-center
+          .col-auto
+            figure
+              img.me-5(src='@/assets/curso/images/tema1/ico_3.svg' alt="", style="width:70px; display:block; margin:auto 0;").img-float     
+          .col
+            h6.mb-2 Títulos valores nominativos:
+            br
+            p Estos títulos son expedidos a favor de una determinada persona. En el Código de Comercio se determina que la persona que gira, o transfiere el título debe realizar la inscripción del tenedor en el registro que lleva el creador del título (Secretaría del Senado, 2020. Art. 648).
+        hr.mt-5.mb-4
     p.mt-5 Para mayor profundización en el tema se sugiere revisar los siguientes enlaces:
 
     .row.mt-5
@@ -242,15 +243,15 @@
       .col-auto 
         img.img-a.my-3(src="@/assets/curso/images/tema1/img_4.svg" alt="", style="width:300px; display:inline-block; margin:auto 5rem;").img-fluid
 
-    p.mt-3 Obligado a facturar electrónicamente: persona natural o jurídica comprendida en el ámbito de este Decreto y que como tal debe facturar electrónicamente en las condiciones que se establecen en los artículos siguientes. 
-
-    p Adquirente: persona natural o jurídica que adquiere bienes y/o servicios y debe exigir factura o documento equivalente y, que, tratándose de la factura electrónica, la recibe, rechaza, cuando sea del caso, y conserva para su posterior exhibición, en las condiciones que se establecen en el presente decreto. 
+    p.mt-3 <b>Obligado a facturar electrónicamente:</b> persona natural o jurídica comprendida en el ámbito de este Decreto y que como tal debe facturar electrónicamente en las condiciones que se establecen en los artículos siguientes. 
     br
-    p Proveedor tecnológico: es la persona natural o jurídica que podrá prestar a los obligados a facturar electrónicamente y/o a los adquirentes que opten por recibir la factura en formato electrónico de generación, cuando unos u otros así lo autoricen, los servicios inherentes a la expedición de la factura electrónica, incluida la entrega del ejemplar a la DIAN como se indica en el artículo 7° del presente Decreto, así como los servicios relacionados con su recibo, rechazo y conservación. El proveedor tecnológico deberá surtir el proceso de autorización por parte de la DIAN previsto en el artículo 12 de este decreto. 
+    p <b>Adquirente:</b> persona natural o jurídica que adquiere bienes y/o servicios y debe exigir factura o documento equivalente y, que, tratándose de la factura electrónica, la recibe, rechaza, cuando sea del caso, y conserva para su posterior exhibición, en las condiciones que se establecen en el presente decreto. 
     br
-    p Catálogo de Participantes de Factura Electrónica: es el registro electrónico administrado por la DIAN, que provee información de los obligados a facturar electrónicamente dentro del ámbito del presente Decreto, de los adquirentes que decidan recibirla electrónicamente y proveedores tecnológicos, con el fin de facilitar su operatividad. 
+    p <b>Proveedor tecnológico:</b> es la persona natural o jurídica que podrá prestar a los obligados a facturar electrónicamente y/o a los adquirentes que opten por recibir la factura en formato electrónico de generación, cuando unos u otros así lo autoricen, los servicios inherentes a la expedición de la factura electrónica, incluida la entrega del ejemplar a la DIAN como se indica en el artículo 7° del presente Decreto, así como los servicios relacionados con su recibo, rechazo y conservación. El proveedor tecnológico deberá surtir el proceso de autorización por parte de la DIAN previsto en el artículo 12 de este decreto. 
     br
-    p Código Único de Factura Electrónica: El código único de factura electrónica para las facturas electrónicas, corresponde a un valor alfanumérico, obtenido a partir de la aplicación de un procedimiento que utiliza datos de la factura, que adicionalmente incluye la clave de contenido técnico de control generada y entregada por la DIAN. 
+    p <b>Catálogo de Participantes de Factura Electrónica:</b> es el registro electrónico administrado por la DIAN, que provee información de los obligados a facturar electrónicamente dentro del ámbito del presente Decreto, de los adquirentes que decidan recibirla electrónicamente y proveedores tecnológicos, con el fin de facilitar su operatividad. 
+    br
+    p electrónicas, corresponde a un valor alfanumérico, obtenido a partir de la aplicación de un procedimiento que utiliza datos de la factura, que adicionalmente incluye la clave de contenido técnico de control generada y entregada por la DIAN. 
     br
     p El Código Único de Factura Electrónica deberá ser incluido como un campo más dentro de la factura electrónica. Este código deberá visualizarse en la representación gráfica de las facturas electrónicas y en los códigos bidimensionales QR definidos para tal fin.
     br
@@ -293,32 +294,30 @@
                     | Tiquetes de transporte de pasajero de forma aérea         
             .row
               
-                p.h6.mt-3 Requisitos del documento equivalente:
+                p.h6.mt-5 Requisitos del documento equivalente:
 
                 p.mt-3 Son todos aquellos inmersos en la resolución de la Dirección de Impuestos y Aduanas Nacionales DIAN 000042 del 2020 en el artículo 13.
 
-                ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Estar denominado expresamente como sistema P.O.S.
-                  li 
-                    .lista-ul__vineta
-                      
-                    p.p Debe presentar Número de Identificación Tributaria (NIT).
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Debe llevar un número consecutivo.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Especificaciones de la transacción como: cantidad, unidad de medida,identificación de bienes y servicios, indicar la calidad de agente retenedor del impuesto sobre las ventas y demás.
+                .col-sm.mt-3  
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      | Estar denominado expresamente como sistema P.O.S.
+                    li 
+                      i.fas.fa-check
+                      | Debe presentar Número de Identificación Tributaria (NIT).
+                    li 
+                      i.fas.fa-check
+                      | Debe llevar un número consecutivo.
+                    li 
+                      i.fas.fa-check
+                      | Especificaciones de la transacción como: cantidad, unidad de medida,identificación de bienes y servicios, indicar la calidad de agente retenedor del impuesto sobre las ventas y demás.
                 
     .cajon.color-acento-contenido.p-4.mt-5
         .h5 Recordemos que una factura al contado se registra:
         p Con un debito en la caja y un crédito en la cuenta comercio al por mayor y por menor (ingresos ordinarios), cuando es gravada la mercancía se debe reconocer la cuenta impuestos por pagar, acreditando.      
 
-    p.mt-3 Cuando se reconocen las compras, se registra con un debito en las compras al contado, se reconoce la cuenta de impuestos al valor agregado IVA, debitando y aplicando la tarifa vigente y disminuyen las cuentas de efectivo (caja o banco).
+    p.mt-5 Cuando se reconocen las compras, se registra con un debito en las compras al contado, se reconoce la cuenta de impuestos al valor agregado IVA, debitando y aplicando la tarifa vigente y disminuyen las cuentas de efectivo (caja o banco).
     br
     p Otro ejemplo de documento equivalente son los expedidos por máquinas registradoras, las boletas de espectáculos públicos y todos los requisitos contemplados en el Articulo 771-2 del Estatuto Tributario (Secretaría del Senado, 2020).     
 
@@ -346,35 +345,30 @@
     p Comúnmente se conoce como orden pago, soporte que respalda los desembolsos de efectivo, por norma de control interno realizados mediante cheques. Los comprobantes de egreso se elaboran por duplicados, para anexar a la cuenta que respalda la entrega del título valor, que es el cheque con que se efectúa el pago.
 
         .row.justify-content-center.align-items-center.mt-5
-          .col
-            h6.mb-2 Características:
-             ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Número del comprobante, ciudad origen.
-                  li 
-                    .lista-ul__vineta
-                      
-                    p.p Fecha.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p El valor en números y letras.
-                  li 
-                    .lista-ul__vineta
-
-                    p.p El registro contable, el número de cheque.
-                  li 
-                    .lista-ul__vineta
-
-                    p.p Datos del beneficiario como: identificación, firma y fecha en que se recibe.
-                  li 
-                    .lista-ul__vineta
-
-                    p.p Las firmas de elaboración, aprobado por, contabilizado por.
+          .col-sm  
+            .h6 Características:
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                | Número del comprobante, ciudad origen.
+              li 
+                i.fas.fa-check
+                | Fecha.
+              li 
+                i.fas.fa-check
+                | El valor en números y letras.
+              li 
+                i.fas.fa-check
+                | El registro contable, el número de cheque.
+              li 
+                i.fas.fa-check
+                | Datos del beneficiario como: identificación, firma y fecha en que se recibe.
+              li 
+                i.fas.fa-check
+                | Las firmas de elaboración, aprobado por, contabilizado por.
 
           .col-auto 
-              img.img-a.my-3(src="@/assets/curso/images/tema1/img_6.svg" alt="", style="width:300px; display:inline-block; margin:auto 4rem;").img-fluid
+              img.img-a.my-3(src="@/assets/curso/images/tema1/img_6.svg" alt="", style="width:300px; display:inline; margin:auto 8rem;").img-fluid
           .row.mt-2
             .col-lg-6
               a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
@@ -392,49 +386,41 @@
         .row.justify-content-center.align-items-center.mt-5
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
-          .col
-              h6.mb-2 Características:
-              P.mt-3 El soporte de contabilidad recibo de caja debe contener:
-              ol.lista-ol--cuadro.mt-3
-                    li 
-                      .lista-ul__vineta
-                      p.p Nombre de la empresa, número de identificación tributaria NIT.
-                    li 
-                      .lista-ul__vineta
-                        
-                      p.p Número consecutivo.
-                    li 
-                      .lista-ul__vineta
-                      
-                      p.p Dirección y datos generales de la empresa.
-                    li
-                      .lista-ul__vineta
 
-                      p.p Ciudad y fecha donde se realiza la transacción.
-                    li 
-                      .lista-ul__vineta
-
-                      p.p El concepto por el cual se recibe el efectivo.
-                    li 
-                      .lista-ul__vineta
-
-                      p.p El valor en números y letras recibidos.
-                    li 
-                      .lista-ul__vineta
-                        
-                      p.p El número de cheque y el banco de origen del título valor.
-                    li 
-                      .lista-ul__vineta
-                      
-                      p.p Debe ser entregado al cliente con firma y sello de la empresa
-                    li 
-                      .lista-ul__vineta
-
-                      p.p El registro contable con la afectación a las cuentas respectivas.
-                    li 
-                      .lista-ul__vineta
-
-                      p.p Firmas de quien elaboró, aprobó y contabilizó.
+          .col-sm  
+            .h6 El soporte de contabilidad recibo de caja debe contener:
+            p.mt-3 El soporte de contabilidad recibo de caja debe contener:
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                | Nombre de la empresa, número de identificación tributaria NIT.
+              li 
+                i.fas.fa-check
+                | Número consecutivo.
+              li 
+                i.fas.fa-check
+                | Dirección y datos generales de la empresa.
+              li 
+                i.fas.fa-check
+                | Ciudad y fecha donde se realiza la transacción.
+              li 
+                i.fas.fa-check
+                | El concepto por el cual se recibe el efectivo.
+              li 
+                i.fas.fa-check
+                | El valor en números y letras recibidos.
+              li 
+                i.fas.fa-check
+                | El número de cheque y el banco de origen del título valor.
+              li 
+                i.fas.fa-check
+                | Debe ser entregado al cliente con firma y sello de la empresa
+              li 
+                i.fas.fa-check
+                | El registro contable con la afectación a las cuentas respectivas.
+              li 
+                i.fas.fa-check
+                | Firmas de quien elaboró, aprobó y contabilizó.
 
               .row.mt-5
                 .col-lg-12
@@ -453,9 +439,9 @@
             h6 Características:
             p.mt-3 Debe definir la ciudad y el nombre del establecimiento comercial, fecha y plazos de pagos, es decir el número de cuotas para ser pagadas por él cuenta habiente, si es tarjeta de crédito. Si es cuenta de ahorro, la transacción descuenta de forma automática y por medio de correo electrónico se notifica al cliente, comúnmente el reporte es enviado al dispositivo móvil del cliente por parte de la entidad financiera.
           .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema1/img_8.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
+            img.img-a(src="@/assets/curso/images/tema1/img_8.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
 
-        .row.mt-2
+        .row
           .col-lg-6
             a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
               .anexo__icono
@@ -472,22 +458,22 @@
           .col
               
               h6 Características:
-              ol.lista-ol--cuadro.mt-3
-                    li 
-                      .lista-ul__vineta
-                      p.p Presenta columnas que representan nombres, apellidos y documento de identidad.
-                    li 
-                      .lista-ul__vineta
-                        
-                      p.p En las columnas se encuentra el devengado y los descuentos que por ley tienen los empleados.
-                    li 
-                      .lista-ul__vineta
-                      
-                      p.p Columna de horas extra y comisiones.
-                    li
-                      .lista-ul__vineta
-
-                      p.p Presenta nombre de la empresa, NIT de la empresa, dirección y periodo de pago.
+              .col-sm  
+            
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Presenta columnas que representan nombres, apellidos y documento de identidad.
+                  li 
+                    i.fas.fa-check
+                    | En las columnas se encuentra el devengado y los descuentos que por ley tienen los empleados.
+                  li
+                    i.fas.fa-check
+                    | Columna de horas extra y comisiones.
+                  li 
+                    i.fas.fa-check
+                    | Presenta nombre de la empresa, NIT de la empresa, dirección y periodo de pago.
+                 
               .row.mt-5
                   .col-lg-12
                     a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
@@ -526,22 +512,21 @@
               
               h6 Características:
               p.mt-3 Es un medio de confrontación de los pagos efectuados al gobierno nacional, distrital o municipal por concepto de tributos. Son ejemplos de soportes los pagos por concepto de las declaraciones de:
-              ol.lista-ol--cuadro.mt-3
-                    li 
-                      .lista-ul__vineta
-                      p.p Impuesto al Valor Agregado (IVA).
-                    li 
-                      .lista-ul__vineta
-                        
-                      p.p Retención en la Fuente.
-                    li 
-                      .lista-ul__vineta
-                      
-                      p.p Impuesto de Renta y Complementario.
-                    li
-                      .lista-ul__vineta
-
-                      p.p Impuesto de Industria y Comercio.
+               .col-sm  
+            
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Impuesto al Valor Agregado (IVA).
+                  li 
+                    i.fas.fa-check
+                    | Retención en la Fuente.
+                  li
+                    i.fas.fa-check
+                    | Impuesto de Renta y Complementario.
+                  li 
+                    i.fas.fa-check
+                    | Impuesto de Industria y Comercio.
 
               p.mt-3 Para revisar los diferentes formularios, por favor ingrese a los siguientes enlaces:
         
@@ -567,57 +552,54 @@
       .row.justify-content-center.align-items-center.mt-5
         .col
           h6.mb-2 Características:
-          p.mt-3 Es un medio de confrontación de los pagos efectuados al gobierno nacional, distrital o municipal por concepto de tributos. Son ejemplos de soportes los pagos por concepto de las declaraciones de:
-          ol.lista-ol--cuadro.mt-3
-              li 
-                .lista-ul__vineta
-                p.p Presenta una cuenta de origen del banco que gira o recibe transferencias.
-              li 
-                .lista-ul__vineta
-                  
-                p.p Una cuenta de destino, al banco que transfiriere recursos. 
-              li 
-                .lista-ul__vineta
-                
-                p.p Valor a transferir.
-              li 
-                .lista-ul__vineta
+          p.mt-3.mb-3 Es un medio de confrontación de los pagos efectuados al gobierno nacional, distrital o municipal por concepto de tributos. Son ejemplos de soportes los pagos por concepto de las declaraciones de:
+          .col-sm  
+            
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Presenta una cuenta de origen del banco que gira o recibe transferencias.
+                  li 
+                    i.fas.fa-check
+                    | Una cuenta de destino, al banco que transfiriere recursos. 
+                  li
+                    i.fas.fa-check
+                    | Valor a transferir.
+                  li 
+                    i.fas.fa-check
+                    | Fecha, que se genera automáticamente.
+                  li 
+                    i.fas.fa-check
+                    | Por el monto de la transacción se genera un documento soporte para registrar en contabilidad, este documento se genera de forma automática.
 
-                p.p Fecha, que se genera automáticamente.
-              li 
-                .lista-ul__vineta
+          p.mt-3.mb-3 Para diligenciar se tiene en cuenta:
 
-                p.p Por el monto de la transacción se genera un documento soporte para registrar en contabilidad, este documento se genera de forma automática.
-          p.mt-3 Para diligenciar se tiene en cuenta:
 
-          ol.lista-ol--cuadro.mt-3
-            li 
-              .lista-ul__vineta
-              p.p Nombre o razón social.
-            li 
-              .lista-ul__vineta
-                
-              p.p Dirección.
-            li 
-              .lista-ul__vineta
-              
-              p.p Ciudad y teléfono.
-            li
-              .lista-ul__vineta
-
-              p.p Datos de la cuenta bancaria, banco, cuenta, número de cuenta, tipo de cuenta. 
-            li
-              .lista-ul__vineta
-
-              p.p Titular de la cuenta.    
-            li
-              .lista-ul__vineta
-
-              p.p Autorizaciones y firmas.
+          .col-sm  
+            
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Nombre o razón social.
+                  li 
+                    i.fas.fa-check
+                    | Dirección. 
+                  li
+                    i.fas.fa-check
+                    | Ciudad y teléfono.
+                  li 
+                    i.fas.fa-check
+                    | Datos de la cuenta bancaria, banco, cuenta, número de cuenta, tipo de cuenta.
+                  li 
+                    i.fas.fa-check
+                    | Titular de la cuenta.
+                  li 
+                    i.fas.fa-check
+                    | Autorizaciones y firmas.
                 
         .col-auto 
             img.img-a.my-3(src="@/assets/curso/images/tema1/img_12.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
-        .row.mt-2
+        .row.mt-5
           .col-lg-6
             a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
               .anexo__icono
@@ -637,27 +619,25 @@
               
               h6 Características:
               p.mt-3 Documento donde se registran, por parte de la entidad financiera, todos los movimientos efectuados durante el mes. Se registran pagos de cheques, transferencias, notas bancarias, gravámenes financieros. Es el documento base para realizar la conciliación bancaria y el control del efectivo.
-
-              ol.lista-ol--cuadro.mt-3
-                    li 
-                      .lista-ul__vineta
-                      p.p Saldos iniciales.
-                    li 
-                      .lista-ul__vineta
-                        
-                      p.p Intereses.
-                    li 
-                      .lista-ul__vineta
-                      
-                      p.p Avances.
-                    li
-                      .lista-ul__vineta
-
-                      p.p Saldo final.
-                    li
-                      .lista-ul__vineta
-
-                      p.p Cargos y abonos.
+              .col-sm.mt-5 
+            
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Saldos iniciales.
+                  li 
+                    i.fas.fa-check
+                    | Intereses. 
+                  li
+                    i.fas.fa-check
+                    | Avances.
+                  li 
+                    i.fas.fa-check
+                    | Saldo final.
+                  li 
+                    i.fas.fa-check
+                    | Cargos y abonos.
+  
               .row.mt-5
                   .col-lg-12
                     a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
@@ -675,23 +655,22 @@
           .col
             h6.mb-2 Características:
             p.mt-3 El soporte debe contener el registro emitido por la máquina registradora del banco, el sello y la firma de la persona autorizada en el banco. El documento contiene los siguientes elementos:
-             ol.lista-ol--cuadro.mt-3
+            .col-sm.mt-3
+            
+                ul.lista-ul--color
                   li 
-                    .lista-ul__vineta
-                    p.p Ciudad y fecha.
+                    i.fas.fa-check
+                    | Ciudad y fecha.
                   li 
-                    .lista-ul__vineta
-                      
-                    p.p Número de la cuenta bancaria.
+                    i.fas.fa-check
+                    | Número de la cuenta bancaria. 
+                  li
+                    i.fas.fa-check
+                    | Valor a consignar en números o letras.
                   li 
-                    .lista-ul__vineta
-                    
-                    p.p Valor a consignar en números o letras.
-
-                  li 
-                    .lista-ul__vineta
-
-                    p.p Nombre de quien consigna y un número telefónico.
+                    i.fas.fa-check
+                    | Nombre de quien consigna y un número telefónico.
+                  
 
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_14.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
@@ -713,27 +692,25 @@
           
           h6 Características:
           p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
+          .col-sm.mt-3
+            
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Registrar ciudad y fecha..
+                  li 
+                    i.fas.fa-check
+                    | Pagado al beneficiario. 
+                  li
+                    i.fas.fa-check
+                    | Valor y concepto.
+                  li 
+                    i.fas.fa-check
+                    | Soporte de pago anexo.
+                  li 
+                    i.fas.fa-check
+                    | Consecutivo.
 
-          ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Registrar ciudad y fecha.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Pagado al beneficiario.
-                li
-                  .lista-ul__vineta
-                  
-                  p.p Valor y concepto.
-                li
-                  .lista-ul__vineta
-
-                  p.p Soporte de pago anexo.
-                li
-                  .lista-ul__vineta
-
-                  p.p Consecutivo.
           .row.mt-5
               .col-lg-12
                 a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
@@ -751,27 +728,25 @@
           .col
             h6.mb-2 Características:
             p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
-             ol.lista-ol--cuadro.mt-3
+            .col-sm.mt-3
+            
+                ul.lista-ul--color
                   li 
-                    .lista-ul__vineta
-                    p.p Debe contener nombre e identificación.
+                    i.fas.fa-check
+                    | Debe contener nombre e identificación.
                   li 
-                    .lista-ul__vineta
-                      
-                    p.p Consecutivo.
+                    i.fas.fa-check
+                    | Consecutivo.
+                  li
+                    i.fas.fa-check
+                    | Concepto.
                   li 
-                    .lista-ul__vineta
-                    
-                    p.p Concepto.
+                    i.fas.fa-check
+                    | Valor.
+                  li 
+                    i.fas.fa-check
+                    | Firmas de personal responsable.
 
-                  li 
-                    .lista-ul__vineta
-
-                    p.p Valor.
-                  li 
-                    .lista-ul__vineta
-
-                    p.p Firmas de personal responsable.
 
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_16.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
@@ -789,44 +764,49 @@
           img.img-a.my-3(src="@/assets/curso/images/tema1/img_17.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
       .col
           
-          h6 Nota crédito:
+          .h6 Nota crédito:
           p.mt-3 Soporte contable para reconocer disminuciones por concepto de descuentos no incluidos en las facturas, es utilizado cuando se presentan las devoluciones de mercancías, se elabora con original y copia, para ser conservado en contabilidad y la copia entregada al cliente.
           h6.mt-3 Características:
           p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
+            
+            .h6.mt-3 Contenido:
+          .col-sm.mt-3
 
-          ol.lista-ol--cuadro.mt-3
-              li 
-                .lista-ul__vineta
-                p.p Documento utilizado para reconocer cambios en las facturas, #[br]evidencia dineros 
-              li 
-                .lista-ul__vineta
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Documento utilizado para reconocer cambios en las facturas,evidencia dineros 
+                  li 
+                    i.fas.fa-check
+                    | Devueltos al cliente por inconformidades.
+                  li
+                    i.fas.fa-check
+                    | Utilizado como soporte cuando se anulan facturas.
+                  li 
+                    i.fas.fa-check
+                    | Valor.
+                  li 
+                    i.fas.fa-check
+                    | Corrige datos, valores iniciales de las facturas.
+
+         
+          .h6.mt-3 Contenido:
+          .col-sm.mt-3
+
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Ciudad y fecha.
+                  li 
+                    i.fas.fa-check
+                    | Consecutivo.
+                  li
+                    i.fas.fa-check
+                    | Descripción o detalle.
+                  li 
+                    i.fas.fa-check
+                    | Firmas autorizadas.
                   
-                p.p Devueltos al cliente por inconformidades.
-              li 
-                .lista-ul__vineta
-                
-                p.p Utilizado como soporte cuando se anulan facturas.
-              li
-                .lista-ul__vineta
-
-                p.p Corrige datos, valores iniciales de las facturas.
-          h6.mt-3 Contenido:
-          ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Ciudad y fecha.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Consecutivo.
-                li
-                  .lista-ul__vineta
-                  
-                  p.p Descripción o detalle.
-                li
-                  .lista-ul__vineta
-
-                  p.p Firmas autorizadas.
                 
           .row.mt-5
               .col-lg-12
@@ -844,42 +824,42 @@
           .col
             h6.mb-2 Características:
             p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
-            ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Reconoce la disminución de un activo en la depreciación.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Registra las amortizaciones en los créditos bancarios como control.
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Se utiliza para hacer ajustes en el cierre contable.
+            .col-sm.mt-3
 
-                li 
-                  .lista-ul__vineta
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Reconoce la disminución de un activo en la depreciación.
+                  li 
+                    i.fas.fa-check
+                    | Registra las amortizaciones en los créditos bancarios como control.
+                  li
+                    i.fas.fa-check
+                    | Se utiliza para hacer ajustes en el cierre contable.
+                  li 
+                    i.fas.fa-check
+                    | Utilizado solo por el área de contabilidad.
+                  li 
+                    i.fas.fa-check
+                    | Corrige datos, valores iniciales de las facturas.
 
-                  p.p Utilizado solo por el área de contabilidad.
+            h6.mt-3.mb-2 Características:
 
-            h6.mb-2 Características:
-            
-            ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Presenta el detalle.
-                  li 
-                    .lista-ul__vineta
-                      
-                    p.p La fecha de elaboración.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p La imputación contable.
-                  li 
-                    .lista-ul__vineta
+            .col-sm.mt-3
 
-                    p.p Las firmas responsables.
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Presenta el detalle.
+                  li 
+                    i.fas.fa-check
+                    | La fecha de elaboración.
+                  li
+                    i.fas.fa-check
+                    | La imputación contable.
+                  li 
+                    i.fas.fa-check
+                    | Las firmas responsables.
 
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_18.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
@@ -900,73 +880,68 @@
         .col
             
             h6 Características:
-            ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Presentan un consecutivo para vincular con las operaciones comerciales de forma
-                  li 
-                    .lista-ul__vineta
-                      
-                    p.p Cronológica.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Fecha.
-                  li
-                    .lista-ul__vineta
+            .col-sm.mt-3
 
-                    p.p Detalle.
+                ul.lista-ul--color
                   li 
-                    .lista-ul__vineta
-                    
-                    p.p Cuantía.
+                    i.fas.fa-check
+                    | Presentan un consecutivo para vincular con las operaciones comerciales de forma
+                  li 
+                    i.fas.fa-check
+                    | Cronológica.
                   li
-                    .lista-ul__vineta
-
-                    p.p Registro contable.
+                    i.fas.fa-check
+                    | Fecha.
+                  li 
+                    i.fas.fa-check
+                    | Detalle.
+                  li 
+                    i.fas.fa-check
+                    | Cuantía.
+                  li 
+                    i.fas.fa-check
+                    | Registro contable.
 
             p.mt-3 Son ejemplos de comprobantes de contabilidad:
 
-            ol.lista-ol--cuadro.mt-3
+            .col-sm.mt-3
+
+                ul.lista-ul--color
                   li 
-                    .lista-ul__vineta
-                    p.p Comprobantes de apertura o de inicio: donde se registra aporte inicial de socios o accionistas.
+                    i.fas.fa-check
+                    | Comprobantes de apertura o de inicio: donde se registra aporte inicial de socios o accionistas.
                   li 
-                    .lista-ul__vineta
-                      
-                    p.p Comprobantes de ingreso: representa el manejo de efectivo que ingresa a la empresa por conceptos del desarrollo del objeto social de la organización.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Comprobantes de egreso: representa las salidas de dinero, incluye pagos realizados a proveedores.
+                    i.fas.fa-check
+                    | Comprobantes de ingreso: representa el manejo de efectivo que ingresa a la empresa por conceptos del desarrollo del objeto social de la organización.
                   li
-                    .lista-ul__vineta
-
-                    p.p Comprobantes de nómina: en el pago de salarios a empleados.
-
+                    i.fas.fa-check
+                    | Comprobantes de egreso: representa las salidas de dinero, incluye pagos realizados a proveedores.
+                  li
+                    i.fas.fa-check
+                    | Comprobantes de nómina: en el pago de salarios a empleados.
                   li 
-                    .lista-ul__vineta
-                    
-                    p.p Comprobantes débito y crédito: representan mayores valores a favor de clientes o modificaciones a facturas.
+                    i.fas.fa-check
+                    | Comprobantes débito y crédito: representan mayores valores a favor de clientes o modificaciones a facturas.
+            
       .row
             p.mt-3 En el diligenciamiento se debe:
 
-            ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ul__vineta
-                    p.p Registrar: fecha, año, mes y día.
-                  li 
-                    .lista-ul__vineta
-                      
-                    p.p Datos de la persona o empresa a realizar el comprobante, datos del contacto, dirección y correo electrónico.
-                  li 
-                    .lista-ul__vineta
-                    
-                    p.p Descripción de la transacción.
-                  li
-                    .lista-ul__vineta
+            .col-sm.mt-3
 
-                    p.p Valor de la transacción económica.
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Registrar: fecha, año, mes y día.
+                  li 
+                    i.fas.fa-check
+                    | Datos de la persona o empresa a realizar el comprobante, datos del contacto, dirección y correo electrónico.
+                  li
+                    i.fas.fa-check
+                    | Descripción de la transacción.
+                  li
+                    i.fas.fa-check
+                    | Valor de la transacción económica.
+                  
             .row.mt-5
               .col-lg-6
                 a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
@@ -1023,21 +998,21 @@
       .row.mt-5
         .col-md-6.col-lg.mb-5
           .tarjeta-Avatar
-            img(src="@/assets/curso/images/tema1/img_21.svg" alt="", style="width:180px; display:inline-block; margin:auto 4rem;")
+            img(src="@/assets/curso/images/tema1/img_21.svg" alt="", style="width:280px; display:block; margin:0 auto;")
             .tarjeta.color-sistema-h.p-4
               h4 Nominativos
               p (Secretaría del Senado, 2020. Art. 648):El título-valor será nominativo cuando en él o en la norma que rige su creación se exija la inscripción del tenedor en el registro que llevará el creador del título. Solo será reconocido como tenedor legítimo quien figure, a la vez, en el texto del documento y en el registro de este.
 
         .col-md-6.col-lg.mb-5
           .tarjeta-Avatar
-            img(src="@/assets/curso/images/tema1/img_22.svg" alt="", style="width:180px; display:inline-block; margin:auto 4rem;")
+            img(src="@/assets/curso/images/tema1/img_22.svg" alt="", style="width:280px; display:block; margin: 0 auto;")
             .tarjeta.color-sistema-h.p-4
               h4 A la orden
               p (Secretaría del Senado, 2020. Art.651):Los títulos-valores expedidos a favor de determinada persona, en los cuales se agregue la cláusula "a la orden" o se exprese que son transferibles por endoso, o se diga que son negociables, o se indique su denominación específica de título-valor, serán a la orden y se transmitirán por endoso y entrega del título, sin perjuicio de lo dispuesto en el artículo 648.
 
         .col-md-6.col-lg.mb-5
           .tarjeta-Avatar
-            img(src="@/assets/curso/images/tema1/img_23.svg" alt="", style="width:180px; display:inline-block; margin:auto 4rem;")
+            img(src="@/assets/curso/images/tema1/img_23.svg" alt="", style="width:280px; display:block; margin: 0 auto;")
             .tarjeta.color-sistema-h.p-4
               h4 Al portador
               p (Secretaría del Senado, 2020. Art. 668): Son títulos al portador los que no se expidan a favor de persona determinada, aunque no incluyan la cláusula "al portador", y los que contengan dicha cláusula. La simple exhibición del título legitimará al portador y su tradición se producirá por la sola entrega.
@@ -1047,13 +1022,12 @@
 
       AcordionA.mt-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
         .row.px-5(titulo="Letra de cambio")
-          .col-md-6.mb-4.mb-md-0
-          p Es un documento de carácter crediticio, con la representación de las figuras como son: girador y librador que pactan un valor, para ser entregado en una fecha determinada.
-          h6.mt-3 Requisitos
-          p.mt-3 Según el Código de Comercio (Secretaría del Senado, 2020. Art. 621):
-          p Además de lo dispuesto para cada título-valor en particular, los títulos-valores deberán llenar los requisitos siguientes:
+          .col-md-6.mb-3.md-0
+          p.mb-5 Es un documento de carácter crediticio, con la representación de las figuras como son: girador y librador que pactan un valor, para ser entregado en una fecha determinada.
+          h6.mb-3 Requisitos
+          p.mb-4 Según el Código de Comercio (Secretaría del Senado, 2020. Art. 621): Además de lo dispuesto para cada título-valor en particular, los títulos-valores deberán llenar los requisitos siguientes:
 
-            ol.lista-ol--cuadro.mt-5
+            ol.lista-ol--cuadro
                   li 
                     .lista-ol--cuadro__vineta
                       span 1
@@ -1079,11 +1053,11 @@
         .row.px-5(titulo="Pagaré a la orden")
           .col-md-6.mb-4.mb-md-0
           p Es una promesa de pago, es un documento crediticio que respalda una unidad económica en una fecha determinada y, con un interés adicional.
-          p.mt-3 <b>Requisitos</b>  (Secretaría del Senado, 2020. Art. 709):
-          p.mt-3 Según el Código de Comercio (Secretaría del Senado, 2020. Art. 621):
-          p El pagaré debe contener, además de los requisitos que establece el Artículo 621, los siguientes:
+          p.mb-3 <b>Requisitos</b>  (Secretaría del Senado, 2020. Art. 709):
+          p.mb-4 Según el Código de Comercio (Secretaría del Senado, 2020. Art. 621):
+          p.mb-4 El pagaré debe contener, además de los requisitos que establece el Artículo 621, los siguientes:
 
-            ol.lista-ol--cuadro.mt-5
+            ol.lista-ol--cuadro
                   li 
                     .lista-ol--cuadro__vineta
                       span 1
@@ -1166,8 +1140,8 @@
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
                     p Anexo. Factura cambiaria
-          br
-          p <b>Características</b>  (Secretaría del Senado, 2020. Art.712):
+          
+          p.mt-5 <b>Características</b>  (Secretaría del Senado, 2020. Art.712):
 
           p.mt-3 El cheque sólo puede ser expedido en formularios impresos de cheques o chequeras y a cargo de un banco. El título que en forma de cheque se expida en contravención a este artículo no producirá efectos de título-valor.
 
@@ -1175,7 +1149,7 @@
 
           p.mt-3 Los cheques deberán presentarse para su pago:
 
-            ol.lista-ol--cuadro.mt-5
+            ol.lista-ol--cuadro.mt-3
                   li 
                     .lista-ol--cuadro__vineta
                       span 1
@@ -1286,42 +1260,36 @@
           .row
             .col-md-6.mb-4.mb-md-0
               p Es el documento que relaciona las características de la negociación del producto o servicio. Su objetivo es brindar información al cliente, con el fin de tomar la decisión de compra.
+              .col-sm.mt-3
 
-              ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Membrete: logo, nombre de la empresa.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Precio del producto o servicio.
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Descripción del producto o servicio.
-                li 
-                  .lista-ul__vineta
-
-                  p.p Referencias del producto.
-                li 
-                  .lista-ul__vineta
-                  p.p Fecha de entrega.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Forma de pago.
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p tiempo de validez de la cotización.
-                li 
-                  .lista-ul__vineta
-
-                  p.p Nombre de la persona que solicita la cotización.
-                li 
-                  .lista-ul__vineta
-
-                  p.p Nombre del asesor. 
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      | Membrete: logo, nombre de la empresa.
+                    li 
+                      i.fas.fa-check
+                      | Precio del producto o servicio.
+                    li
+                      i.fas.fa-check
+                      | Descripción del producto o servicio.
+                    li
+                      i.fas.fa-check
+                      | Referencias del producto.
+                    li 
+                      i.fas.fa-check
+                      | Fecha de entrega.
+                    li
+                      i.fas.fa-check
+                      | Forma de pago.
+                    li
+                      i.fas.fa-check
+                      | tiempo de validez de la cotización.
+                    li
+                      i.fas.fa-check
+                      | Nombre de la persona que solicita la cotización.
+                    li
+                      i.fas.fa-check
+                      | Nombre del asesor.
           
             .col-md-6
               figure
@@ -1331,38 +1299,37 @@
           .row
             .col-md-6.mb-4.mb-md-0
               p Es el documento que soporta la entrega del pedido conforme lo solicitado.
+                .col-sm.mt-3
 
-              ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Membrete: logo, nombre de la empresa.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Descripción del producto.
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Cantidad.
-                li 
-                  .lista-ul__vineta
-
-                  p.p Referencias del producto.
-                li 
-                  .lista-ul__vineta
-                  p.p Fecha de entrega.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Número de pedido.
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Transportador.
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      | Membrete: logo, nombre de la empresa.
+                    li 
+                      i.fas.fa-check
+                      | Descripción del producto.
+                    li
+                      i.fas.fa-check
+                      | Descripción del producto o servicio.
+                    li
+                      i.fas.fa-check
+                      | Cantidad.
+                    li 
+                      i.fas.fa-check
+                      | Referencias del producto.
+                    li
+                      i.fas.fa-check
+                      | Fecha de entrega.
+                    li
+                      i.fas.fa-check
+                      | Número de pedido.
+                    li
+                      i.fas.fa-check
+                      | Transportador.
           
             .col-md-6
               figure
-                img(src='@/assets/curso/images/tema1/img_25.svg' alt="", style="width:350px; display:block; margin:auto 0;")
+                img(src='@/assets/curso/images/tema1/img_25.svg' alt="", style="width:450px; display:block; margin:0 auto;")
 
             .row.mt-5
               .col-lg-6
@@ -1379,43 +1346,37 @@
                 img(src='@/assets/curso/images/tema1/img_26.svg' alt="", style="width:350px; display:block; margin:auto 0;")
             .col-md-6.mb-4.mb-md-0
               p Es el documento que se elabora una vez el cliente ha revisado la cotización y toma la decisión de adquirir el producto.
+              .col-sm.mt-3
 
-              ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Membrete: logo, nombre de la empresa.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Precio unitario del producto que se va a comprar.
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Descripción del producto.
-                li 
-                  .lista-ul__vineta
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      | Membrete: logo, nombre de la empresa.
+                    li 
+                      i.fas.fa-check
+                      | Precio unitario del producto que se va a comprar.
+                    li
+                      i.fas.fa-check
+                      | Descripción del producto.
+                    li
+                      i.fas.fa-check
+                      | Cantidad.
+                    li 
+                      i.fas.fa-check
+                      | Referencias del producto.
+                    li
+                      i.fas.fa-check
+                      | Fecha de entrega.
+                    li
+                      i.fas.fa-check
+                      | Forma de pago.
+                    li
+                      i.fas.fa-check
+                      | Observaciones
+                    li
+                      i.fas.fa-check
+                      | Firmas
 
-                  p.p Cantidad.
-                li 
-                  .lista-ul__vineta
-                  p.p Referencias del producto.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Fecha de entrega.
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Forma de pago.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Observaciones
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Firmas
-          
               .row.mt-5
                 .col-lg-12
                   a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")

@@ -119,67 +119,64 @@
 
           .col-auto 
               img(src="@/assets/curso/images/tema3/img_31.svg" alt="", style="width:300px; display:inline-block; margin:auto 6rem;").img-fluid
-          hr.mt-5
-          h6.mt-3 Libro diario
+          hr.mt-5.mb-5
+          h6 Libro diario
 
           p.mt-3 Es un medio de prueba para las autoridades, registra el día a día las operaciones comerciales, registrando devengos contables, presenta como características sumas iguales.
 
-          p.mt-5 <b>Características:</b>
+          p.mt-5.mb-4 <b>Características:</b>
 
     
     .row.justify-content-center.align-items-center
         .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema3/img_32.svg" alt="", style="width:350px; display:inline-block; margin:auto 3rem;").img-fluid
-        .col.mt-5
-          ol.lista-ol--cuadro
+            img.img-a.my-3(src="@/assets/curso/images/tema3/img_32.svg" alt="", style="width:350px; display:block; margin:auto 5rem;").img-fluid
+        .col-sm.mt-3
+            ul.lista-ul--color
               li 
-                .lista-ul__vineta
-                p.p Contiene fecha de elaboración.
+                i.fas.fa-check
+                | Contiene fecha de elaboración.
               li 
-                .lista-ul__vineta
+                i.fas.fa-check
                   
-                p.p Códigos contables, aplica principio básico de la partida doble.
+                | Códigos contables, aplica principio básico de la partida doble.
               li 
-                .lista-ul__vineta
+                i.fas.fa-check
                 
-                p.p Presenta una columna de la cuenta auxiliar, generalmente trabajada a seis (6)
+                | Presenta una columna de la cuenta auxiliar, generalmente trabajada a seis (6)
               li
-                .lista-ul__vineta
+                i.fas.fa-check
 
-                p.p Dígitos.
+                | Dígitos.
               li 
-                .lista-ul__vineta
+                i.fas.fa-check
 
-                p.p Columna para los débitos.
+                | Columna para los débitos.
               li 
-                .lista-ul__vineta
+                i.fas.fa-check
 
-                p.p Sumas iguales.
-
-              p.p.mt-3 El libro diario de contabilidad presenta registros contables clasificados en 
-              p.p asientos:
-
-          ol.lista-ol--cuadro.mt-3    
+                | Sumas iguales.
+            p.mb-4.mt-4 El libro diario de contabilidad presenta registros contables clasificados en asientos:
+            ul.lista-ul--color 
               li 
-                .lista-ul__vineta
+                i.fas.fa-check
                   
-                p.p <b>Normales:</b> registra operaciones diarias de la organización.
+                p #[strong Normales:] Registra operaciones diarias de la organización.
               li 
-                .lista-ul__vineta
+                i.fas.fa-check
                 
-                p.p  <b>De ajustes:</b> registra las depreciaciones y amortizaciones.
+                p #[strong De ajustes:] Registra las depreciaciones y amortizaciones.
               li 
-                .lista-ul__vineta
+                i.fas.fa-check
 
-                p.p <b>De cierre:</b> al finalizar un periodo contable, comúnmente al finalizar el año, se debe hacer cierre de cuentas para ser trasladadas como saldos iniciales para un nuevo periodo contable.
+                p #[strong Cierre:] Al finalizar un periodo contable, comúnmente al finalizar el año, se debe hacer cierre de cuentas para ser trasladadas como saldos iniciales para un nuevo periodo contable.
 
-        .row.mt-5
-          .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p Anexo. Libro diario
+    .row.mt-5
+      .col-lg-5
+        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Libro diario
 
     hr.mt-5
     h6.mt-5 Libro mayor y balances
@@ -190,41 +187,43 @@
         .row.justify-content-center.align-items-center.mt-3
           .col
             h6.mb-2 Características:
-            ol.lista-ol--cuadro.mt-3
+            .col-sm.mt-3
+              ul.lista-ul--color 
                 li 
-                  .lista-ul__vineta
-                  p.p Posibilita la elaboración de estados de resultados integrales.
+                  i.fas.fa-check
+                  | Posibilita la elaboración de estados de resultados integrales.
                 li 
-                  .lista-ul__vineta
+                  i.fas.fa-check
                     
-                  p.p Permite la elaboración de estado de situación financiera.
+                  | Permite la elaboración de estado de situación financiera.
                 li 
-                  .lista-ul__vineta
+                  i.fas.fa-check
                   
-                  p.p El resumen de la información se hace mediante la aplicación de cuentas mayores de forma resumida de débitos y créditos. Se deben codificar a cuatro (4) dígitos, contiene la información de los libros auxiliares. 
+                  | El resumen de la información se hace mediante la aplicación de cuentas mayores de forma resumida de débitos y créditos. Se deben codificar a cuatro (4) dígitos, contiene la información de los libros auxiliares. 
                 
             p.mt-3 Diligenciamiento:
 
-            ol.lista-ol--cuadro.mt-3
-              li 
-                .lista-ul__vineta
-                p.p Registra número de folio mayor, acorde al consecutivo, dónde se realiza el resumen de la transacción económica.
-              li 
-                .lista-ul__vineta
+            .col-sm.mt-3
+              ul.lista-ul--color 
+                li 
+                  i.fas.fa-check
+                  | Registra número de folio mayor, acorde al consecutivo, dónde se realiza el resumen de la transacción económica.
+                li 
+                  i.fas.fa-check
+                    
+                  | Codifica nombre de la cuenta contable utilizada.
+                li 
+                  i.fas.fa-check
                   
-                p.p Codifica nombre de la cuenta contable utilizada.
-              li 
-                .lista-ul__vineta
-                
-                p.p Registra saldo del mes anterior, acorde al principio de partida doble y naturaleza de las cuentas débitos y créditos.
-              li
-                .lista-ul__vineta
+                  | Registra saldo del mes anterior, acorde al principio de partida doble y naturaleza de las cuentas débitos y créditos.
+                li
+                  i.fas.fa-check
 
-                p.p Movimientos del periodo en las columnas debe y haber, que reciben los débitos y créditos de las transacciones.
-              li
-                .lista-ul__vineta
+                  | Movimientos del periodo en las columnas debe y haber, que reciben los débitos y créditos de las transacciones.
+                li
+                  i.fas.fa-check
 
-                p.p Restar y sumar acorde al caso y naturaleza de las cuentas para obtener el nuevo saldo de inicio para el nuevo periodo.    
+                  | Restar y sumar acorde al caso y naturaleza de las cuentas para obtener el nuevo saldo de inicio para el nuevo periodo.    
                   
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema3/img_33.svg" alt="", style="width:300px; display:inline-block; margin:auto 5rem;").img-fluid
@@ -253,30 +252,31 @@
               img.img-a.my-3(src="@/assets/curso/images/tema3/img_34.svg" alt="", style="width:350px; display:inline-block; margin:auto 4rem;").img-fluid
           .col.mt-5
             h6.mt-3 Diligenciamiento:
-            ol.lista-ol--cuadro
+            .col-sm.mt-3
+              ul.lista-ul--color 
                 li 
-                  .lista-ul__vineta
-                  p.p Registro fecha de la solicitud.
+                  i.fas.fa-check
+                  | Registro fecha de la solicitud.
                 li 
-                  .lista-ul__vineta
+                  i.fas.fa-check
                     
-                  p.p Registro razón social y NIT.
+                  | Registro razón social y NIT.
                 li 
-                  .lista-ul__vineta
+                  i.fas.fa-check
                   
-                  p.p Indicar el tipo de inscripción.
+                  | Indicar el tipo de inscripción.
                 li
-                  .lista-ul__vineta
+                  i.fas.fa-check
 
-                  p.p Dirección de la página web.
+                  | Dirección de la página web.
                 li 
-                  .lista-ul__vineta
+                  i.fas.fa-check
 
-                  p.p Nombre y firma del representante legal de la empresa.
+                  | Nombre y firma del representante legal de la empresa.
                 li 
-                  .lista-ul__vineta
+                  i.fas.fa-check
 
-                  p.p Nombre y firma del Revisor fiscal, anexando número de tarjeta profesional.
+                  | Nombre y firma del Revisor fiscal, anexando número de tarjeta profesional.
 
             .row.mt-5
               .col-lg-12
@@ -285,29 +285,29 @@
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
                     p Anexo. Libro mayor y balances
-    hr.mt-5
-    h6.mt-5 Libros de Consejo de administración o Junta directiva.
+        hr.mt-5
+        h6.mt-5 Libros de Consejo de administración o Junta directiva.
 
     
         .row.justify-content-center.align-items-center.mt-3
           .col
             p.mb-2 Para registrar dichos libros se requiere una carta de solicitud de inscripción de libros.
-            ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Fecha de solicitud.Posibilita la elaboración de estados de resultados integrales.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Nombre de la sociedad y número de -matrícula.
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Nombre de libro registro social o junta de vigilancia.
-                
-                li 
-                  .lista-ul__vineta
-                  p.p Registro de todas las hojas de los libros a registrar, acompañado de las firmas del representante legal de la sociedad.
+              .col-sm.mt-3
+                ul.lista-ul--color 
+                    li 
+                      i.fas.fa-check
+                      | Fecha de solicitud.Posibilita la elaboración de estados de resultados integrales.
+                    li 
+                      i.fas.fa-check
+                        
+                      | Nombre de la sociedad y número de -matrícula.
+                    li 
+                      i.fas.fa-check
+                      
+                      | Nombre de libro registro social o junta de vigilancia.
+                    li 
+                      i.fas.fa-check
+                      | Registro de todas las hojas de los libros a registrar, acompañado de las firmas del representante legal de la sociedad.
               
                   
           .col-auto 
@@ -325,22 +325,23 @@
               h6.mt-3 Respecto de los libros de comercio:
               p Una vez efectuada la inscripción de los libros sometidos a dicha formalidad, el secretario de la Cámara de Comercio insertará una constancia en la primera hoja del libro registrado que contendrá los siguientes datos:
 
-              ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Cámara de Comercio. 
-                li 
-                  .lista-ul__vineta
+              .col-sm.mt-3
+                ul.lista-ul--color 
+                  li 
+                    i.fas.fa-check
+                    | Cámara de Comercio. 
+                  li 
+                    i.fas.fa-check
+                      
+                    | Nombre de la persona a quien pertenece. 
+                  li 
+                    i.fas.fa-check
                     
-                  p.p Nombre de la persona a quien pertenece. 
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Fecha, número de inscripción y libro en el cual se efectuó.
-                li 
-                  .lista-ul__vineta
+                    | Fecha, número de inscripción y libro en el cual se efectuó.
+                  li 
+                    i.fas.fa-check
 
-                  p.p Nombre del libro o uso al que se destina, y Código del libro y número de hojas útiles de que está compuesto. 
+                    | Nombre del libro o uso al que se destina, y Código del libro y número de hojas útiles de que está compuesto. 
 
             p.mt-3 Las Cámaras de Comercio deberán autenticar las hojas útiles de los libros mediante un sello de seguridad impuesto en cada una de ellas. Para efectos de inscripción de nuevos libros (físicos o electrónicos) será necesario acreditar ante la respectiva Cámara de Comercio que a los existentes les faltan pocos folios por utilizar, o que deben ser sustituidos por causas ajenas a su propietario, mediante la presentación del propio libro o del certificado del revisor fiscal, cuando exista el cargo o, en su defecto del contador público.
   
@@ -375,29 +376,30 @@
         .row.justify-content-center.align-items-center.mt-3
           .col
             h6.mb-2 Características:
-            ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Nombre del libro auxiliar.
-                li 
-                  .lista-ul__vineta
+            .col-sm.mt-3
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Nombre del libro auxiliar.
+                  li 
+                    i.fas.fa-check
+                      
+                    | Fecha de la transacción
+                  li 
+                    i.fas.fa-check
                     
-                  p.p Fecha de la transacción
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Detalle de la transacción
-                li 
-                  .lista-ul__vineta
-                  p.p Débitos
-                li 
-                  .lista-ul__vineta
+                    | Detalle de la transacción
+                  li 
+                    i.fas.fa-check
+                    | Débitos
+                  li 
+                    i.fas.fa-check
+                      
+                    | Créditos
+                  li 
+                    i.fas.fa-check
                     
-                  p.p Créditos
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Saldo
+                    | Saldo
                            
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema3/img_36.svg" alt="", style="width:380px; display:inline-block; margin:auto 6rem;").img-fluid
@@ -433,46 +435,47 @@
                       img(src="@/assets/template/icono-link.svg")
                     .anexo__texto
                       p Enlace web. Planilla integrada de liquidación de aportes:
-    hr.mt-5
+    hr.mt-5.mb-4
 
     h6.mt-5 Sistema de gestión documental emitido por el ente regulador.
 
     p.mt-3 El Estado colombiano busca, mediante la Resolución 8934 de febrero de 2014, implementar el sistema de gestión documental, con el objetivo de mantener organizados los archivos en el sector privado, enfocada básicamente en la organización de:
 
-        .row.justify-content-center.align-items-center.mt-3
-          .col
-            ol.lista-ol--cuadro
-                li 
-                  .lista-ul__vineta
-                  p.p Tablas de retención documental.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Programa de gestión documental.
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Cuadros de clasificación documental.
-                li 
-                  .lista-ul__vineta
-                  p.p Tablas de valoración documental.
-                li 
-                  .lista-ul__vineta
-                    
-                  p.p Reglamento interno de archivo
-                
-            p.mt-3 Amplíe sus conocimientos, revisando la Resolución 8934 de 2014, #[br]los requisitos aplicables a entidades privadas en el tema de#[br] gestión documental, a través del siguiente enlace:
+    p.mt-3 Entre los libros auxiliares se encuentran: libro auxiliar de bancos, caja, IVA, inventarios, ingresos ordinarios, etc.
 
+    
+        .row.justify-content-center.align-items-center.mt-3
+            .col-sm.mt-3
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Tablas de retención documental.
+                  li 
+                    i.fas.fa-check
+                      
+                    | Programa de gestión documental.
+                  li 
+                    i.fas.fa-check
+                    
+                    | Cuadros de clasificación documental.
+                  li 
+                    i.fas.fa-check
+                    | Tablas de valoración documental.
+                  li 
+                    i.fas.fa-check
+                      
+                    | Reglamento interno de archivo
+                           
+            .col-auto 
+                img.img-a.my-3(src="@/assets/curso/images/tema3/img_38.svg" alt="", style="width:380px; display:inline-block; margin:auto 6rem;").img-fluid
+              
             .row.mt-5
-              .col-lg-12
-                a.anexo.mb-4(:href="obtenerLink('/downloads/Resolucion_8934_2014.pdf')" target="_blank")
+              .col-lg-6
+                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p Anexo. Resolución 8934 de 2014
-                           
-          .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema3/img_38.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid                   
+                    p Anexo. Ejemplo:                
     hr     
 
   Muestras

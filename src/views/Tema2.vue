@@ -59,29 +59,31 @@
           p Un ejemplo de ordenamiento es la utilizada en expedientes que, por su naturaleza, deben seguir abiertos para consultas. Por ejemplo, historias laborales o expedientes de alumnos. Su forma de clasificación sería: primer apellido, segundo apellido, segundo nombre y primer nombre (Jiménez, 2003).
           br
           p Otra forma de organización es la temática, la cual consiste en establecer series y subseries documentales por temas (Jiménez, 2003). Por ejemplo:
-    .row
-          ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Estadísticas.
-                  .lista-ul__vineta
-                    
-                  p.p Informes.
-                li 
-                  .lista-ul__vineta
-                  
-                  p.p Informes de gestión.
-                li
-                  .lista-ul__vineta
+    
+          .col-sm.mt-3
 
-                  p.p Órdenes de pago
-                .row.mt-5
-                  .col-lg-6
-                    a.anexo.mb-4(:href="obtenerLink('/downloads/CARTILLA DE ORDENACION DOCUMENTAL.pdf')" target="_blank")
-                      .anexo__icono
-                        img(src="@/assets/template/icono-pdf.svg")
-                      .anexo__texto
-                        p Anexo. Archivo general
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      | Estadísticas.
+                    li 
+                      i.fas.fa-check
+                      | Informes.
+                    li
+                      i.fas.fa-check
+                      | Informes de gestión.
+                    li
+                      i.fas.fa-check
+                      | Órdenes de pago
+                  
+         
+      .row.mt-2
+        .col-lg-5
+          a.anexo.mb-4(:href="obtenerLink('/downloads/CARTILLA DE ORDENACION DOCUMENTAL.pdf')" target="_blank")
+            .anexo__icono
+              img(src="@/assets/template/icono-pdf.svg")
+            .anexo__texto
+              p Anexo. Archivo general
     
     #t_2_3.titulo-segundo.mt-5
       .h4 2.3 Tabla de retención documental
@@ -89,58 +91,72 @@
 
     p.mt-3 Las tablas de retención documental son listados con tipos de documentos en donde se establece el tiempo que debe permanecer un documento archivado en las diferentes etapas del ciclo vital de un documento, reconocidos desde tres tipos de archivos: 
 
-    .row
-          ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Archivo de gestión
-                li 
-                  .lista-ul__vineta
-                  p.p Archivo central
-                li 
-                  .lista-ul__vineta      
-                  p.p Archivo histórico.
+    .row  
+
+          .col-sm.mt-3
+
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      | Archivo de gestión
+                    li 
+                      i.fas.fa-check
+                      | Archivo central
+                    li
+                      i.fas.fa-check
+                      | Archivo histórico.
 
           p.mt-3 Las ventajas de aplicar las Tablas de Retención Documental son:
 
-          ol.lista-ol--cuadro.mt-3
-                li 
-                  .lista-ul__vineta
-                  p.p Facilitar el manejo de la información, ayuda a organizar y dar una estructura de la información.
-                li 
-                  .lista-ul__vineta
-                  p.p Contribuye a la racionalización de la producción documental.
-                li 
-                  .lista-ul__vineta      
-                  p.p Garantiza la conservación de los documentos en las diferentes fases del archivo.
+          .col-sm.mt-3
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      | Facilitar el manejo de la información, ayuda a organizar y dar una estructura de la información.
+                    li 
+                      i.fas.fa-check
+                      | Contribuye a la racionalización de la producción documental.
+                    li 
+                      i.fas.fa-check      
+                      | Garantiza la conservación de los documentos en las diferentes fases del archivo.
 
-    p.mt-3 Las tablas de retención documental se encuentran inmersas en formatos aplicados a las empresas.
+                  p.mt-3 Las tablas de retención documental se encuentran inmersas en formatos aplicados a las empresas.
 
     .cajon.color-acento-contenido.p-4.mb-4.mt-5
-      p > Presentan código, representado por la clasificación que presenta la información
-      p > Presenta una columna de series documentales, donde van las diferentes clasificaciones de documentos, 
-      p > Se clasifica comúnmente en archivos de gestión y archivo central, estipulando el tiempo que va a ser custodiado Actualmente, el 
-      p.p procedimiento de conservación es la microfilmación, que presenta una columna de procedimientos, indicando los tiempos de custodia de 
-      p.p los documentos.
+       ul.lista-ul
+        li 
+          i.fas.fa-angle-right
+          | Presentan código, representado por la clasificación que presenta la información
+        li 
+          i.fas.fa-angle-right
+          | Presenta una columna de series documentales, donde van las diferentes clasificaciones de documentos
+        li 
+          i.fas.fa-angle-right
+          | Se clasifica comúnmente en archivos de gestión y archivo central, estipulando el tiempo que va a ser custodiado 
+        li 
+          i.fas.fa-angle-right
+          | Actualmente el procedimiento de conservación es la microfilmación, que presenta una columna de procedimientos, indicando los tiempos de custodia de los documentos
 
-    p.mt-3 En las empresas comúnmente se utilizan códigos con ejemplos en números para establecer el orden jerárquico de la empresa:
 
-    ol.lista-ol--cuadro.mt-3
+    p.mt-5 En las empresas comúnmente se utilizan códigos con ejemplos en números para establecer el orden jerárquico de la empresa:
+
+    .col-sm.mt-3
+              ul.lista-ul--color
                 li 
-                  .lista-ul__vineta
-                  p.p Gerencia.
+                  i.fas.fa-check
+                  | Gerencia.
                 li 
-                  .lista-ul__vineta
-                  p.p Recursos humanos.
+                  i.fas.fa-check
+                  | Recursos humanos.
                 li 
-                  .lista-ul__vineta      
-                  p.p Contabilidad.
+                  i.fas.fa-check    
+                  | Contabilidad.
                 li 
-                  .lista-ul__vineta      
-                  p.p Almacén.
+                  i.fas.fa-check     
+                  | Almacén.
                 li 
-                  .lista-ul__vineta      
-                  p.p Gestión documental.
+                  i.fas.fa-check      
+                  | Gestión documental.
     
     .tarjeta.color-acento-contenido.text-white.p-3.mb-5.mt-5
       .row.justify-content-around.align-items-center
@@ -152,11 +168,11 @@
               .h5.mb-0 Tabla de retención documental
               p Para identificar qué dependencia genera la documentación para conservar la información, considere la siguiente tabla:
             .col-sm-auto
-              a.boton.boton--b(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.boton--c(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 
-    h6 Sistema de gestión electrónica de documentos.
+    .h6.mb-5 Sistema de gestión electrónica de documentos.
 
     p.mt3 Cada vez que progresan las tecnologías, se aplican al control documental de la información. Para ser implementado en una organización, debe existir la voluntad de la administración para destinar recursos para la implementación de las nuevas tecnologías al servicio de la gestión documental. En ese sentido, existen en el mercado programas que hacen más efectivos los procesos, mejorando el proceso en beneficio de las organizaciones.
 
