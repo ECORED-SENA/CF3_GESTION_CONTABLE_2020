@@ -76,10 +76,13 @@
             | Recibos de caja menor.
           li 
             span.text-bold 16. 
-            | Notas de contabilidad.
+            | Notas débito y notas crédito.
           li 
             span.text-bold 17. 
-            | Comprobante de contabilidad.
+            | Notas de contabilidad.
+          li 
+            span.text-bold 18. 
+            | Comprobante de contabilidad. 
 
     .jumbotron-6.mt-5
       .row.justify-content-center.align-items-center.mt-3
@@ -228,7 +231,7 @@
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
-            p Anexo.  Factura cambiaria de compra y venta
+            p <b>Anexo.</b>  Factura cambiaria de compra y venta
 
     hr.mt-5 
 
@@ -388,8 +391,8 @@
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_7.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
 
           .col-sm  
-            .h6 El soporte de contabilidad recibo de caja debe contener:
-            p.mt-3 El soporte de contabilidad recibo de caja debe contener:
+            .h6 Características:
+            
             ul.lista-ul--color
               li 
                 i.fas.fa-check
@@ -692,7 +695,7 @@
           
           h6 Características:
           p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
-          .col-sm.mt-3
+          .col-sm.mt-3.mb-3
             
                 ul.lista-ul--color
                   li 
@@ -710,7 +713,7 @@
                   li 
                     i.fas.fa-check
                     | Consecutivo.
-
+          p Se deben registrar contablemente, debitando los gastos autorizados y acreditando la cuenta caja.
           .row.mt-5
               .col-lg-12
                 a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
@@ -979,7 +982,7 @@
           .col-auto 
             img.img-a.my-3(src="@/assets/curso/images/tema1/img_20.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
 
-      p.mt-3 La firma podrá sustituirse, bajo la responsabilidad del creador del título, por un signo o contraseña que puede ser mecánicamente impuesto.Si no se menciona el lugar de cumplimiento o ejercicio del derecho, lo será el del domicilio del creador del título; y si tuviere varios, entre ellos podrá elegir el tenedor, quien tendrá igualmente derecho de elección si el título señala varios lugares de cumplimiento o de ejercicio. Sin embargo, cuando el título sea representativo de mercaderías, también podrá ejercerse la acción derivada del mismo en el lugar en que estas deban ser entregadas.Si no se menciona la fecha y el lugar de creación del título, se tendrán como tales la fecha y el lugar de su entrega.
+      p.mt-3 La firma podrá sustituirse, bajo la responsabilidad del creador del título, por un signo o contraseña que puede ser mecánicamente impuesto. Si no se menciona el lugar de cumplimiento o ejercicio del derecho, lo será el del domicilio del creador del título; y si tuviere varios, entre ellos podrá elegir el tenedor, quien tendrá igualmente derecho de elección si el título señala varios lugares de cumplimiento o de ejercicio. Sin embargo, cuando el título sea representativo de mercaderías, también podrá ejercerse la acción derivada del mismo en el lugar en que estas deban ser entregadas.Si no se menciona la fecha y el lugar de creación del título, se tendrán como tales la fecha y el lugar de su entrega.
 
       h6.mt-3 Características:
 
@@ -1052,7 +1055,8 @@
         
         .row.px-5(titulo="Pagaré a la orden")
           .col-md-6.mb-4.mb-md-0
-          p Es una promesa de pago, es un documento crediticio que respalda una unidad económica en una fecha determinada y, con un interés adicional.
+          p.mb-3 Es una promesa de pago, es un documento crediticio que respalda una unidad económica en una fecha determinada y, con un interés adicional.
+          
           p.mb-3 <b>Requisitos</b>  (Secretaría del Senado, 2020. Art. 709):
           p.mb-4 Según el Código de Comercio (Secretaría del Senado, 2020. Art. 621):
           p.mb-4 El pagaré debe contener, además de los requisitos que establece el Artículo 621, los siguientes:
@@ -1069,7 +1073,7 @@
                   li 
                     .lista-ol--cuadro__vineta
                       span 3
-                    |   La indicación de ser pagadero a la orden o al portador,
+                    |   La indicación de ser pagadero a la orden o al portador, y
                   li 
                     .lista-ol--cuadro__vineta
                       span 4
@@ -1086,10 +1090,10 @@
         .row.px-5(titulo="Cheque")
           .col-md-6.mb-4.mb-md-0
           p Un título valor de carácter crediticio respalda unidades monetarias, mediante el uso de una entidad financiera.
-          h6.mt-3 Características  (Secretaría del Senado, 2020. Art.712):
-          p.mt-3 El cheque sólo puede ser expedido en formularios impresos de cheques o chequeras y a cargo de un banco. El título que en forma de cheque se expida en contravención a este artículo no producirá efectos de título-valor.
-          p <b>Requisitos</b>  (Secretaría del Senado, 2020. Art. 718):
-          br
+          h6.p-2.mb-3 Características  (Secretaría del Senado, 2020. Art.712):
+          p.mb-3 El cheque sólo puede ser expedido en formularios impresos de cheques o chequeras y a cargo de un banco. El título que en forma de cheque se expida en contravención a este artículo no producirá efectos de título-valor.
+          p.mb-3 <b>Características</b>  (Secretaría del Senado, 2020. Art. 718):
+          
           p Los cheques deberán presentarse para su pago:
 
             ol.lista-ol--cuadro.mt-5
@@ -1104,7 +1108,7 @@
                   li 
                     .lista-ol--cuadro__vineta
                       span 3
-                    |   Dentro de tres meses, si fueren expedidos en un país latinoamericano y pagaderos en algún otro país de América Latina
+                    |   Dentro de tres meses, si fueren expedidos en un país latinoamericano y pagaderos en algún otro país de América Latina y
                   li 
                     .lista-ol--cuadro__vineta
                       span 4
@@ -1140,32 +1144,6 @@
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
                     p Anexo. Factura cambiaria
-          
-          p.mt-5 <b>Características</b>  (Secretaría del Senado, 2020. Art.712):
-
-          p.mt-3 El cheque sólo puede ser expedido en formularios impresos de cheques o chequeras y a cargo de un banco. El título que en forma de cheque se expida en contravención a este artículo no producirá efectos de título-valor.
-
-          p.mt-3 <b>Requisitos</b>  (Secretaría del Senado, 2020. Art.718):
-
-          p.mt-3 Los cheques deberán presentarse para su pago:
-
-            ol.lista-ol--cuadro.mt-3
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span 1
-                    |   Dentro de los quince días a partir de su fecha, si fueren pagaderos en el mismo lugar de su expedición;
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span 2
-                    |   Dentro de un mes, si fueren pagaderos en el mismo país de su expedición, pero en lugar distinto al de ésta;
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span 3
-                    |   Dentro de tres meses, si fueren expedidos en un país latinoamericano y pagaderos en algún otro país de América Latina
-                  li 
-                    .lista-ol--cuadro__vineta
-                      span 4
-                    |   Dentro de cuatro meses, si fueren expedidos en algún país latinoamericano para ser pagados fuera de América Latina.
 
         .row.px-5(titulo="Bonos")
           .col-md-6.mb-4.mb-md-0
@@ -1283,7 +1261,7 @@
                       | Forma de pago.
                     li
                       i.fas.fa-check
-                      | tiempo de validez de la cotización.
+                      | Tiempo de validez de la cotización.
                     li
                       i.fas.fa-check
                       | Nombre de la persona que solicita la cotización.

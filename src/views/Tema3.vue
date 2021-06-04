@@ -9,7 +9,7 @@
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
           .col-lg-4.mb-4.mb-lg-0
-              img(src="@/assets/curso/images/tema3/img_30.svg").img-fluid
+              img(src="@/assets/curso/images/tema3/img_30.svg")
           .col-lg-8
             .bloque-texto-a__texto.p-4
               p Los libros de información financiera están conformados por libros auxiliares y principales, su diligenciamiento debe efectuarse de forma cronológica, acorde a la normatividad vigente. Los libros contables están conformados por comprobantes de contabilidad base para la elaboración de estados financieros (Angulo, 2018). En coherencia con el Decreto ley 19 de 2012 (Secretaría del Senado, 2020), se registran en las Cámaras de comercio los libros de actas de socios y accionistas.
@@ -122,15 +122,17 @@
           hr.mt-5.mb-5
           h6 Libro diario
 
-          p.mt-3 Es un medio de prueba para las autoridades, registra el día a día las operaciones comerciales, registrando devengos contables, presenta como características sumas iguales.
+          p.mb-3 Es un medio de prueba para las autoridades, registra el día a día las operaciones comerciales, registrando devengos contables, presenta como características sumas iguales.
 
-          p.mt-5.mb-4 <b>Características:</b>
+         
+          p.mb-3 <b>Características:</b>
 
-    
     .row.justify-content-center.align-items-center
         .col-auto 
             img.img-a.my-3(src="@/assets/curso/images/tema3/img_32.svg" alt="", style="width:350px; display:block; margin:auto 5rem;").img-fluid
-        .col-sm.mt-3
+        .col-sm.mb-3
+          
+           
             ul.lista-ul--color
               li 
                 i.fas.fa-check
@@ -286,9 +288,22 @@
                   .anexo__texto
                     p Anexo. Libro mayor y balances
         hr.mt-5
-        h6.mt-5 Libros de Consejo de administración o Junta directiva.
+        h6.mt-5.mb-3 Libros de Consejo de administración o Junta directiva.
 
-    
+        p En este libro se registra la información básica de la empresa, se incluyen todas las decisiones en las actas, como acuerdos a los que llegan los dueños de una empresa. Se debe llevar un orden cronológico de las reuniones, en él se encuentran inscritos los dueños, administradores y representante legal, siempre debe estar firmado por secretario y presidente.
+        br
+        p Según Ley 1755 de 2001 (Secretaría del Senado, 2020. Art. 47):
+        br
+        p Las decisiones de la asamblea se harán constar en actas firmadas por el presidente y el secretario de la misma, en las cuales deberá indicarse si es ordinaria o extraordinaria. Además, la forma de la convocatoria, orden del día, nombre y calidad de los asistentes, su unidad privada y su respectivo coeficiente, y los votos emitidos en cada caso.
+        br
+        p En los eventos en que la asamblea decida encargar personas para verificar la redacción del acta, las personas encargadas deberán hacerlo dentro del término que establezca el reglamento, y en su defecto, dentro de los veinte (20) días hábiles siguientes a la fecha de la respectiva reunión.
+        br
+        p Dentro de un lapso no superior a veinte (20) días hábiles contados a partir de la fecha de la reunión, el administrador debe poner a disposición de los propietarios del edificio o conjunto, copia completa del texto del acta en el lugar determinado como sede de la administración, e informar tal situación a cada uno de los propietarios. En el libro de actas se dejará constancia sobre la fecha y lugar de publicación.
+        br
+        p La copia del acta debidamente suscrita será prueba suficiente de los hechos que consten en ella, mientras no se demuestre la falsedad de la copia o de las actas. El administrador deberá entregar copia del acta a quien se la solicite.
+        br
+        p PARÁGRAFO. Todo propietario a quien se le niegue la entrega de copia de acta podrá acudir en reclamación ante el Alcalde Municipal o Distrital o su delegado, quien a su vez ordenará la entrega de la copia solicitada, so pena de sanción de carácter policivo.
+
         .row.justify-content-center.align-items-center.mt-3
           .col
             p.mb-2 Para registrar dichos libros se requiere una carta de solicitud de inscripción de libros.
@@ -296,7 +311,7 @@
                 ul.lista-ul--color 
                     li 
                       i.fas.fa-check
-                      | Fecha de solicitud.Posibilita la elaboración de estados de resultados integrales.
+                      | Fecha de solicitud.
                     li 
                       i.fas.fa-check
                         
@@ -468,14 +483,14 @@
                            
             .col-auto 
                 img.img-a.my-3(src="@/assets/curso/images/tema3/img_38.svg" alt="", style="width:380px; display:inline-block; margin:auto 6rem;").img-fluid
-              
-            .row.mt-5
+
+            .row.mt-5.mb-4
               .col-lg-6
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/template/icono-pdf.svg")
-                  .anexo__texto
-                    p Anexo. Ejemplo:                
+                a.anexo.mt-4.mb-lg-0(href="https://www.sic.gov.co/sites/default/files/normatividad/Resolucion_8934_2014.pdf" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-link.svg")
+                    .anexo__texto
+                      p Enlace web. Resolución 8934 de 2014            
     hr     
 
   Muestras

@@ -344,7 +344,7 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Comprobante de ingreso o recibo de caja.',
+      termino: 'Comprobante de ingreso o recibo de caja',
       significado:
         'El recibo de caja es un soporte de contabilidad en el que constan los ingresos en efectivo, cheques y otras formas de recaudo. El original se entrega al cliente y las copias generalmente se archivan así: una para el archivo consecutivo y otra para anexar al comprobante diario.',
     },
