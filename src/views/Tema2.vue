@@ -17,7 +17,7 @@
               p Con el cierre de año y transcurrido varios periodos de tiempo, esta información permanece como inactiva, pero es imperativa su conservación, teniendo en cuenta que es utilizada como testimonio sobre registros de hechos pasados. En tal sentido, las empresas desarrollan medidas de conservación para asegurar la integridad de los documentos que reposan en el archivo. 
     
     #t_2_1.titulo-segundo.mt-5
-      .h4 2.1 Ley general de archivos.
+      .h4 2.1 Ley general de archivos
 
   
     .row.justify-content-center.align-items-center.mt-3
@@ -44,7 +44,7 @@
           img.img-a.my-3(src="@/assets/curso/images/tema2/img_28.svg" alt="", style="width:300px; display:inline-block; margin:auto 0;").img-fluid
 
     #t_2_2.titulo-segundo.mt-5
-      .h4 2.2 Consecutivo, cronológico por asuntos.
+      .h4 2.2 Consecutivo, cronológico por asuntos
         
   
     .row.justify-content-center.align-items-center.mt-3
@@ -86,7 +86,7 @@
               p Anexo. Archivo general
     
     #t_2_3.titulo-segundo.mt-5
-      .h4 2.3 Tabla de retención documental.
+      .h4 2.3 Tabla de retención documental
 
 
     p.mt-3 Las tablas de retención documental son listados con tipos de documentos en donde se establece el tiempo que debe permanecer un documento archivado en las diferentes etapas del ciclo vital de un documento, reconocidos desde tres tipos de archivos: 

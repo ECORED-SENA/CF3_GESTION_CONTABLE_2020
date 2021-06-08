@@ -30,7 +30,7 @@
 
           p.mt-3 El comprobante de contabilidad es el documento que debe elaborarse previamente al registro de cualquier operación y en el cual se indicará el número, fecha, origen, descripción y cuantía de la operación, así como las cuentas afectadas con el asiento. A cada comprobante se anexarán los documentos que lo justifiquen.
 
-        .row.px-5(titulo="Artículo 57: En los libros de comercio se prohíbe:")
+        .row.px-5(titulo="Artículo 57 en los libros de comercio se prohíbe:")
           .col-md-6.mb-4.mb-md-0
             .row
               ol.lista-ol--cuadro.mt-5
@@ -67,10 +67,51 @@
                     p Enlace web. Archivo general
           p.mt-3 En tema tributario observemos el Estatuto Tributario (Secretaría del Senado, 2020. Art. 654 y 655):
           br
-          p Nos menciona las sanciones relacionadas con la contabilidad y de clausura de establecimiento.
-       
-        
-              
+          p.mb-3 Nos menciona las sanciones relacionadas con la contabilidad y de clausura de establecimiento.
+          p.mb-3 Artículo 654: Habrá lugar a aplicar sanción por libros de contabilidad, en los siguientes casos:
+          .row.justify-content-center.align-items-center.mt-3
+            .col
+              .row
+                .col-sm.mb-5.mb-sm-0
+                  ol.lista-ol--cuadro
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span a
+                      | No llevar libros de contabilidad si hubiere obligación de llevarlos.
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span b
+                      | No tener registrados los libros principales de contabilidad, si hubiere obligación de registrarlos.
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span c
+                      | No exhibir los libros de contabilidad, cuando las autoridades tributarias lo exigieren.
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span d
+                      | Llevar doble contabilidad.
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span e
+                      | No llevar los libros de contabilidad en forma que permitan verificar o determinar los factores necesarios para establecer las bases de liquidación de los impuestos o retenciones.
+                    li 
+                      .lista-ol--cuadro__vineta
+                        span f
+                      | Cuando entre la fecha de las últimas operaciones registradas en los libros, y el último día del mes anterior a aquél en el cual se solicita su exhibición, existan más de cuatro (4) meses de atraso.
+
+                  p.mb-3 Artículo 655, sanciones por irregularidades en la contabilidad.
+
+                  p.mb-3 (Ajuste de las cifras en valores absolutos en términos de UVT por el artículo 51 de la Ley 1111 de 2006 (Secretaría del Senado, 2020). El texto con el nuevo término es el siguiente:) Sin perjuicio del rechazo de los costos, deducciones, impuestos descontables, exenciones, descuentos tributarios y demás conceptos que carezcan de soporte en la contabilidad, o que no sean plenamente probados de conformidad con las normas vigentes, la sanción por libros de contabilidad será del medio por ciento (0.5%) del mayor valor entre el patrimonio líquido y los ingresos netos del año anterior al de su imposición, sin exceder de 20.000 UVT.
+                  p.mb-3 Para profundizar en el tema libros contables, revisar el concepto 650 (Consejo Técnico de la Contaduría Pública, 2020), en el siguiente enlace: 
+
+          .row.mt-5
+              .col-lg-12
+                a.anexo.mt-4.mb-lg-0(href="https://www.ctcp.gov.co/conceptos/2018" target="_blank")
+                    .anexo__icono
+                      img(src="@/assets/template/icono-link.svg")
+                    .anexo__texto
+                      p  Artículo 57       
+
     #t_3_1.titulo-segundo.mt-5
       .h4 3.1 Conceptos, clasificación, formatos y comprobantes
     
@@ -144,15 +185,15 @@
               li 
                 i.fas.fa-check
                 
-                | Presenta una columna de la cuenta auxiliar, generalmente trabajada a seis (6)
+                | Presenta una columna de la cuenta auxiliar, generalmente trabajada a seis (6) Dígitos.
               li
                 i.fas.fa-check
 
-                | Dígitos.
+                | Columna para los débitos.
               li 
                 i.fas.fa-check
 
-                | Columna para los débitos.
+                | Columna para créditos.
               li 
                 i.fas.fa-check
 
@@ -162,15 +203,15 @@
               li 
                 i.fas.fa-check
                   
-                p #[strong Normales:] Registra operaciones diarias de la organización.
+                p #[strong Normales:] registra operaciones diarias de la organización.
               li 
                 i.fas.fa-check
                 
-                p #[strong De ajustes:] Registra las depreciaciones y amortizaciones.
+                p #[strong De ajustes:] registra las depreciaciones y amortizaciones.
               li 
                 i.fas.fa-check
 
-                p #[strong Cierre:] Al finalizar un periodo contable, comúnmente al finalizar el año, se debe hacer cierre de cuentas para ser trasladadas como saldos iniciales para un nuevo periodo contable.
+                p #[strong Cierre:] al finalizar un periodo contable, comúnmente al finalizar el año, se debe hacer cierre de cuentas para ser trasladadas como saldos iniciales para un nuevo periodo contable.
 
     .row.mt-5
       .col-lg-5
@@ -289,42 +330,43 @@
                     p Anexo. Libro mayor y balances
         hr.mt-5
         h6.mt-5.mb-3 Libros de Consejo de administración o Junta directiva.
-
-        p En este libro se registra la información básica de la empresa, se incluyen todas las decisiones en las actas, como acuerdos a los que llegan los dueños de una empresa. Se debe llevar un orden cronológico de las reuniones, en él se encuentran inscritos los dueños, administradores y representante legal, siempre debe estar firmado por secretario y presidente.
-        br
-        p Según Ley 1755 de 2001 (Secretaría del Senado, 2020. Art. 47):
-        br
-        p Las decisiones de la asamblea se harán constar en actas firmadas por el presidente y el secretario de la misma, en las cuales deberá indicarse si es ordinaria o extraordinaria. Además, la forma de la convocatoria, orden del día, nombre y calidad de los asistentes, su unidad privada y su respectivo coeficiente, y los votos emitidos en cada caso.
-        br
-        p En los eventos en que la asamblea decida encargar personas para verificar la redacción del acta, las personas encargadas deberán hacerlo dentro del término que establezca el reglamento, y en su defecto, dentro de los veinte (20) días hábiles siguientes a la fecha de la respectiva reunión.
-        br
-        p Dentro de un lapso no superior a veinte (20) días hábiles contados a partir de la fecha de la reunión, el administrador debe poner a disposición de los propietarios del edificio o conjunto, copia completa del texto del acta en el lugar determinado como sede de la administración, e informar tal situación a cada uno de los propietarios. En el libro de actas se dejará constancia sobre la fecha y lugar de publicación.
-        br
-        p La copia del acta debidamente suscrita será prueba suficiente de los hechos que consten en ella, mientras no se demuestre la falsedad de la copia o de las actas. El administrador deberá entregar copia del acta a quien se la solicite.
-        br
-        p PARÁGRAFO. Todo propietario a quien se le niegue la entrega de copia de acta podrá acudir en reclamación ante el Alcalde Municipal o Distrital o su delegado, quien a su vez ordenará la entrega de la copia solicitada, so pena de sanción de carácter policivo.
-
         .row.justify-content-center.align-items-center.mt-3
           .col
-            p.mb-2 Para registrar dichos libros se requiere una carta de solicitud de inscripción de libros.
-              .col-sm.mt-3
-                ul.lista-ul--color 
-                    li 
-                      i.fas.fa-check
-                      | Fecha de solicitud.
-                    li 
-                      i.fas.fa-check
-                        
-                      | Nombre de la sociedad y número de -matrícula.
-                    li 
-                      i.fas.fa-check
-                      
-                      | Nombre de libro registro social o junta de vigilancia.
-                    li 
-                      i.fas.fa-check
-                      | Registro de todas las hojas de los libros a registrar, acompañado de las firmas del representante legal de la sociedad.
-              
+            p En este libro se registra la información básica de la empresa, se incluyen todas las decisiones en las actas, como acuerdos a los que llegan los dueños de una empresa. Se debe llevar un orden cronológico de las reuniones, en él se encuentran inscritos los dueños, administradores y representante legal, siempre debe estar firmado por secretario y presidente.
+            br
+            p Según Ley 1755 de 2001 (Secretaría del Senado, 2020. Art. 47):
+            br
+            p Las decisiones de la asamblea se harán constar en actas firmadas por el presidente y el secretario de la misma, en las cuales deberá indicarse si es ordinaria o extraordinaria. Además, la forma de la convocatoria, orden del día, nombre y calidad de los asistentes, su unidad privada y su respectivo coeficiente, y los votos emitidos en cada caso.
+            br
+            p En los eventos en que la asamblea decida encargar personas para verificar la redacción del acta, las personas encargadas deberán hacerlo dentro del término que establezca el reglamento, y en su defecto, dentro de los veinte (20) días hábiles siguientes a la fecha de la respectiva reunión.
+            br
+            p Dentro de un lapso no superior a veinte (20) días hábiles contados a partir de la fecha de la reunión, el administrador debe poner a disposición de los propietarios del edificio o conjunto, copia completa del texto del acta en el lugar determinado como sede de la administración, e informar tal situación a cada uno de los propietarios. En el libro de actas se dejará constancia sobre la fecha y lugar de publicación.
+            br
+            p La copia del acta debidamente suscrita será prueba suficiente de los hechos que consten en ella, mientras no se demuestre la falsedad de la copia o de las actas. El administrador deberá entregar copia del acta a quien se la solicite.
+            br
+            p.mb-3 PARÁGRAFO. Todo propietario a quien se le niegue la entrega de copia de acta podrá acudir en reclamación ante el Alcalde Municipal o Distrital o su delegado, quien a su vez ordenará la entrega de la copia solicitada, so pena de sanción de carácter policivo.
+            p.mb-3 5 y 6 - Libros de actas de Junta de vigilancia o Comité de control social y registro social.
+
+            p Para registrar dichos libros se requiere una carta de solicitud de inscripción de libros.
+
+            .col-sm.mt-3
+              ul.lista-ul--color 
+                li 
+                  i.fas.fa-check
+                  | Fecha de solicitud.
+                li 
+                  i.fas.fa-check
+                    
+                  | Nombre de la sociedad y número de -matrícula.
+                li 
+                  i.fas.fa-check
                   
+                  | Nombre de libro registro social o junta de vigilancia.
+                li
+                  i.fas.fa-check
+
+                  | Registro de todas las hojas de los libros a registrar, acompañado de las firmas del representante legal de la sociedad.
+
           .col-auto 
               img.img-a.my-3(src="@/assets/curso/images/tema3/img_35.svg" alt="", style="width:300px; display:inline-block; margin:auto 4rem;").img-fluid
               

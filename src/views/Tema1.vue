@@ -164,7 +164,7 @@
             p Enlace web. Secretaría del Senado. Código de Comercio. Cap. II.
 
     #t_1_2.titulo-segundo
-      .h4.mt-5 1.2 Definición, clasificación, características y diligenciamiento.
+      .h4.mt-5 1.2 Definición, clasificación, características y diligenciamiento
 
     p.mt-3 <b>Factura cambiaria de compra y venta:</b>
     br
@@ -222,7 +222,7 @@
 
     p.mt-5 Al momento de la expedición de la factura, los requisitos de los literales a), b), d) y h), deberán estar previamente impresos a través de medios litográficos, tipográficos o de técnicas industriales de carácter similar. Cuando el contribuyente utilice un sistema de facturación por computador o máquinas registradoras, con la impresión efectuada por tales medios se entienden cumplidos los requisitos de impresión previa. El sistema de facturación deberá numerar en forma consecutiva las facturas y se deberán proveer los medios necesarios para su verificación y auditoría.
     br
-    p <b>PAR.</b> En el caso de las Empresas que venden tiquetes de transporte, no será obligatorio entregar el original de la factura. Al efecto, será suficiente entregar copia de la misma.
+    p.mb-3 <b>PAR.</b> En el caso de las Empresas que venden tiquetes de transporte, no será obligatorio entregar el original de la factura. Al efecto, será suficiente entregar copia de la misma.
     p <b>PAR 2.</b> ** Adicionado- Para el caso de facturación por máquinas registradoras, será admisible la utilización de numeración diaria o periódica, siempre y cuando corresponda a un sistema consecutivo que permita individualizar y distinguir de manera inequívoca cada operación facturada, ya sea mediante prefijos numéricos, alfabéticos o alfanuméricos o mecanismos similares.
 
     .row.mt-5
@@ -254,10 +254,31 @@
     br
     p <b>Catálogo de Participantes de Factura Electrónica:</b> es el registro electrónico administrado por la DIAN, que provee información de los obligados a facturar electrónicamente dentro del ámbito del presente Decreto, de los adquirentes que decidan recibirla electrónicamente y proveedores tecnológicos, con el fin de facilitar su operatividad. 
     br
-    p electrónicas, corresponde a un valor alfanumérico, obtenido a partir de la aplicación de un procedimiento que utiliza datos de la factura, que adicionalmente incluye la clave de contenido técnico de control generada y entregada por la DIAN. 
+    p Código Único de Factura Electrónica: El código único de factura electrónica para las facturas electrónicas, corresponde a un valor alfanumérico, obtenido a partir de la aplicación de un procedimiento que utiliza datos de la factura, que adicionalmente incluye la clave de contenido técnico de control generada y entregada por la DIAN.
     br
     p El Código Único de Factura Electrónica deberá ser incluido como un campo más dentro de la factura electrónica. Este código deberá visualizarse en la representación gráfica de las facturas electrónicas y en los códigos bidimensionales QR definidos para tal fin.
     br
+    p.mb-3 La factura equivalente o documentos equivalentes a la factura de venta son (Angulo, 2018):
+    .row
+      .col-sm.mb-5.mb-sm-0
+        ol.lista-ol--cuadro
+          li 
+            .lista-ol--cuadro__vineta
+              span 1
+            | Boletas de máquinas registradoras.
+          li 
+            .lista-ol--cuadro__vineta
+              span 2
+            | Boletas de ingreso a espectáculos públicos.
+          li 
+            .lista-ol--cuadro__vineta
+              span 3
+            | Boletas de transporte tiquetes.
+          li 
+            .lista-ol--cuadro__vineta
+              span 4
+            | Recibos de pagos de matrículas y pensiones emitidas por establecimientos de educación reconocidos por el gobierno.
+
     p Para profundizar en las definiciones, características y diligenciamiento de los diferentes documentos, por favor revise el libro contabilidad financiera correlacionado con Normas Internacionales de Información Financiera NIIF, capítulo número 12, en el siguiente enlace: 
     .col-lg-6
       a.anexo.mt-4.mb-lg-0(href="https://login.bdigital.sena.edu.co/login?url=http://www.ebooks7-24.com/?il=8047" target="_blank")
@@ -350,6 +371,7 @@
         .row.justify-content-center.align-items-center.mt-5
           .col-sm  
             .h6 Características:
+            p.mb-3 Deben registrarse de forma ordenada y debe expresar de forma clara la transacción registrada, donde relacione: 
             ul.lista-ul--color
               li 
                 i.fas.fa-check
@@ -551,29 +573,27 @@
 
     p.mt-3 Es una forma de agilizar negocios entre las entidades financieras y/o clientes. Actualmente se utilizan con mayor frecuencia, teniendo en cuenta que se realiza desde un dispositivo móvil con acceso a internet, que genera garantía y seguridad en el momento de realizar la transacción.
 
-   
-      .row.justify-content-center.align-items-center.mt-5
-        .col
-          h6.mb-2 Características:
-          p.mt-3.mb-3 Es un medio de confrontación de los pagos efectuados al gobierno nacional, distrital o municipal por concepto de tributos. Son ejemplos de soportes los pagos por concepto de las declaraciones de:
-          .col-sm  
-            
-                ul.lista-ul--color
-                  li 
-                    i.fas.fa-check
-                    | Presenta una cuenta de origen del banco que gira o recibe transferencias.
-                  li 
-                    i.fas.fa-check
-                    | Una cuenta de destino, al banco que transfiriere recursos. 
-                  li
-                    i.fas.fa-check
-                    | Valor a transferir.
-                  li 
-                    i.fas.fa-check
-                    | Fecha, que se genera automáticamente.
-                  li 
-                    i.fas.fa-check
-                    | Por el monto de la transacción se genera un documento soporte para registrar en contabilidad, este documento se genera de forma automática.
+
+        .row.justify-content-center.align-items-center.mt-5
+          .col
+            h6.mb-2 Características:
+              
+            ul.lista-ul--color
+              li 
+                i.fas.fa-check
+                | Presenta una cuenta de origen del banco que gira o recibe transferencias.
+              li 
+                i.fas.fa-check
+                | Una cuenta de destino, al banco que transfiriere recursos. 
+              li
+                i.fas.fa-check
+                | Valor a transferir.
+              li 
+                i.fas.fa-check
+                | Fecha, que se genera automáticamente.
+              li 
+                i.fas.fa-check
+                | Por el monto de la transacción se genera un documento soporte para registrar en contabilidad, este documento se genera de forma automática.
 
           p.mt-3.mb-3 Para diligenciar se tiene en cuenta:
 
@@ -600,8 +620,8 @@
                     i.fas.fa-check
                     | Autorizaciones y firmas.
                 
-        .col-auto 
-            img.img-a.my-3(src="@/assets/curso/images/tema1/img_12.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
+          .col-auto 
+              img.px-3(src="@/assets/curso/images/tema1/img_12.svg" alt="", style="width:300px; display:block; margin: 0 auto ;")
         .row.mt-5
           .col-lg-6
             a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
@@ -617,12 +637,12 @@
     
         .row.justify-content-center.align-items-center.mt-3
           .col-auto 
-              img.img-a.my-3(src="@/assets/curso/images/tema1/img_13.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
+              img.px-4(src="@/assets/curso/images/tema1/img_13.svg" alt="", style="width:350px; display:block; margin:0 auto ;").
           .col
               
               h6 Características:
-              p.mt-3 Documento donde se registran, por parte de la entidad financiera, todos los movimientos efectuados durante el mes. Se registran pagos de cheques, transferencias, notas bancarias, gravámenes financieros. Es el documento base para realizar la conciliación bancaria y el control del efectivo.
-              .col-sm.mt-5 
+               
+              p.mb-3 Posibilita la elaboración de la conciliación bancaria, bajo los métodos comúnmente utilizados. Los componentes de los extractos bancarios son:
             
                 ul.lista-ul--color
                   li 
@@ -770,9 +790,6 @@
           .h6 Nota crédito:
           p.mt-3 Soporte contable para reconocer disminuciones por concepto de descuentos no incluidos en las facturas, es utilizado cuando se presentan las devoluciones de mercancías, se elabora con original y copia, para ser conservado en contabilidad y la copia entregada al cliente.
           h6.mt-3 Características:
-          p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
-            
-            .h6.mt-3 Contenido:
           .col-sm.mt-3
 
                 ul.lista-ul--color
@@ -826,7 +843,6 @@
         .row.justify-content-center.align-items-center.mt-5
           .col
             h6.mb-2 Características:
-            p.mt-3 Es un fondo utilizado para cubrir gastos mínimos, requeridos en el desarrollo del objeto social de la empresa. Al diligenciar se debe observar:
             .col-sm.mt-3
 
                 ul.lista-ul--color
@@ -842,11 +858,8 @@
                   li 
                     i.fas.fa-check
                     | Utilizado solo por el área de contabilidad.
-                  li 
-                    i.fas.fa-check
-                    | Corrige datos, valores iniciales de las facturas.
 
-            h6.mt-3.mb-2 Características:
+            h6.mt-3.mb-2 Contenido:
 
             .col-sm.mt-3
 
@@ -883,16 +896,11 @@
         .col
             
             h6 Características:
+            p Presentan un consecutivo para vincular con las operaciones comerciales de forma cronológica.
             .col-sm.mt-3
 
                 ul.lista-ul--color
-                  li 
-                    i.fas.fa-check
-                    | Presentan un consecutivo para vincular con las operaciones comerciales de forma
-                  li 
-                    i.fas.fa-check
-                    | Cronológica.
-                  li
+                  li   
                     i.fas.fa-check
                     | Fecha.
                   li 
@@ -1057,8 +1065,7 @@
           .col-md-6.mb-4.mb-md-0
           p.mb-3 Es una promesa de pago, es un documento crediticio que respalda una unidad económica en una fecha determinada y, con un interés adicional.
           
-          p.mb-3 <b>Requisitos</b>  (Secretaría del Senado, 2020. Art. 709):
-          p.mb-4 Según el Código de Comercio (Secretaría del Senado, 2020. Art. 621):
+          p.mb-4 <b>Requisitos</b>  (Secretaría del Senado, 2020. Art. 709):
           p.mb-4 El pagaré debe contener, además de los requisitos que establece el Artículo 621, los siguientes:
 
             ol.lista-ol--cuadro
@@ -1092,7 +1099,7 @@
           p Un título valor de carácter crediticio respalda unidades monetarias, mediante el uso de una entidad financiera.
           h6.p-2.mb-3 Características  (Secretaría del Senado, 2020. Art.712):
           p.mb-3 El cheque sólo puede ser expedido en formularios impresos de cheques o chequeras y a cargo de un banco. El título que en forma de cheque se expida en contravención a este artículo no producirá efectos de título-valor.
-          p.mb-3 <b>Características</b>  (Secretaría del Senado, 2020. Art. 718):
+          p.mb-3 <b>Artículo</b>  (Secretaría del Senado, 2020. Art. 718):
           
           p Los cheques deberán presentarse para su pago:
 
@@ -1189,7 +1196,7 @@
                   li 
                     .lista-ol--cuadro__vineta
                       span a
-                    |   l nombre de la sociedad fiduciaria y el nombre o identificación del fondo que administra.
+                    |   El nombre de la sociedad fiduciaria y el nombre o identificación del fondo que administra.
                   li 
                     .lista-ol--cuadro__vineta
                       span b
@@ -1217,7 +1224,7 @@
 
           p.mt-3 Cuando en la advertencia se estipule el cobro de la remuneración por administración a cargo del fondo como límites máximos o rangos, se deberá completar con una leyenda en la que se informe de tal hecho, indicando el monto máximo o los rangos, así como la base de su liquidación.
 
-          p.mt-3 Parágrafo 3º.- Los documentos que incorporen los derechos de los suscriptores en los fondos comunes especiales administrados por una sociedad fiduciaria que cumpla con los requisitos esenciales previstos en la presente resolución para los fondos de capital privado, inscritos en el Registro Nacional de Valores e Intermediar
+          p.mt-3 Parágrafo 3º.- Los documentos que incorporen los derechos de los suscriptores en los fondos comunes especiales administrados por una sociedad fiduciaria que cumpla con los requisitos esenciales previstos en la presente resolución para los fondos de capital privado, inscritos en el Registro Nacional de Valores e intermediarios, deberán inscribirse en una bolsa de valores.
 
           p.mt-3 Para profundizar el tema de bonos, por favor ingrese al siguiente enlace:
 
@@ -1239,36 +1246,36 @@
             .col-md-6.mb-4.mb-md-0
               p Es el documento que relaciona las características de la negociación del producto o servicio. Su objetivo es brindar información al cliente, con el fin de tomar la decisión de compra.
               .col-sm.mt-3
-
-                  ul.lista-ul--color
-                    li 
-                      i.fas.fa-check
-                      | Membrete: logo, nombre de la empresa.
-                    li 
-                      i.fas.fa-check
-                      | Precio del producto o servicio.
-                    li
-                      i.fas.fa-check
-                      | Descripción del producto o servicio.
-                    li
-                      i.fas.fa-check
-                      | Referencias del producto.
-                    li 
-                      i.fas.fa-check
-                      | Fecha de entrega.
-                    li
-                      i.fas.fa-check
-                      | Forma de pago.
-                    li
-                      i.fas.fa-check
-                      | Tiempo de validez de la cotización.
-                    li
-                      i.fas.fa-check
-                      | Nombre de la persona que solicita la cotización.
-                    li
-                      i.fas.fa-check
-                      | Nombre del asesor.
-          
+                h6.mb-2 Contenido
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check
+                    | Membrete: logo, nombre de la empresa.
+                  li 
+                    i.fas.fa-check
+                    | Precio del producto o servicio.
+                  li
+                    i.fas.fa-check
+                    | Descripción del producto o servicio.
+                  li
+                    i.fas.fa-check
+                    | Referencias del producto.
+                  li 
+                    i.fas.fa-check
+                    | Fecha de entrega.
+                  li
+                    i.fas.fa-check
+                    | Forma de pago.
+                  li
+                    i.fas.fa-check
+                    | Tiempo de validez de la cotización.
+                  li
+                    i.fas.fa-check
+                    | Nombre de la persona que solicita la cotización.
+                  li
+                    i.fas.fa-check
+                    | Nombre del asesor.
+        
             .col-md-6
               figure
                 img(src='@/assets/curso/images/tema1/img_24.svg' alt="", style="width:450px; display:block; margin:auto 0;")
@@ -1276,6 +1283,37 @@
         .py-3.py-md-4(titulo="Pedido:")
           .row
             .col-md-6.mb-4.mb-md-0
+              p Es el documento que se elabora una vez el cliente ha revisado la cotización y toma la decisión de adquirir el producto.
+              .col-sm.mt-3
+
+                  ul.lista-ul--color
+                    li 
+                      i.fas.fa-check
+                      | Membrete: logo, nombre de la empresa.
+                    li 
+                      i.fas.fa-check
+                      | Precio unitario del producto que se va a comprar.
+                    li
+                      i.fas.fa-check
+                      | Descripción del producto.
+                    li
+                      i.fas.fa-check
+                      | Cantidad.
+                    li 
+                      i.fas.fa-check
+                      | Referencias del producto.
+                    li
+                      i.fas.fa-check
+                      | Fecha de entrega.
+                    li
+                      i.fas.fa-check
+                      | Forma de pago.
+                    li
+                      i.fas.fa-check
+                      | Observaciones
+                    li
+                      i.fas.fa-check
+                      | Firmas
               p Es el documento que soporta la entrega del pedido conforme lo solicitado.
                 .col-sm.mt-3
 
@@ -1323,8 +1361,8 @@
               figure
                 img(src='@/assets/curso/images/tema1/img_26.svg' alt="", style="width:350px; display:block; margin:auto 0;")
             .col-md-6.mb-4.mb-md-0
-              p Es el documento que se elabora una vez el cliente ha revisado la cotización y toma la decisión de adquirir el producto.
-              .col-sm.mt-3
+              p Es el documento que soporta la entrega del pedido conforme lo solicitado.
+                .col-sm.mt-3
 
                   ul.lista-ul--color
                     li 
@@ -1332,10 +1370,10 @@
                       | Membrete: logo, nombre de la empresa.
                     li 
                       i.fas.fa-check
-                      | Precio unitario del producto que se va a comprar.
+                      | Descripción del producto.
                     li
                       i.fas.fa-check
-                      | Descripción del producto.
+                      | Descripción del producto o servicio.
                     li
                       i.fas.fa-check
                       | Cantidad.
@@ -1347,14 +1385,11 @@
                       | Fecha de entrega.
                     li
                       i.fas.fa-check
-                      | Forma de pago.
+                      | Número de pedido.
                     li
                       i.fas.fa-check
-                      | Observaciones
-                    li
-                      i.fas.fa-check
-                      | Firmas
-
+                      | Transportador.
+              
               .row.mt-5
                 .col-lg-12
                   a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
