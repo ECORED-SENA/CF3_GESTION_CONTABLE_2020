@@ -254,7 +254,7 @@
     br
     p <b>Catálogo de Participantes de Factura Electrónica:</b> es el registro electrónico administrado por la DIAN, que provee información de los obligados a facturar electrónicamente dentro del ámbito del presente Decreto, de los adquirentes que decidan recibirla electrónicamente y proveedores tecnológicos, con el fin de facilitar su operatividad. 
     br
-    p Código Único de Factura Electrónica: El código único de factura electrónica para las facturas electrónicas, corresponde a un valor alfanumérico, obtenido a partir de la aplicación de un procedimiento que utiliza datos de la factura, que adicionalmente incluye la clave de contenido técnico de control generada y entregada por la DIAN.
+    p <b>Código Único de Factura Electrónica:</b> El código único de factura electrónica para las facturas electrónicas, corresponde a un valor alfanumérico, obtenido a partir de la aplicación de un procedimiento que utiliza datos de la factura, que adicionalmente incluye la clave de contenido técnico de control generada y entregada por la DIAN.
     br
     p El Código Único de Factura Electrónica deberá ser incluido como un campo más dentro de la factura electrónica. Este código deberá visualizarse en la representación gráfica de las facturas electrónicas y en los códigos bidimensionales QR definidos para tal fin.
     br
@@ -628,7 +628,7 @@
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p Anexo.  Comprobante de Nómina
+                p Anexo.  Recibo de transferencia de fondos y pago interbancario
           
         hr.mt-5
 
@@ -990,7 +990,7 @@
           .col-auto 
             img.img-a.my-3(src="@/assets/curso/images/tema1/img_20.svg" alt="", style="width:350px; display:inline-block; margin:auto 5rem;").img-fluid
 
-      p.mt-3 La firma podrá sustituirse, bajo la responsabilidad del creador del título, por un signo o contraseña que puede ser mecánicamente impuesto. Si no se menciona el lugar de cumplimiento o ejercicio del derecho, lo será el del domicilio del creador del título; y si tuviere varios, entre ellos podrá elegir el tenedor, quien tendrá igualmente derecho de elección si el título señala varios lugares de cumplimiento o de ejercicio. Sin embargo, cuando el título sea representativo de mercaderías, también podrá ejercerse la acción derivada del mismo en el lugar en que estas deban ser entregadas.Si no se menciona la fecha y el lugar de creación del título, se tendrán como tales la fecha y el lugar de su entrega.
+      p.mt-3 La firma podrá sustituirse, bajo la responsabilidad del creador del título, por un signo o contraseña que puede ser mecánicamente impuesto. Si no se menciona el lugar de cumplimiento o ejercicio del derecho, lo será el del domicilio del creador del título; y si tuviere varios, entre ellos podrá elegir el tenedor, quien tendrá igualmente derecho de elección si el título señala varios lugares de cumplimiento o de ejercicio. Sin embargo, cuando el título sea representativo de mercaderías, también podrá ejercerse la acción derivada del mismo en el lugar en que estas deban ser entregadas. Si no se menciona la fecha y el lugar de creación del título, se tendrán como tales la fecha y el lugar de su entrega.
 
       h6.mt-3 Características:
 
@@ -1314,35 +1314,7 @@
                     li
                       i.fas.fa-check
                       | Firmas
-              p Es el documento que soporta la entrega del pedido conforme lo solicitado.
-                .col-sm.mt-3
-
-                  ul.lista-ul--color
-                    li 
-                      i.fas.fa-check
-                      | Membrete: logo, nombre de la empresa.
-                    li 
-                      i.fas.fa-check
-                      | Descripción del producto.
-                    li
-                      i.fas.fa-check
-                      | Descripción del producto o servicio.
-                    li
-                      i.fas.fa-check
-                      | Cantidad.
-                    li 
-                      i.fas.fa-check
-                      | Referencias del producto.
-                    li
-                      i.fas.fa-check
-                      | Fecha de entrega.
-                    li
-                      i.fas.fa-check
-                      | Número de pedido.
-                    li
-                      i.fas.fa-check
-                      | Transportador.
-          
+              
             .col-md-6
               figure
                 img(src='@/assets/curso/images/tema1/img_25.svg' alt="", style="width:450px; display:block; margin:0 auto;")
@@ -1353,7 +1325,7 @@
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
-                    p Anexo. Remisión: 
+                    p Anexo. Pedido:  
 
         .py-3.py-md-4(titulo="Remisión:")
           .row
@@ -1371,9 +1343,6 @@
                     li 
                       i.fas.fa-check
                       | Descripción del producto.
-                    li
-                      i.fas.fa-check
-                      | Descripción del producto o servicio.
                     li
                       i.fas.fa-check
                       | Cantidad.
@@ -1396,7 +1365,7 @@
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
-                      p Anexo. Pedido:     
+                      p Anexo. Remisión:    
 
         
 
