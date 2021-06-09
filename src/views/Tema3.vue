@@ -345,7 +345,7 @@
             p La copia del acta debidamente suscrita será prueba suficiente de los hechos que consten en ella, mientras no se demuestre la falsedad de la copia o de las actas. El administrador deberá entregar copia del acta a quien se la solicite.
             br
             p.mb-3 PARÁGRAFO. Todo propietario a quien se le niegue la entrega de copia de acta podrá acudir en reclamación ante el Alcalde Municipal o Distrital o su delegado, quien a su vez ordenará la entrega de la copia solicitada, so pena de sanción de carácter policivo.
-            p.mb-3 5 y 6 - Libros de actas de Junta de vigilancia o Comité de control social y registro social.
+            .h6 Libros de actas de Junta de vigilancia o Comité de control social y registro social.
 
             p Para registrar dichos libros se requiere una carta de solicitud de inscripción de libros.
 
