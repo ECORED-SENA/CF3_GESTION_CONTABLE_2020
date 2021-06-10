@@ -202,7 +202,6 @@
                     .lista-ol--cuadro__vineta
                       span f
                     | Descripción específica o genérica de los artículos vendidos o servicios prestados.
-
                   li 
                     .lista-ol--cuadro__vineta
                       span g

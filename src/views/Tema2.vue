@@ -5,7 +5,7 @@
     .titulo-principal
       .titulo-principal__numero
         .h3 2
-      .h3 Archivo y conservación de documentos.
+      .h3 Archivo y conservación de documentos
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
           .col-lg-4.mb-4.mb-lg-0
@@ -172,7 +172,7 @@
                 span Descargar
                 i.fas.fa-file-download
 
-    .h6.mb-5 Sistema de gestión electrónica de documentos.
+    .h6.mb-5 Sistema de gestión electrónica de documentos
 
     p.mt3 Cada vez que progresan las tecnologías, se aplican al control documental de la información. Para ser implementado en una organización, debe existir la voluntad de la administración para destinar recursos para la implementación de las nuevas tecnologías al servicio de la gestión documental. En ese sentido, existen en el mercado programas que hacen más efectivos los procesos, mejorando el proceso en beneficio de las organizaciones.
 

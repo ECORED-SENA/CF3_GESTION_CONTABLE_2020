@@ -5,7 +5,7 @@
     .titulo-principal
         .titulo-principal__numero
           .h3 3
-        .h3 Libros contables.
+        .h3 Libros contables
     .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
       .row.m-0.align-items-center.justify-content-between
           .col-lg-4.mb-4.mb-lg-0
@@ -329,7 +329,7 @@
                   .anexo__texto
                     p Anexo. Libro mayor y balances
         hr.mt-5
-        h6.mt-5.mb-3 Libros de Consejo de administración o Junta directiva.
+        h6.mt-5.mb-3 Libros de Consejo de administración o Junta directiva
         .row.justify-content-center.align-items-center.mt-3
           .col
             p En este libro se registra la información básica de la empresa, se incluyen todas las decisiones en las actas, como acuerdos a los que llegan los dueños de una empresa. Se debe llevar un orden cronológico de las reuniones, en él se encuentran inscritos los dueños, administradores y representante legal, siempre debe estar firmado por secretario y presidente.
@@ -469,7 +469,7 @@
                 .anexo__texto
                   p Anexo. Ejemplo:
     hr
-    h6.mt-5 Diligenciamiento y registro.
+    h6.mt-5 Diligenciamiento y registro
 
     
         .row.justify-content-center.align-items-center.mt-5
@@ -494,11 +494,9 @@
                       p Enlace web. Planilla integrada de liquidación de aportes:
     hr.mt-5.mb-4
 
-    h6.mt-5 Sistema de gestión documental emitido por el ente regulador.
+    h6.mt-5 Sistema de gestión documental emitido por el ente regulador
 
     p.mt-3 El Estado colombiano busca, mediante la Resolución 8934 de febrero de 2014, implementar el sistema de gestión documental, con el objetivo de mantener organizados los archivos en el sector privado, enfocada básicamente en la organización de:
-
-    p.mt-3 Entre los libros auxiliares se encuentran: libro auxiliar de bancos, caja, IVA, inventarios, ingresos ordinarios, etc.
 
     
         .row.justify-content-center.align-items-center.mt-3
