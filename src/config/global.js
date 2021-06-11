@@ -117,6 +117,7 @@ export default {
     liderEquipo: {
       nombre: 'Maria Camila Garcia Santamaria',
       cargo: 'Líder del equipo',
+      regional: 'Dirección General',
     },
     contenidoInstruccional: [
       {
@@ -124,24 +125,6 @@ export default {
         cargo: 'Asesor metodológico y pedagógico',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
-      },
-      {
-        nombre: 'Abdubar Vergara Valencia',
-        cargo: 'Instructor',
-        centro: 'CSF',
-        regional: 'Internationale Zusammenarbeit (GIZ)',
-      },
-      {
-        nombre: 'Maryuri Agudelo Franco',
-        cargo: 'Diseñador instruccional',
-        centro: 'Centro para la Industria de la Comunicación Gráfica.',
-        regional: 'Regional Distrito Capital',
-      },
-      {
-        nombre: 'Adriana Lozano Zapata',
-        cargo: 'Correctora de estilo',
-        centro: 'Centro para la Industria de la Comunicación Gráfica.',
-        regional: 'Regional Distrito Capital',
       },
     ],
     desarrolloProducto: [
@@ -155,7 +138,7 @@ export default {
       },
       {
         nombre: ['Luis Arévalo'],
-        cargo: 'Diseño web y Producción Audiovisual',
+        cargo: 'Diseño web',
       },
       {
         nombre: 'Gustavo Adolfo Marún Suárez',
@@ -168,8 +151,8 @@ export default {
     ],
     gestoresRepositorio: [
       {
-        nombre: 'Brayan Stiven Pinto Diaz',
-        cargo: ['Desarrollo front-end', 'Validación de recursos'],
+        nombre: 'Milady Tatiana Villamil Castellanos',
+        cargo: ['Validación y vinculación en plataforma LMS'],
         centro: 'Centro de comercio y servicios',
         regional: 'Regional Tolima',
       },
