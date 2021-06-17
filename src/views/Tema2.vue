@@ -168,7 +168,7 @@
               .h5.mb-0 Tabla de retención documental
               p Para identificar qué dependencia genera la documentación para conservar la información, considere la siguiente tabla:
             .col-sm-auto
-              a.boton.boton--c(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.boton.boton--c(href="https://www.archivogeneral.gov.co/sites/default/files/Estructura_Web/3_Transparencia/10.6%20tablas%20de%20retencion/Trdjunio_2016.pdf" target="_blank")
                 span Descargar
                 i.fas.fa-file-download
 

@@ -215,7 +215,7 @@
 
     .row.mt-5
       .col-lg-5
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(href="http://elcontador.net/libro-diario-general/" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -273,7 +273,7 @@
               
           .row.mt-5
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(href="http://fccea.unicauca.edu.co/old/fcf/fcfse41.html" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -323,7 +323,7 @@
 
             .row.mt-5
               .col-lg-12
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(href="https://www.camarabaq.org.co/wp-content/uploads/2019/01/3-Formato-Inscripcio%CC%81n-de-libros-pa%CC%81ginas-web.pdf" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -463,7 +463,7 @@
               
           .row.mt-5
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=8047&pg=&ed=" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -479,7 +479,7 @@
             p.mt-3 Esquema de registro en un Sistema de información financiera:
             .row.mt-5
               .col-lg-12
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=8047&pg=&ed=" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto

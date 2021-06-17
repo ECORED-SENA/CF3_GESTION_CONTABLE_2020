@@ -226,7 +226,7 @@
 
     .row.mt-5
       .col-lg-6
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+        a.anexo.mb-4(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed=" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
@@ -346,7 +346,7 @@
 
     .row.mt-5
         .col-lg-6
-          a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+          a.anexo.mb-4(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed=" target="_blank")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
@@ -395,7 +395,7 @@
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_6.svg" alt="", style="width:300px; display:inline; margin:auto 8rem;").img-fluid
           .row.mt-2
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed=" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -448,7 +448,7 @@
 
               .row.mt-5
                 .col-lg-12
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.anexo.mb-4(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed=" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
@@ -467,7 +467,7 @@
 
         .row
           .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+            a.anexo.mb-4(href="https://gustavoaluna.files.wordpress.com/2013/03/soportes-contables-en-colombia.pdf" target="_blank")
               .anexo__icono
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
@@ -500,7 +500,7 @@
                  
               .row.mt-5
                   .col-lg-12
-                    a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.anexo.mb-4(href="https://www.gerencie.com/formato-en-excel-para-liquidar-la-nomina.html" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-pdf.svg")
                       .anexo__texto
@@ -621,13 +621,14 @@
                 
           .col-auto 
               img.px-3(src="@/assets/curso/images/tema1/img_12.svg" alt="", style="width:300px; display:block; margin: 0 auto ;")
-        .row.mt-5
-          .col-lg-6
-            a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-              .anexo__icono
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p Anexo.  Recibo de transferencia de fondos y pago interbancario
+        
+        .row.mt-2
+            .col-lg-6
+              a.anexo.mt-4.mb-lg-0(href="https://proveedores.tiendasjumbo.co/gateweb/base/documentos/Formato_transferencia_de_fondos.pdf" target="_blank")
+                  .anexo__icono
+                    img(src="@/assets/template/icono-link.svg")
+                  .anexo__texto
+                    p Anexo.  Recibo de transferencia de fondos y pago interbancario
           
         hr.mt-5
 
@@ -662,7 +663,7 @@
   
               .row.mt-5
                   .col-lg-12
-                    a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.anexo.mb-4(href="https://www.grupobancolombia.com/personas/necesidades/casa/hipotecario/nuevo-extracto" target="_blank")
                       .anexo__icono
                         img(src="@/assets/template/icono-pdf.svg")
                       .anexo__texto
@@ -698,7 +699,7 @@
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_14.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
           .row.mt-2
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(href="http://marthajimenezmartinez.blogspot.com/2011/10/consignacion.html" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -735,7 +736,7 @@
           p Se deben registrar contablemente, debitando los gastos autorizados y acreditando la cuenta caja.
           .row.mt-5
               .col-lg-12
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed=" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -774,7 +775,7 @@
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_16.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
           .row.mt-2
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(href="https://doramariam.wixsite.com/mediatecnica11/about?lightbox=dataItem-jt5341ot" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -829,7 +830,7 @@
                 
           .row.mt-5
               .col-lg-12
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(href="https://pt.slideshare.net/juliianaguirre/contabilidad-nota-dbito-y-credito/12" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -880,7 +881,7 @@
               img.img-a.my-3(src="@/assets/curso/images/tema1/img_18.svg" alt="", style="width:300px; display:inline-block; margin:auto 3rem;").img-fluid
           .row.mt-2
             .col-lg-6
-              a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+              a.anexo.mb-4(href="https://tecnodofasa.files.wordpress.com/2013/04/notadecontabilidad.png" target="_blank")
                 .anexo__icono
                   img(src="@/assets/template/icono-pdf.svg")
                 .anexo__texto
@@ -954,7 +955,7 @@
                   
             .row.mt-5
               .col-lg-6
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(href="https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=&pg=&ed=" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -1054,7 +1055,7 @@
 
           .row.mt-5
               .col-lg-6
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(href="http://marthajimenezmartinez.blogspot.com/2011/10/letra-de-cambio.html" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -1087,7 +1088,7 @@
 
           .row.mt-5
               .col-lg-6
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.productosysuministros.com%2Fweb%2Fproducto%2F3309&psig=AOvVaw3V8RIIAJJ9IGftEsHP-WHX&ust=1623942535944000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjo08K3nPECFQAAAAAdAAAAABAD" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -1122,7 +1123,7 @@
 
           .row.mt-5
               .col-lg-6
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(href="https://www.bancognbcaminamosjuntos.com.py/public/formato-cheques.jsp" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -1145,7 +1146,7 @@
 
           .row.mt-5
               .col-lg-6
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(href="https://milformatos.com/wp-content/uploads/2018/02/Ejemplo-de-Factura.jpg" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -1229,7 +1230,7 @@
 
           .row.mt-5
               .col-lg-6
-                a.anexo.mb-4(:href="obtenerLink('/downloads/Cartilla Todo lo que debe saber sobre Bonos.pdf')" target="_blank")
+                a.anexo.mb-4(href="https://itau.co/documents/10282/1317643/78ProspectoBancoSantanderColombia.pdf" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -1320,7 +1321,7 @@
 
             .row.mt-5
               .col-lg-6
-                a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                a.anexo.mb-4(href="http://marthajimenezmartinez.blogspot.com/2011/10/pedido.html" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
@@ -1360,7 +1361,7 @@
               
               .row.mt-5
                 .col-lg-12
-                  a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                  a.anexo.mb-4(href="http://marthajimenezmartinez.blogspot.com/2011/10/pedido.html" target="_blank")
                     .anexo__icono
                       img(src="@/assets/template/icono-pdf.svg")
                     .anexo__texto
