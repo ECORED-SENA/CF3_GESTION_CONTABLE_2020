@@ -1088,7 +1088,7 @@
 
           .row.mt-5
               .col-lg-6
-                a.anexo.mb-4(href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.productosysuministros.com%2Fweb%2Fproducto%2F3309&psig=AOvVaw3V8RIIAJJ9IGftEsHP-WHX&ust=1623942535944000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjo08K3nPECFQAAAAAdAAAAABAD" target="_blank")
+                a.anexo.mb-4(href="https://www.productosysuministros.com/web/producto/3309" target="_blank")
                   .anexo__icono
                     img(src="@/assets/template/icono-pdf.svg")
                   .anexo__texto
