@@ -16,7 +16,7 @@
         p.mb-3 Los soportes son muy importantes porque contienen la voluntad de las partes, reflejando el acuerdo comercial de la transacción económica, acorde con la normatividad vigente y lineamientos establecidos. Las temáticas que se desarrollan en esta unidad son las siguientes:
 
         p 1. Documentos
-        p 1.1Contables, no contables, extracontables y títulos valores.
+        p 1.1 Contables, no contables, extracontables y títulos valores.
         p 1.2 Definición, clasificación, características y diligenciamiento.
 
       .col-12.col-lg-6
