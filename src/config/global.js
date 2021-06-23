@@ -126,25 +126,49 @@ export default {
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
+      {
+        nombre: 'Abdubar Vergara Valencia',
+        cargo: 'Instructor',
+        centro: 'CSF',
+      },
+      {
+        nombre: 'Maryuri Agudelo Franco',
+        cargo: 'Diseñadora Instruccional',
+        centro: 'Centro de Diseño y Metrología',
+      },
+      {
+        nombre: 'Adriana Lozano Zapata',
+        cargo: 'Correctora de estilo',
+        centro: 'Centro para la Industria de la Comunicación Gráfica.',
+      },
     ],
     desarrolloProducto: [
       {
         nombre: 'Francisco José Lizcano Reyes',
         cargo: 'Responsable del equipo',
+        Centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Leyson Fabian Castaño Perez',
         cargo: 'Soporte organizacional',
+        Centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Luis Arévalo'],
+        nombre: 'Luis Zenen Arevalo Mantilla',
         cargo: 'Diseño web',
+        Centro:
+          'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
         nombre: 'Gustavo Adolfo Marún Suárez',
         cargo: 'Desarrollo Front-End',
+        centro: 'Centro Industrial del Diseño y la Manufactura',
+        regional: 'Regional Santander',
       },
       {
+        nombre: 'Veimar Celis Melendez',
+        cargo: 'Validación de diseño y contenido',
         centro: 'Centro Industrial del Diseño y la Manufactura',
         regional: 'Regional Santander',
       },
